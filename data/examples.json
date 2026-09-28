@@ -1,0 +1,26 @@
+{
+ "1980s-bollywood-heroine-photo-prompt": {
+  "id": "e01",
+  "img": "images/examples/1980s-bollywood-heroine-photo-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/woman_in.webp",
+  "source": "gemini"
+ },
+ "1980s-couple-photo-prompt": {
+  "id": "e21",
+  "img": "images/examples/1980s-couple-photo-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/couple.webp",
+  "source": "gemini"
+ },
+ "1980s-moustache-sweater-vest-portrait-prompt": {
+  "id": "e12",
+  "img": "images/examples/1980s-moustache-sweater-vest-portrait-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/man.webp",
+  "source": "gemini"
+ }
+}
