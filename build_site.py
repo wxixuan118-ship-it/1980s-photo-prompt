@@ -429,6 +429,8 @@ def placeholder_svg(it):
 """
 
 
+ex_file = ROOT / "data" / "examples.json"
+examples = json.loads(ex_file.read_text()) if ex_file.exists() else {}  # written by gen_examples.py
 edits = []
 for f in sorted((ROOT / "data" / "content").glob("edit_*.json")):
     for c in json.loads(f.read_text()):
@@ -441,6 +443,11 @@ for f in sorted((ROOT / "data" / "content").glob("edit_*.json")):
                       "pinned": False, "alt": f"{c['name']} – example image coming soon"})
         edits[-1]["kw_title"] = " ".join(w if w[0].isdigit() else w.capitalize() for w in c["keyword"].split())
         edits[-1]["kw_title"] = edits[-1]["kw_title"].replace("Chatgpt", "ChatGPT")
+        ex = examples.get(slug)
+        if ex and (ROOT / ex["img"]).exists():
+            edits[-1].update(img="/" + ex["img"], w=ex["w"], h=ex["h"], placeholder=False,
+                             ref=("/" + ex["ref"]) if ex.get("ref") and (ROOT / ex["ref"]).exists() else None,
+                             alt=f"{c['name']}: a 1980s-style edit made with this prompt")
 all_items = items + edits
 slugs = [it["slug"] for it in all_items]
 assert len(slugs) == len(set(slugs)), "duplicate slugs"
@@ -743,7 +750,7 @@ for it in all_items:
 <div class="wrap">
   {bc_html}
   <div class="d-grid">
-    <figure class="d-img"><img src="{it["img"]}" width="{it["w"]}" height="{it["h"]}" alt="{esc(it["name"])}{" – preview for this " + esc(it["keyword"]) + ", example image coming soon" if edit else ", made with this " + esc(it["keyword"])}" fetchpriority="high"></figure>
+    <figure class="d-img"><img src="{it["img"]}" width="{it["w"]}" height="{it["h"]}" alt="{esc(it["name"])}{" – preview for this " + esc(it["keyword"]) + ", example image coming soon" if it.get("placeholder") else ", made with this " + esc(it["keyword"])}" fetchpriority="high">{f'<span class="before"><img src="{it["ref"]}" width="120" height="150" alt="Original photo before the edit" loading="lazy"><em>Before</em></span>' if it.get("ref") else ""}</figure>
     <div class="d-main">
       <h1>{esc(h1)}</h1>
       <p class="sub">{esc(it["name"])} · {("the full " + esc(it["keyword"]) + ". Upload a photo of yourself to " + esc(it["tool"]) + ", paste this prompt and get your 80s version.") if edit else ("the full " + esc(it["keyword"]) + ", ready to paste into " + esc(it["tool"]) + " or any other image generator you use.")}</p>
@@ -798,7 +805,8 @@ write("/404.html", head("Page not found – Vintage Photo Prompt", "This page do
 urls = [("/", [it["img"] for it in items])] + [(f"/{k}/", []) for k in CATEGORIES] + \
        [(it["url"], [] if it.get("placeholder") else [it["img"]]) for it in all_items] + [("/prompts.html", [])]
 for it in edits:
-    write(it["img"], placeholder_svg(it))
+    if it.get("placeholder"):
+        write(it["img"], placeholder_svg(it))
 sitemap = ['<?xml version="1.0" encoding="UTF-8"?>',
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
            'xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">']
