@@ -364,3 +364,22 @@ for k, v in {"__TITLE__": esc(TITLE), "__DESC__": esc(DESC), "__BASE__": BASE, "
     out = out.replace(k, v)
 (ROOT / "index.html").write_text(out, encoding="utf-8")
 print(f"wrote index.html with {len(items)} entries")
+
+# sitemap.xml (with image entries for the gallery) + robots.txt
+today = datetime.date.today().isoformat()
+img_tags = "".join(f"\n    <image:image><image:loc>{BASE}{esc(d['img'])}</image:loc></image:image>" for d in items)
+sitemap = f"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>{BASE}</loc>
+    <lastmod>{today}</lastmod>{img_tags}
+  </url>
+  <url>
+    <loc>{BASE}prompts.html</loc>
+    <lastmod>{today}</lastmod>
+  </url>
+</urlset>
+"""
+(ROOT / "sitemap.xml").write_text(sitemap, encoding="utf-8")
+(ROOT / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {BASE}sitemap.xml\n", encoding="utf-8")
+print("wrote sitemap.xml and robots.txt")
