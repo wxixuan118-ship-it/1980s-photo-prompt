@@ -182,9 +182,14 @@ def main():
     ap.add_argument("--use-image", action="append", default=[], metavar="ID=PATH",
                     help="import a hand-made result for a prompt instead of calling the API")
     ap.add_argument("--prompt-text", help="one-off mode: run this prompt instead of the site's prompts")
+    ap.add_argument("--prompt-file", help="one-off mode: read the prompt from this text file")
     ap.add_argument("--ref", default="woman_in", choices=REFS, help="reference person for --prompt-text")
     ap.add_argument("--name", default="custom", help="output name for --prompt-text")
     args = ap.parse_args()
+    if args.prompt_file:
+        args.prompt_text = Path(args.prompt_file).read_text().strip()
+        if args.name == "custom":
+            args.name = Path(args.prompt_file).stem
 
     if args.prompt_text:
         key = os.environ.get(PROVIDERS[args.provider]["env"])
@@ -197,7 +202,8 @@ def main():
             print(f"creating reference {args.ref} …", flush=True)
             save_webp(generate(args.provider, key, REF_PROMPT.format(who=REFS[args.ref], framing=framing)),
                       ref_path, max_side=1024)
-        print("generating …", flush=True)
+        print(f"generating with {args.provider} ({PROVIDERS[args.provider]['model']}) – this usually takes "
+              "20–60 seconds …", flush=True)
         out = ROOT / "images" / "custom" / f"{args.name}.webp"
         size = save_webp(generate(args.provider, key, args.prompt_text, png_bytes(ref_path)), out)
         print(f"before: {ref_path.relative_to(ROOT)}\nafter:  {out.relative_to(ROOT)} {size}")
@@ -219,6 +225,7 @@ def main():
         save_index(index)
         return
 
+    print("loading prompts …", flush=True)
     todo = [(i, pick_ref(i, n)) for n, i in enumerate(items)]
     if args.only:
         wanted = set(args.only)
