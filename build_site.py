@@ -560,6 +560,30 @@ def first_sentences(text, max_words=40):
     return out
 
 
+MASTER_PROMPT = (
+    "Using my uploaded photo, show me what I would have looked like around 1985. Preserve my identity, "
+    "facial features, skin tone, age, and recognizable appearance. Reimagine my hair, clothing, accessories, "
+    "and surroundings with bold, unmistakably mid-1980s styling—expressive silhouettes, statement accessories, "
+    "layered details, distinctive colors, and textures. Make it feel like a genuine 1985 photograph with analog "
+    "grain, faded color, direct flash, and subtle softness. Add a period-accurate 1980s red-orange date stamp in "
+    "the lower corner. No modern objects or text.")
+
+
+def showcase():
+    """Before/after demo of the viral 1985 prompt (images/showcase/, AI-generated person)."""
+    return f"""<section class="wrap showcase">
+  <div class="sc-imgs">
+    <figure><img src="/images/showcase/1985-before.webp" width="900" height="860" alt="AI-generated woman in a modern selfie, the original photo before the 1985 edit"><figcaption>Before</figcaption></figure>
+    <figure><img src="/images/showcase/1985-after.webp" width="900" height="860" alt="The same woman restyled as a 1985 photo with big curly hair, a patterned shoulder-pad jacket and an orange date stamp"><figcaption>After · 1985</figcaption></figure>
+  </div>
+  <div class="sc-text">
+    <h2>Try the viral 1985 photo prompt</h2>
+    <p>Upload a clear selfie to ChatGPT or Gemini, paste the prompt below, and you get a picture of yourself as if it had been taken in 1985. The face stays yours; the hair, outfit, room and film look change. The example above uses an AI-generated person.</p>
+    <div class="pbox"><button class="pcopy" type="button" data-copy="master-prompt" aria-label="Copy the 1985 prompt">{COPY_ICON}<span>Copy</span></button><pre class="ptext" id="master-prompt">{esc(MASTER_PROMPT)}</pre></div>
+  </div>
+</section>"""
+
+
 def write(path, text):
     f = OUT / path.lstrip("/")
     if path.endswith("/"):
@@ -615,6 +639,8 @@ write("/", head(HOME_TITLE, HOME_DESC, "/", items[0]["img"], home_ld) + f"""
     <li><a href="/{HUB}/">Prompts for your own photo</a></li>
   </ul>
 </div>
+
+{showcase()}
 
 <div class="wrap" id="gallery">
   <div class="gal-head"><h2>Browse 1980s photo prompts</h2><span class="count">{len(items)} prompts</span></div>
@@ -674,6 +700,7 @@ for key, cat in CATEGORIES.items():
   <h1>{esc(cat["h1"])}</h1>
   {''.join(f'<p>{esc(p)}</p>' for p in cat["intro"])}
 </div>
+{showcase() if key == HUB else ""}
 <div class="wrap" id="gallery">
   <div class="gal-head"><h2>Browse {len(its)} {esc(low(cat["h1"]))}</h2></div>
   {chips(key, cat["group"])}
