@@ -1,0 +1,12 @@
+{
+  "name": "1980s-photo-prompt",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static site for vintagephotoprompt.com",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
