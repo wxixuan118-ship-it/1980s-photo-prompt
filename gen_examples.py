@@ -223,7 +223,8 @@ def main():
             if not item or not Path(path).exists():
                 sys.exit(f"bad --use-image {spec!r}: unknown id/slug or missing file")
             size = save_webp(Path(path), OUT_DIR / f"{item['slug']}.webp")
-            record(index, item, size, None, "manual")
+            ref = pick_ref(item, items.index(item))
+            record(index, item, size, ref if (REF_DIR / f"{ref}.webp").exists() else None, "manual")
             print(f"imported {path} -> images/examples/{item['slug']}.webp {size}")
         save_index(index)
         return

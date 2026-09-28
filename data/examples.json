@@ -10,10 +10,10 @@
  "1980s-arcade-portrait-photo-prompt": {
   "id": "e27",
   "img": "images/examples/1980s-arcade-portrait-photo-prompt.webp",
-  "w": 896,
-  "h": 1152,
+  "w": 933,
+  "h": 1200,
   "ref": "images/refs/woman_in.webp",
-  "source": "gemini"
+  "source": "manual"
  },
  "1980s-bar-counter-photo-prompt": {
   "id": "e41",
@@ -82,10 +82,10 @@
  "1980s-christmas-morning-photo-prompt": {
   "id": "e36",
   "img": "images/examples/1980s-christmas-morning-photo-prompt.webp",
-  "w": 896,
-  "h": 1152,
+  "w": 1200,
+  "h": 800,
   "ref": "images/refs/family.webp",
-  "source": "gemini"
+  "source": "manual"
  },
  "1980s-college-girl-campus-prompt": {
   "id": "e18",
@@ -98,10 +98,10 @@
  "1980s-couple-photo-prompt": {
   "id": "e21",
   "img": "images/examples/1980s-couple-photo-prompt.webp",
-  "w": 896,
-  "h": 1152,
+  "w": 1200,
+  "h": 800,
   "ref": "images/refs/couple.webp",
-  "source": "gemini"
+  "source": "manual"
  },
  "1980s-date-stamp-family-photo-prompt": {
   "id": "e32",
@@ -146,10 +146,10 @@
  "1980s-family-watching-tv-photo-prompt": {
   "id": "e23",
   "img": "images/examples/1980s-family-watching-tv-photo-prompt.webp",
-  "w": 896,
-  "h": 1152,
+  "w": 1200,
+  "h": 800,
   "ref": "images/refs/family.webp",
-  "source": "gemini"
+  "source": "manual"
  },
  "1980s-glamour-studio-portrait-prompt": {
   "id": "e16",
@@ -178,10 +178,10 @@
  "1980s-indian-family-album-prompt": {
   "id": "e07",
   "img": "images/examples/1980s-indian-family-album-prompt.webp",
-  "w": 896,
-  "h": 1152,
+  "w": 1200,
+  "h": 800,
   "ref": "images/refs/family.webp",
-  "source": "gemini"
+  "source": "manual"
  },
  "1980s-indian-fashion-photo-prompt": {
   "id": "e43",
@@ -194,10 +194,10 @@
  "1980s-indian-magazine-cover-prompt": {
   "id": "e03",
   "img": "images/examples/1980s-indian-magazine-cover-prompt.webp",
-  "w": 896,
-  "h": 1152,
+  "w": 890,
+  "h": 1200,
   "ref": "images/refs/woman_in.webp",
-  "source": "gemini"
+  "source": "manual"
  },
  "1980s-indian-street-photo-prompt": {
   "id": "e06",
@@ -282,10 +282,10 @@
  "1980s-rock-fan-bedroom-photo-prompt": {
   "id": "e39",
   "img": "images/examples/1980s-rock-fan-bedroom-photo-prompt.webp",
-  "w": 896,
-  "h": 1152,
+  "w": 1200,
+  "h": 800,
   "ref": "images/refs/man.webp",
-  "source": "gemini"
+  "source": "manual"
  },
  "1980s-roller-disco-photo-prompt": {
   "id": "e30",
@@ -338,10 +338,10 @@
  "1980s-yearbook-page-collage-prompt": {
   "id": "e35",
   "img": "images/examples/1980s-yearbook-page-collage-prompt.webp",
-  "w": 896,
-  "h": 1152,
+  "w": 800,
+  "h": 1200,
   "ref": "images/refs/woman_in.webp",
-  "source": "gemini"
+  "source": "manual"
  },
  "1980s-yearbook-photo-prompt": {
   "id": "e11",
