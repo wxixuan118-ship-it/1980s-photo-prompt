@@ -1,10 +1,98 @@
 {
+ "1980s-ai-photo-prompt": {
+  "id": "e10",
+  "img": "images/examples/1980s-ai-photo-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/man.webp",
+  "source": "gemini"
+ },
+ "1980s-arcade-portrait-photo-prompt": {
+  "id": "e27",
+  "img": "images/examples/1980s-arcade-portrait-photo-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/woman_in.webp",
+  "source": "gemini"
+ },
+ "1980s-bar-counter-photo-prompt": {
+  "id": "e41",
+  "img": "images/examples/1980s-bar-counter-photo-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/man_in.webp",
+  "source": "gemini"
+ },
+ "1980s-bedroom-mirror-photo-prompt": {
+  "id": "e40",
+  "img": "images/examples/1980s-bedroom-mirror-photo-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/woman.webp",
+  "source": "gemini"
+ },
+ "1980s-black-and-white-headshot-prompt": {
+  "id": "e25",
+  "img": "images/examples/1980s-black-and-white-headshot-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/woman.webp",
+  "source": "gemini"
+ },
+ "1980s-bodybuilder-gym-photo-prompt": {
+  "id": "e15",
+  "img": "images/examples/1980s-bodybuilder-gym-photo-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/man.webp",
+  "source": "gemini"
+ },
+ "1980s-bollywood-hero-photo-prompt": {
+  "id": "e02",
+  "img": "images/examples/1980s-bollywood-hero-photo-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/man_in.webp",
+  "source": "gemini"
+ },
  "1980s-bollywood-heroine-photo-prompt": {
   "id": "e01",
   "img": "images/examples/1980s-bollywood-heroine-photo-prompt.webp",
   "w": 896,
   "h": 1152,
   "ref": "images/refs/woman_in.webp",
+  "source": "gemini"
+ },
+ "1980s-bollywood-motorcycle-photo-prompt": {
+  "id": "e09",
+  "img": "images/examples/1980s-bollywood-motorcycle-photo-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/man_in.webp",
+  "source": "gemini"
+ },
+ "1980s-businessman-office-portrait-prompt": {
+  "id": "e14",
+  "img": "images/examples/1980s-businessman-office-portrait-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/man.webp",
+  "source": "gemini"
+ },
+ "1980s-christmas-morning-photo-prompt": {
+  "id": "e36",
+  "img": "images/examples/1980s-christmas-morning-photo-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/family.webp",
+  "source": "gemini"
+ },
+ "1980s-college-girl-campus-prompt": {
+  "id": "e18",
+  "img": "images/examples/1980s-college-girl-campus-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/woman.webp",
   "source": "gemini"
  },
  "1980s-couple-photo-prompt": {
@@ -15,12 +103,252 @@
   "ref": "images/refs/couple.webp",
   "source": "gemini"
  },
+ "1980s-date-stamp-family-photo-prompt": {
+  "id": "e32",
+  "img": "images/examples/1980s-date-stamp-family-photo-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/family.webp",
+  "source": "gemini"
+ },
+ "1980s-denim-jacket-classic-car-prompt": {
+  "id": "e13",
+  "img": "images/examples/1980s-denim-jacket-classic-car-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/man.webp",
+  "source": "gemini"
+ },
+ "1980s-denim-street-style-prompt": {
+  "id": "e17",
+  "img": "images/examples/1980s-denim-street-style-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/woman.webp",
+  "source": "gemini"
+ },
+ "1980s-diner-booth-photo-prompt": {
+  "id": "e31",
+  "img": "images/examples/1980s-diner-booth-photo-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/woman_in.webp",
+  "source": "gemini"
+ },
+ "1980s-doordarshan-photo-prompt": {
+  "id": "e05",
+  "img": "images/examples/1980s-doordarshan-photo-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/woman_in.webp",
+  "source": "gemini"
+ },
+ "1980s-family-watching-tv-photo-prompt": {
+  "id": "e23",
+  "img": "images/examples/1980s-family-watching-tv-photo-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/family.webp",
+  "source": "gemini"
+ },
+ "1980s-glamour-studio-portrait-prompt": {
+  "id": "e16",
+  "img": "images/examples/1980s-glamour-studio-portrait-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/woman.webp",
+  "source": "gemini"
+ },
+ "1980s-hong-kong-street-photo-prompt": {
+  "id": "e33",
+  "img": "images/examples/1980s-hong-kong-street-photo-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/woman_ea.webp",
+  "source": "gemini"
+ },
+ "1980s-house-party-photo-prompt": {
+  "id": "e37",
+  "img": "images/examples/1980s-house-party-photo-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/woman.webp",
+  "source": "gemini"
+ },
+ "1980s-indian-family-album-prompt": {
+  "id": "e07",
+  "img": "images/examples/1980s-indian-family-album-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/family.webp",
+  "source": "gemini"
+ },
+ "1980s-indian-fashion-photo-prompt": {
+  "id": "e43",
+  "img": "images/examples/1980s-indian-fashion-photo-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/woman_in.webp",
+  "source": "gemini"
+ },
+ "1980s-indian-magazine-cover-prompt": {
+  "id": "e03",
+  "img": "images/examples/1980s-indian-magazine-cover-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/woman_in.webp",
+  "source": "gemini"
+ },
+ "1980s-indian-street-photo-prompt": {
+  "id": "e06",
+  "img": "images/examples/1980s-indian-street-photo-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/man_in.webp",
+  "source": "gemini"
+ },
+ "1980s-indian-wedding-photo-prompt": {
+  "id": "e04",
+  "img": "images/examples/1980s-indian-wedding-photo-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/couple.webp",
+  "source": "gemini"
+ },
+ "1980s-laser-background-portrait-prompt": {
+  "id": "e26",
+  "img": "images/examples/1980s-laser-background-portrait-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/man.webp",
+  "source": "gemini"
+ },
+ "1980s-leather-jacket-motorcycle-prompt": {
+  "id": "e19",
+  "img": "images/examples/1980s-leather-jacket-motorcycle-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/woman.webp",
+  "source": "gemini"
+ },
+ "1980s-mall-studio-portrait-prompt": {
+  "id": "e34",
+  "img": "images/examples/1980s-mall-studio-portrait-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/family.webp",
+  "source": "gemini"
+ },
+ "1980s-miami-pastel-sunset-prompt": {
+  "id": "e28",
+  "img": "images/examples/1980s-miami-pastel-sunset-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/man_in.webp",
+  "source": "gemini"
+ },
  "1980s-moustache-sweater-vest-portrait-prompt": {
   "id": "e12",
   "img": "images/examples/1980s-moustache-sweater-vest-portrait-prompt.webp",
   "w": 896,
   "h": 1152,
   "ref": "images/refs/man.webp",
+  "source": "gemini"
+ },
+ "1980s-passport-photo-prompt": {
+  "id": "e24",
+  "img": "images/examples/1980s-passport-photo-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/man_in.webp",
+  "source": "gemini"
+ },
+ "1980s-power-suit-businesswoman-prompt": {
+  "id": "e20",
+  "img": "images/examples/1980s-power-suit-businesswoman-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/woman.webp",
+  "source": "gemini"
+ },
+ "1980s-prom-night-couple-prompt": {
+  "id": "e22",
+  "img": "images/examples/1980s-prom-night-couple-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/couple.webp",
+  "source": "gemini"
+ },
+ "1980s-rock-fan-bedroom-photo-prompt": {
+  "id": "e39",
+  "img": "images/examples/1980s-rock-fan-bedroom-photo-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/man.webp",
+  "source": "gemini"
+ },
+ "1980s-roller-disco-photo-prompt": {
+  "id": "e30",
+  "img": "images/examples/1980s-roller-disco-photo-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/man.webp",
+  "source": "gemini"
+ },
+ "1980s-saree-photo-prompt": {
+  "id": "e08",
+  "img": "images/examples/1980s-saree-photo-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/woman_in.webp",
+  "source": "gemini"
+ },
+ "1980s-scooter-couple-photo-prompt": {
+  "id": "e42",
+  "img": "images/examples/1980s-scooter-couple-photo-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/couple.webp",
+  "source": "gemini"
+ },
+ "1980s-storybook-illustration-prompt": {
+  "id": "e44",
+  "img": "images/examples/1980s-storybook-illustration-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/woman.webp",
+  "source": "gemini"
+ },
+ "1980s-vhs-camcorder-photo-prompt": {
+  "id": "e29",
+  "img": "images/examples/1980s-vhs-camcorder-photo-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/woman.webp",
+  "source": "gemini"
+ },
+ "1980s-warehouse-rave-photo-prompt": {
+  "id": "e38",
+  "img": "images/examples/1980s-warehouse-rave-photo-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/man.webp",
+  "source": "gemini"
+ },
+ "1980s-yearbook-page-collage-prompt": {
+  "id": "e35",
+  "img": "images/examples/1980s-yearbook-page-collage-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/woman_in.webp",
+  "source": "gemini"
+ },
+ "1980s-yearbook-photo-prompt": {
+  "id": "e11",
+  "img": "images/examples/1980s-yearbook-photo-prompt.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/woman_in.webp",
   "source": "gemini"
  }
 }
