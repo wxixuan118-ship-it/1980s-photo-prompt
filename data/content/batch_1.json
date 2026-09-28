@@ -1,0 +1,394 @@
+[
+ {
+  "id": "bEpmwcq0m85L81kKGlRv",
+  "name": "Soviet Police Station Corridor",
+  "slug": "1980s-soviet-police-station-corridor-photo-prompt",
+  "title": "Soviet Police Station Corridor – 1980s Photo Prompt",
+  "description": "Copy this prompt for a bleak Soviet police corridor: grey doors, worn floor, cold fluorescent tubes and a desaturated, oppressive late-Cold-War mood.",
+  "primary_category": "cinematic",
+  "categories": [
+   "cinematic"
+  ],
+  "intro": "Few images say Cold War bureaucracy as quickly as this one. A single-point perspective pulls your eye down a tunnel of identical grey doors toward a far exit that never seems closer. The peeling walls, scuffed floor and buzzing tube lights feel lived-in and slightly menacing, like the establishing shot before an interrogation scene in a late-Soviet thriller.",
+  "creates": "The result is a near-photographic view straight down a long, narrow institutional hallway. Slate-grey panelled doors with small nameplates line both walls, and a row of bare fluorescent fixtures recedes toward a vanishing point. Light pools on a glossy, worn floor while the stained plaster walls fall into shadow. The palette is almost monochrome, cold grey-blue with no decoration, and the symmetrical framing makes the space feel endless and airless.",
+  "works": "Short declarative lines do the heavy lifting. \"Cold fluorescent lights repeating along the ceiling\" creates the rhythm of the shot, while \"identical and anonymous\" doors give the symmetry its dread. \"No windows, no decoration\" strips out anything cheerful, and \"cold and desaturated color palette, high contrast shadows\" handles the grade. Note that although the prompt asks for a \"graphic novel style\", this model delivered something much closer to a real photograph, which suits the era even better.",
+  "tips": [
+   "Add a lone figure in a militia uniform walking away at the far end to give scale and a narrative hook to the empty hallway.",
+   "Mention Cyrillic door plaques, a wall-mounted rotary phone or a faded portrait of Lenin to anchor the setting more firmly in the Soviet 1980s.",
+   "For a true film look, replace the graphic novel wording with 'shot on ORWO film, slight grain, greenish fluorescent cast' and drop the high contrast request."
+  ],
+  "suits": "Ideal for Cold War thriller pitch decks, true-crime podcast artwork, tabletop RPG scene cards and anyone building a moodboard for a grim Eastern Bloc period drama or dystopian short film.",
+  "personalize": "Swap 'Soviet police station' for a hospital ward, school basement or factory office block and keep the fluorescent, desaturated hallway treatment.",
+  "era_fit": "strong"
+ },
+ {
+  "id": "bQO3ZkJA4fmzbTMIUbCo",
+  "name": "Teased Blonde Rock Glam Hair",
+  "slug": "1980s-big-teased-blonde-rock-hair-portrait-photo-prompt",
+  "title": "Big Teased Blonde Rock Hair – 1980s Portrait Prompt",
+  "description": "Copy this prompt for a glam-rock portrait with huge teased blonde hair, smoky eyes chandelier earrings and black leather from the MTV era.",
+  "primary_category": "portrait",
+  "categories": [
+   "portrait",
+   "fashion"
+  ],
+  "intro": "This is hair-metal glamour at full volume. The mane is so teased and backlit that it almost becomes a halo, and the smoky eyes, glossy coral lips and dangling crystal earrings finish the look without a hint of irony. It reads like a publicity still for a rock video or a magazine beauty spread from around 1986.",
+  "creates": "A tight head-and-shoulders portrait of a woman with enormous, crimped blonde hair teased high at the crown and spilling past her shoulders. She wears a black leather biker jacket over black lace, long rhinestone drop earrings and heavy smoky eye makeup. Warm studio light rims the frizzy strands against a dark, blurred backdrop, and her direct, confident gaze holds the centre of a vertical frame.",
+  "works": "Almost the whole prompt describes hair, and that focus is why it lands. \"Heavily teased for maximum height and drama at the crown\" builds the silhouette, while \"slightly frizzy or permed\" adds the textured, hairspray-stiff finish that separates real 80s volume from modern blowouts. \"Windswept, tousled\" suggests a fan-blown shoot, and \"rock-inspired vibe\" nudges the model toward the leather jacket and bold makeup without having to spell them out.",
+  "tips": [
+   "Add 'shot on Kodak Portra, soft glow filter, slight film grain' to push the image away from digital crispness and toward a real magazine scan.",
+   "Name the wardrobe explicitly, such as a studded leather jacket or off-shoulder sequin top, so the outfit stays consistent across several generations.",
+   "Mention a coloured gel backdrop in magenta or teal and a wind machine to recreate a classic music video set behind her."
+  ],
+  "suits": "Great for hair salon throwback posts, glam-metal album or gig poster art, 80s-themed party invitations and costume designers gathering references for a rock biopic or glam musical.",
+  "personalize": "Change 'blonde' to red, black or platinum and swap the rock styling for a prom dress or aerobics leotard while keeping the teased, permed volume.",
+  "era_fit": "strong"
+ },
+ {
+  "id": "MUGmP0hL45D3E2aGv8L7",
+  "name": "Satellite Control Room Operator",
+  "slug": "1980s-satellite-control-room-crt-monitors-photo-prompt",
+  "title": "Satellite Control Room CRTs – 1980s Render Prompt",
+  "description": "Copy this prompt for a dark satellite control room lit by glowing CRT monitors of storm imagery, a lone operator at the console in cold blue-green light.",
+  "primary_category": "cinematic",
+  "categories": [
+   "cinematic"
+  ],
+  "intro": "The appeal here is pure atmosphere: a wall of curved CRT screens glowing in an otherwise black room, each showing swirling weather imagery. The lone operator is barely more than a silhouette, which lets the monitors tell the story. It feels like a still from a slow-burn sci-fi mystery where someone has just noticed something they should not have.",
+  "creates": "A wide, over-the-shoulder shot of a bald, faceless figure hunched at a long console crowded with switches and small indicator lights. Two rows of chunky CRT monitors display grainy satellite views of cloud systems and one radar-style screen. Teal and blue-green light spills across the desk while the rest of the room falls into deep shadow. It is a 3D render with a cinematic, near-photographic finish rather than a real photograph.",
+  "works": "\"Illuminated only by the glow of CRT monitors\" is the key instruction, forcing every highlight to come from the screens and keeping the room dark. \"Wide shot from behind the operator\" sets the framing that makes the viewer share his view. \"Featureless humanoid figure\" keeps the person anonymous and slightly uncanny, and \"cold blue-green light\" defines the whole palette. The model read the satellite imagery as storm clouds rather than Arctic ice, so be more explicit if that detail matters.",
+  "tips": [
+   "Specify 'Arctic ice sheet and a small coastal settlement on screen' to get the vanished-town story the prompt hints at instead of generic hurricane imagery.",
+   "Replace 'featureless humanoid' with a technician in a short-sleeved shirt and headset if you want a believable period photo rather than an eerie render.",
+   "Add scanlines, phosphor bloom and slight screen curvature to make the monitors feel more authentically 1980s."
+  ],
+  "suits": "Suits sci-fi and Cold War thriller concept art, YouTube thumbnails for mystery or unexplained-events channels, podcast covers and game developers planning a retro command-centre level.",
+  "personalize": "Swap the satellite images for radar blips, a missile map or security camera feeds, and change the control room to a newsroom or air traffic tower.",
+  "era_fit": "loose"
+ },
+ {
+  "id": "oDU1O1hExa3D6001yRbm",
+  "name": "Aerobics Class With Cake",
+  "slug": "1980s-aerobics-class-with-cake-illustration-photo-prompt",
+  "title": "Aerobics Class With Cake – 1980s Illustration Prompt",
+  "description": "Copy this prompt for a goofy 80s aerobics illustration: four dancers in leg warmers and spandex each balancing a slice of cake in a pastel pink studio.",
+  "primary_category": "illustration",
+  "categories": [
+   "illustration",
+   "fashion"
+  ],
+  "intro": "The joke is instantly readable: four people giving an aerobics routine everything they have while each carefully balances a plate of layered cake. The pastel pink and turquoise studio, neon shorts, leg warmers and sweatbands are rendered with a clean, glossy illustration style that feels like the cover of a VHS workout tape crossed with a birthday card.",
+  "creates": "A bright digital illustration of four dancers mid-step across a shiny pink floor. A shirtless blond man wears lime shorts and a headband, a dark-haired man wears striped track pants, a blonde woman sports a sequin crop top and pink leg warmers, and a woman with a curly black mane wears swirling spandex. Each holds a cake slice aloft. Ballet barres run along pastel walls and a mirror panel appears at the left edge.",
+  "works": "Numbering the four characters gives each one a distinct outfit, so the model avoids clones and produces a varied lineup. Details like \"leg warmers\", \"wristbands\" and \"big, voluminous 80s hair\" are shorthand for the era. \"Holding a slice of cake in one hand\" supplies the absurd hook. The prompt repeats \"no mirrors\" several times, yet one still slipped in at the edge, showing how stubbornly the model links dance studios with mirrors.",
+  "tips": [
+   "Add 'VHS cover typography space at top' or a title like 'Sweat and Sweets' to turn the image into a ready-made mock workout tape.",
+   "If the mirror keeps appearing, describe the walls as 'solid painted brick' and move the barres out of the prompt entirely.",
+   "For a photo instead, replace the illustration line with 'flash photo, 1985 home video still, soft grain' and keep the outfits."
+  ],
+  "suits": "Fun for bakery or café social posts, gym promotions with a sense of humour, retro party invites, birthday cards and anyone making nostalgic comedy graphics or merch.",
+  "personalize": "Swap the cake slices for donuts, pizza or smartphones and change the four outfits to match your own friends or team.",
+  "era_fit": "loose"
+ },
+ {
+  "id": "jx8CcIlNIcikkW8v4hDs",
+  "name": "Black Falcon Castle Assault",
+  "slug": "1980s-black-falcon-castle-dragon-assault-photo-prompt",
+  "title": "Black Falcon Castle Siege – 1980s Toy Fantasy Prompt",
+  "description": "Copy this prompt for an epic dawn siege of a castle with dragons, catapult fire and charging knights, inspired by the classic 80s Black Falcon toy set.",
+  "primary_category": "cinematic",
+  "categories": [
+   "cinematic",
+   "illustration"
+  ],
+  "intro": "The prompt aims for a childhood toy-box memory but the result goes further, turning a beloved 80s castle set into a full-scale fantasy battle. A flaming projectile streaks across a peach dawn sky, dragons wrap around the towers and riders charge through smoke. It captures how that toy felt to play with, not how it looked on the shelf.",
+  "creates": "A painterly, realistic render of a grey stone keep on a rocky ridge at sunrise, a red pennant flying from its spire. Two dark dragons perch on the battlements while a fireball arcs toward the walls. Below, a knight in a red cape gallops across boulders as small armoured soldiers clash amid fires and billowing dust. Warm gold and orange light dominates. Despite the wording, it shows no actual plastic bricks or minifigures.",
+  "works": "The prompt is only a list of nouns, and that brevity explains the outcome. \"Castle assault at dawn\" sets the golden light and the drama, while \"catapults, fire, dragons\" gives the action. The model treated \"Black Falcon\" as a style of castle rather than a specific toy, and \"minifigures\" was drowned out by the cinematic nouns around it. To keep the toy look, the plastic has to be described as strongly as the battle.",
+  "tips": [
+   "Add 'made entirely of plastic bricks, visible studs, glossy ABS plastic, tilt-shift macro photo' to force the model into an actual toy diorama.",
+   "Include 'blue and white checkered falcon shields and banners' so the faction reads as the classic 1980s knights rather than generic fantasy soldiers.",
+   "Swap 'dawn' for 'stormy night with lightning' if you want a darker, more menacing siege mood."
+  ],
+  "suits": "Fits fantasy book or game cover drafts, nostalgia posts in toy-collector communities, tabletop campaign art and birthday invitations for kids who love knights and dragons.",
+  "personalize": "Replace 'Black Falcon castle' with a pirate fort, space base or your hometown's landmark and change dragons to any attacker you like.",
+  "era_fit": "off"
+ },
+ {
+  "id": "9o4DBJEezp26lwouC845",
+  "name": "Mob Boss Cigar Restaurant",
+  "slug": "1980s-italian-mobster-cigar-restaurant-portrait-photo-prompt",
+  "title": "Italian Mobster With Cigar – 1980s Cinematic Prompt",
+  "description": "Copy this prompt for a moody mafia portrait: a pinstriped mobster smoking a cigar in an amber-lit Italian restaurant with waiters drifting behind him.",
+  "primary_category": "cinematic",
+  "categories": [
+   "cinematic",
+   "portrait",
+   "fashion"
+  ],
+  "intro": "Warm amber lamps, white tablecloths and a man who clearly owns the room: this is the gangster-film scene everyone recognises. The side profile, cigar raised mid-draw and softly blurred waiters in the background give it the weight of a still from a classic crime saga. The rich, honeyed colour grade does as much storytelling as the pose.",
+  "creates": "A seated, three-quarter portrait of a slick-haired man in a dark pinstripe three-piece suit, knit tie, pocket square and gold watch, turned in profile as he draws on a thick cigar. He sits at a linen-covered table set with crystal glasses. Behind him a dim restaurant glows with globe lamps and wood panelling, and suited waiters stand in soft focus. Deep shadows and golden highlights set a tense, elegant mood.",
+  "works": "\"Warm golden light reflects off crystal glasses\" builds the glowing bokeh and amber palette, while \"eyes half-hidden in shadow\" produces the moody side lighting. \"Waiters move discreetly\" earns the out-of-focus figures that make the room feel alive. \"35mm film grain\" and \"rich warm tones\" add the filmic texture. The model leaned more 1940s in the slicked hair and pinstripes, so period cues need reinforcing if you want a clearly 80s mobster.",
+  "tips": [
+   "Push the decade with 'wide lapels, open collar, gold chain, tinted aviator glasses, big 1980s hair' to move him from 1940s noir to Miami-era crime boss.",
+   "Add 'visible cigar smoke curling in the lamplight' since the smoke described in the prompt came out very faint in this image.",
+   "Change the camera note to 'Kodak Vision 500T, anamorphic lens flare' for a stronger movie-still feel with cooler shadows."
+  ],
+  "suits": "Great for crime-drama pitch decks, murder mystery party invitations, restaurant or cigar lounge marketing with a noir edge, book covers and character art for mafia-themed games.",
+  "personalize": "Rename Tony and change the suit, restaurant and props, for example a casino table or a jazz club, while keeping the warm shadowy lighting.",
+  "era_fit": "loose"
+ },
+ {
+  "id": "6zEf5HP0lJKzqpoRm4DA",
+  "name": "Live-Action ThunderCats Heroes",
+  "slug": "1980s-thundercats-live-action-reimagined-photo-prompt",
+  "title": "Live-Action ThunderCats Heroes – 1980s Cartoon Prompt",
+  "description": "Copy this prompt for a photoreal live-action take on the 80s ThunderCats team: fur-textured feline heroes in blue armour posed like a modern movie poster.",
+  "primary_category": "cinematic",
+  "categories": [
+   "cinematic",
+   "illustration"
+  ],
+  "intro": "Seeing a Saturday-morning cartoon cast rebuilt with real fur, muscle and leather is instantly compelling. The lion-maned leader grips his sword at the centre, flanked by a spotted warrior, a grey armoured bruiser and a striped tiger, with a fluffy sidekick peeking in at the corner. It feels like the first poster for a reboot that fans have been wishing for.",
+  "creates": "A tight group shot of five feline humanoids against a dark, smoky background. The red-maned lion hero stands centre in a blue sleeveless suit with a red emblem, holding a sword pommel. A cheetah woman with spotted skin, a grey-skinned heavy in harness, a tiger-striped figure and a small red-and-white furry creature surround him. Dramatic key light picks out fur texture and leather. It is a digital concept render, not a photograph.",
+  "works": "\"Staying faithful to the original 1980s cartoon designs\" keeps the costumes, emblems and colour scheme recognisable, while \"anatomically realistic humanoid feline features\" and \"detailed fur textures\" drive the live-action treatment. \"Epic heroic composition\" produces the poster-style cluster. \"85mm lens, shallow depth of field\" softens the background. The extra settings block at the end is mostly ignored by the model, so the descriptive first paragraph does nearly all the work.",
+  "tips": [
+   "Delete the tool-specific tuning notes at the end; they add noise and the image comes from the descriptive paragraph anyway.",
+   "Add 'Cats Lair fortress and a red eclipse sky behind them' to give the lineup a setting instead of a plain dark backdrop.",
+   "For a nostalgic twist, request 'photographed like a 1985 toy catalogue shoot' to mix the realism with period styling."
+  ],
+  "suits": "Aimed at fan artists, pop-culture YouTube channels, reboot speculation threads, cosplay planners studying costume details and anyone making what-if movie poster concepts from classic cartoons.",
+  "personalize": "Swap the team for another animated lineup you grew up with, such as He-Man or Transformers, and keep the realistic-textures, dramatic-lighting approach.",
+  "era_fit": "loose"
+ },
+ {
+  "id": "ibILshxRLw696D3cKezo",
+  "name": "Neon Car Wash Twilight Portrait",
+  "slug": "1980s-neon-car-wash-sign-twilight-portrait-photo-prompt",
+  "title": "Neon Car Wash Twilight Portrait – 1980s Prompt",
+  "description": "Copy this prompt for a blue-hour portrait in red sunglasses under a glowing Rancho Super Car Wash neon sign, with warm-cool California nostalgia.",
+  "primary_category": "neon-city",
+  "categories": [
+   "neon-city",
+   "portrait",
+   "fashion"
+  ],
+  "intro": "Retro roadside neon plus blue-hour sky is a proven pairing, and here it frames a very modern face. The red translucent sunglasses echo the glowing sign letters, the pink earrings match the neon tubes, and the soft bokeh of passing car lights makes it feel like a warm evening on a California strip, half editorial shoot and half memory.",
+  "creates": "A close portrait of a young woman with a messy half-up bun, red see-through sunglasses, pink drop earrings and a black top with yellow straps. Behind her, slightly out of focus, a red and green neon sign spells out the car wash name above a lit forecourt. The sky shifts from deep blue to a pink horizon, and small circles of street light glow in the background. Skin tones stay warm against the cool dusk.",
+  "works": "\"Blue hour sky\" and \"soft off-camera flash lighting mixed with ambient neon glow\" are the crucial lighting pair, keeping her face bright while the background stays saturated. \"50mm lens f/2\" and \"shallow depth of field\" produce the creamy bokeh. Naming the sign text in quotes gives the model something concrete and legible to render. \"Clean modern post-production\" explains why the image feels contemporary rather than like a scanned slide from the decade.",
+  "tips": [
+   "Remove 'clean modern post-production' and add 'Fujifilm Velvia, slight halation around neon' for an image that looks shot in 1987 rather than last week.",
+   "Swap the sign text for any business name you like; keep it short, three or four words, so the lettering renders cleanly.",
+   "Add a vintage convertible or palm silhouettes behind her to deepen the Southern California roadside setting."
+  ],
+  "suits": "Great for synthwave playlist covers, fashion and eyewear brand social posts, portfolio-style selfies with a retro twist and designers building moodboards for summer-evening fashion campaigns.",
+  "personalize": "Change the neon sign wording, the sunglasses colour and the hair description to your own look while keeping the blue-hour neon lighting setup.",
+  "era_fit": "loose"
+ },
+ {
+  "id": "76Ur8Ep9vee7r2Ivl5Ok",
+  "name": "Fairground Neon Suit Duo",
+  "slug": "1980s-neon-suit-duo-fairground-pizza-guitar-photo-prompt",
+  "title": "Neon Suit Duo at the Fair – 1980s Photo Prompt",
+  "description": "Copy this prompt for a sunny fairground photo of two middle-aged rockers in neon green and purple suits, one with a corndog mic, one with a pizza guitar.",
+  "primary_category": "fashion",
+  "categories": [
+   "fashion",
+   "cinematic"
+  ],
+  "intro": "This picture is pure joy. Two middle-aged men in blinding lime and purple suits are committed completely to a performance nobody asked for, one belting into a mic with a corndog raised, the other shredding a pizza-slice guitar. The fairground signs, Ferris wheel and hard summer sun make it feel like a real, delightfully odd local-band press photo.",
+  "creates": "A bright daylight photo of two men mid-performance in front of a striped food stand with big red lettering for corndogs, pizza, nachos and drinks. The slim singer wears a neon green suit, oversized white glasses and holds a corndog aloft. His balding partner in a purple suit grins while playing a guitar shaped and painted like a pepperoni pizza. A white Ferris wheel and bunting fill the blue sky behind them.",
+  "works": "Precise physical details, \"short receding hair and large nerdy glasses\" and \"balding on top with side hair\", give each man a distinct, believable face instead of generic models. Quoting the stand signs makes the lettering legible. \"Guitar shaped like a pizza slice\" provides a memorable prop. \"Devo-inspired\" sets the new-wave colour sense, and \"without being a parody\" keeps the expressions sincere rather than mugging, which is what makes the humour land.",
+  "tips": [
+   "Add 'shot on a 35mm point-and-shoot with on-camera flash, slightly faded colour' to make it look like a genuine 1980s snapshot rather than a crisp modern photo.",
+   "Try 'red energy dome hats' or skinny ties for a stronger new-wave nod while keeping the suit colours.",
+   "Replace the fairground with a mall food court or roller rink to keep the same energy in another period setting."
+  ],
+  "suits": "Perfect for band promo images, comedy podcast art, county fair or food truck advertising, birthday cards for a friend with a silly streak and retro-themed event posters.",
+  "personalize": "Swap the suit colours, the corndog and the pizza guitar for props that fit your own band or brand, and describe your own two performers.",
+  "era_fit": "loose"
+ },
+ {
+  "id": "YE0xLv8nwfnrgCxPx2WR",
+  "name": "Three Friends at Retro Diner",
+  "slug": "1980s-three-friends-retro-diner-counter-illustration-photo-prompt",
+  "title": "Three Friends at a Diner – 1980s Illustration Prompt",
+  "description": "Copy this prompt for a painterly illustration of three young friends huddled at a green retro diner counter, with star caps, graffiti tees and red hair.",
+  "primary_category": "illustration",
+  "categories": [
+   "illustration",
+   "fashion"
+  ],
+  "intro": "Three friends squeezed cheek to cheek at a diner counter have a warmth that feels instantly familiar. The star-studded cap, graffiti T-shirt, striped scarf and piercings each give a distinct personality, and the slightly pouty poses read like a group photo booth moment. The painted texture and lime-green walls push it firmly into nostalgic territory.",
+  "creates": "A semi-realistic painted illustration of three young women leaning together at a pale counter. The left one wears a black cap with yellow stars, round glasses and rings; the middle one has a black graffiti-print tee and blunt bangs; the right one has bright red hair and a striped top. Behind them sit an espresso machine, a flower vase, a stocked drinks fridge and green walls. The expressions came out pouty rather than wildly excited.",
+  "works": "Describing each woman separately, from hat and bangs to rings and piercings, gives the model enough to keep three distinct characters in one frame. \"Graffiti tag emblazoned in orange letters\" produces the eye-catching T-shirt, and \"coffee machine on the left, green walls\" locks in the background layout. \"Bright and saturated, with a focus on greens, yellows, and blacks\" sets the palette. The \"hyper-caffeinated excitement\" line was largely lost, so expressions need stronger wording.",
+  "tips": [
+   "Replace the expression wording with 'laughing with mouths wide open, eyes huge' if you want the manic energy the prompt describes.",
+   "Add chrome stools, a jukebox and checkerboard tiles to make the diner feel more clearly 1980s instead of a generic café.",
+   "Mention 'airbrushed magazine illustration' or 'gouache on board' to steer the painting style toward period editorial art."
+  ],
+  "suits": "Works well for coffee shop menus and posters, friendship-themed greeting cards, zine and blog header art, and indie band or podcast covers with a playful, youthful look.",
+  "personalize": "Rewrite each friend's hair, outfit and accessories to match your own group and swap the diner for a record store or arcade.",
+  "era_fit": "loose"
+ },
+ {
+  "id": "7onEMvPIdejZa9PFsMjZ",
+  "name": "Purple Glasses Pop Art Woman",
+  "slug": "1980s-pop-art-purple-glasses-comic-portrait-photo-prompt",
+  "title": "Purple Glasses Pop Art Portrait – 1980s Prompt",
+  "description": "Copy this prompt for a comic-style pop art portrait: a blonde woman in purple frames, turtleneck and turquoise drop earrings over a halftone gradient.",
+  "primary_category": "illustration",
+  "categories": [
+   "illustration",
+   "portrait"
+  ],
+  "intro": "Strong ink lines, a tightly controlled purple and turquoise palette and a dotted halftone backdrop give this portrait instant graphic punch. The oversized purple frames, matching lipstick and turtleneck make the colour story feel deliberate, and the turquoise earrings echo her eyes. It sits somewhere between a comic panel and an 80s magazine illustration of a confident professional woman.",
+  "creates": "A front-facing close-up illustration of a woman with wavy, jaw-length blonde hair, heavy arched brows and large purple cat-eye glasses over turquoise eyes. She wears dark purple lipstick, a ribbed purple turtleneck and teardrop turquoise earrings. Flat colour and clean black outlines define her face, while the background fades from deep violet to teal with scattered halftone dots. The framing crops at the shoulders and centres her gaze directly on the viewer.",
+  "works": "The prompt is really a colour brief. Repeating purple across \"rectangular, purple-framed glasses\", \"dark purple lipstick\" and \"purple turtleneck\" makes the palette cohesive, while \"turquoise, matching the color of her eyes\" supplies the single contrast colour. \"Gradient from deep purple on the left to turquoise on the right\" sets the backdrop, and \"textured, halftone pattern\" delivers the print-comic feel. \"Reminiscent of 1980s pop art\" nudges line weight and flat shading.",
+  "tips": [
+   "Add a speech bubble with a short line of dialogue to lean fully into comic-panel pop art in the style of vintage romance comics.",
+   "Swap the purple and turquoise pair for hot pink and yellow or red and cyan and keep the same repetition across glasses, lips and clothing.",
+   "Request 'shoulder pads and a power blazer' instead of the turtleneck to make the 80s office-era styling more obvious."
+  ],
+  "suits": "Handy for social media avatars, optician or eyewear promotions, blog author portraits, stickers and prints, and designers building a bold, limited-palette brand illustration set for print or web.",
+  "personalize": "Change the hair colour, the frame shape and the two-colour palette to match yourself or your brand while keeping the halftone comic treatment.",
+  "era_fit": "loose"
+ },
+ {
+  "id": "aNRNShIVsSQGQEJ268FI",
+  "name": "Drag Glamour Sunset Sports Car",
+  "slug": "1980s-drag-queen-neon-jacket-sports-car-photo-prompt",
+  "title": "Drag Glamour at Sunset – 1980s Retro Art Prompt",
+  "description": "Copy this prompt for a Nagel-inspired retro illustration of a laughing drag queen with huge red curls in a neon yellow jacket before a sunset sports car.",
+  "primary_category": "illustration",
+  "categories": [
+   "illustration",
+   "fashion"
+  ],
+  "intro": "Everything here is turned up: a cascade of teased red curls, a highlighter-yellow jacket, a sapphire pendant and a head-back laugh that radiates fun. The purple and orange synthwave sunset and the sleek silver sports car behind her complete a picture that feels like a cassette insert or a poster pinned above a teenager's bed in 1986.",
+  "creates": "A glossy digital illustration of a drag performer standing in front of a low silver-lavender sports coupe at dusk. She has enormous curly red hair, dramatic eye makeup and burgundy lipstick, and wears a neon yellow jacket with rolled sleeves, a green striped blouse, white denim shorts and a large sapphire pendant. A striped setting sun sits over purple hills. It is a smooth, airbrushed render, not a photograph.",
+  "works": "\"Ridiculously long thick curly teased red hair\" is weighted with double brackets, and it shows: the hair dominates the frame. \"Patrick Nagel style\" brings the clean, graphic glamour of 80s poster art, while \"neon yellow 80s style jacket with sleeves rolled up\" delivers the key fashion signal. \"Classic car backdrop\" produced the sports coupe. Conflicting terms like \"8k photographic image\" and \"digital render\" pull against each other, landing somewhere between illustration and photo.",
+  "tips": [
+   "Choose one medium: keep 'Patrick Nagel style, flat colour, bold outlines' for poster art, or drop it and add film grain for a true photo.",
+   "Name the car, such as a white 1984 Corvette or a red Testarossa, to get a more recognisably period vehicle.",
+   "The shoes and legs were cropped out; add 'full-length shot' if the white stiletto heels matter to your design."
+  ],
+  "suits": "Suits Pride event posters, drag show flyers, synthwave music artwork, retro-glam social media posts and anyone collecting bold 80s fashion illustrations for moodboards and zines.",
+  "personalize": "Change the age, nationality, hair colour and outfit colours to describe your own performer and swap the sports car for a boombox or palm-lined boulevard.",
+  "era_fit": "loose"
+ },
+ {
+  "id": "a6vmVs9gWhaGps1vIrjc",
+  "name": "Synthwave Street Disco Party",
+  "slug": "1980s-synthwave-neon-city-street-disco-party-photo-prompt",
+  "title": "Synthwave Street Disco Party – 1980s Neon Prompt",
+  "description": "Copy this prompt for a synthwave neon city scene: silhouettes dancing under a giant disco ball on wet streets glowing pink, purple and cyan.",
+  "primary_category": "neon-city",
+  "categories": [
+   "neon-city",
+   "illustration"
+  ],
+  "intro": "A giant disco ball hanging over a rain-slick downtown street is a gloriously unlikely image, and it works. Laser beams slice between skyscrapers, grid-and-sunset billboards glow on both sides, and dancing silhouettes reflect in the wet asphalt. The pink, purple and cyan palette is pure synthwave, turning the whole city into a nightclub.",
+  "creates": "A wide, digital night scene of a futuristic city street. A mirrored disco ball floats in the centre, scattering beams of light across glass towers. Dozens of dark silhouettes dance on reflective pavement, some with arms raised. Billboards on either side show retro sunsets and neon grids. Everything is bathed in magenta and violet with cyan accents and sparkling particles. It is a stylised render, not a photograph of a real place.",
+  "works": "\"Silhouettes of people dancing under a disco ball\" is the central idea and gives the scene its focal point. \"Reflective streets\" doubles the neon light and adds depth. Listing the colours, \"pink, purple, and cyan\", keeps the palette tight, while \"retro 80s synthwave colors\" explains the grid-and-sunset billboards the model added. \"Sparkling particles\" and \"dynamic motion\" produce the light beams and bokeh that make it feel energetic.",
+  "tips": [
+   "Add 'Miami-style pastel art deco buildings' or 'Tokyo shopping street' to give the generic skyline a specific identity.",
+   "For a VHS feel, add 'scanlines, chromatic aberration, slight tape noise' and lower the sharpness.",
+   "Replace silhouettes with a few clearly lit dancers in shoulder-pad jackets and leg warmers to show real 80s fashion."
+  ],
+  "suits": "Excellent for DJ set and club night flyers, synthwave or retrowave playlist covers, New Year's Eve party invitations, livestream backgrounds and music video storyboard frames.",
+  "personalize": "Swap the city for your own town's skyline, change the colour trio and replace the disco ball with a giant cassette or neon logo.",
+  "era_fit": "loose"
+ },
+ {
+  "id": "PNkYECtZVISawpeqSAxg",
+  "name": "Madonna-Inspired Pop Art Collage",
+  "slug": "1980s-madonna-inspired-pop-art-cover-collage-photo-prompt",
+  "title": "Madonna-Inspired Pop Art Cover – 1980s Prompt",
+  "description": "Copy this prompt for a mixed-media cover art piece: a platinum-curled 80s pop icon in black and white, streaked with hot pink drips and white flowers.",
+  "primary_category": "illustration",
+  "categories": [
+   "illustration",
+   "portrait"
+  ],
+  "intro": "The contrast between the monochrome face and the dripping hot pink paint is what grabs you. A platinum-curled figure tips her head back, eyes closed, as neon pink streaks, dots and white blossoms rain across the frame. It reads as a tribute to 80s pop stardom rewritten as contemporary gallery art, exactly the vintage-meets-modern brief the prompt sets.",
+  "creates": "A tall, vertical mixed-media artwork of a woman with voluminous platinum curls, rendered in black and white except for vivid pink eyeshadow, lips and a gloved hand at her throat. Vertical drips of magenta, orange and white paint run down the image, with scattered dots and small white flowers. Graffiti shapes and orange blocks hint at a street-art wall behind her. It is a digital collage, not a photograph.",
+  "works": "The prompt is a string of concepts rather than a scene, which is why the result is abstract. \"80s Madonna aesthetic\" drives the platinum curls, lace-glove gesture and heavy lip. \"White and colorful elements\" becomes the monochrome base with pink accents and white flowers. \"Vintage meets contemporary\" and \"music cover art\" push the layout toward a single-subject vertical poster, while \"transformation, rebirth\" loosely inspires the upward, eyes-closed pose.",
+  "tips": [
+   "Add 'square 1:1 album format with space for a title at the bottom' if you need a ready-to-use single or playlist cover.",
+   "Name a specific era look, such as lace bows, crucifix earrings and rubber bracelets, to make the 1984 styling clearer.",
+   "Swap hot pink for electric blue or gold drips to change the mood while keeping the black-and-white portrait base."
+  ],
+  "suits": "Designed for musicians making single or playlist covers, poster and print sellers, fashion editorial mockups and anyone planning tribute artwork for an 80s pop night or drag performance.",
+  "personalize": "Replace the pop icon reference with your own subject or a generic 'platinum-haired singer' and pick your own accent colour for the paint drips.",
+  "era_fit": "loose"
+ },
+ {
+  "id": "oXt3cSiUkjAih2vE99H7",
+  "name": "Hip Hop Graffiti Watering Station",
+  "slug": "1980s-hip-hop-graffiti-rapper-mural-illustration-photo-prompt",
+  "title": "Hip Hop Graffiti Mural Rapper – 1980s Prompt",
+  "description": "Copy this prompt for a paint-splatter illustration of a rapper in a snapback and oversized jacket with bold graffiti lettering reading Watering Station.",
+  "primary_category": "illustration",
+  "categories": [
+   "illustration"
+  ],
+  "intro": "Explosive paint splatters around a rapper mid-verse give this piece real rhythm on a clean white canvas. The splashes of pink, teal and orange feel like they burst from the music itself, and the chunky graffiti lettering across the jacket turns the figure into a logo. It captures the colour and swagger of early hip hop culture in a modern graphic style.",
+  "creates": "A watercolour-and-ink style illustration of a bearded man with locs in a teal snapback, singing into a corded microphone while pointing outward. He wears a paint-flecked oversized varsity-style jacket over a graphic tee and layered chains. The words 'Watering Station' appear in bold yellow and orange graffiti script across his chest. Pink, teal and orange splatters radiate on a white background. It is an illustration, not a photograph.",
+  "works": "\"Kaleidoscopic colors splashed against a clean white background\" is why the figure pops so cleanly and the splatters feel intentional. \"Colorful oversized jacket and a snapback\" sets the hip hop wardrobe. Putting the phrase in quotes with \"bold, graffiti lettering\" gives the model legible text to render. The \"flowing cord\" detail adds a curving line through the composition, though the 1980s mural concept reads more as contemporary street illustration than a period wall.",
+  "tips": [
+   "Add 'painted on a brick wall in the Bronx, spray paint texture, 1983' to get an actual weathered mural instead of a white-background print.",
+   "Specify period gear such as a Kangol hat, shell-toe sneakers, a boombox and a gold rope chain to make the decade unmistakable.",
+   "Keep the text short and in quotes; if letters warp, move the phrase above the figure as a separate tag."
+  ],
+  "suits": "Useful for event posters, T-shirt and merch designs, café or hydration-station signage at festivals, hip hop mixtape covers and branding concepts for urban youth programmes.",
+  "personalize": "Replace 'watering Station' with your own brand or event name and describe the performer's outfit and pose to match your artist.",
+  "era_fit": "loose"
+ },
+ {
+  "id": "sdSyM8P0uCpkeGyuAWpL",
+  "name": "Lavender Hair Sunglasses Pop Art",
+  "slug": "1980s-pop-art-lavender-hair-sunglasses-illustration-photo-prompt",
+  "title": "Lavender Hair Pop Art Portrait – 1980s Prompt",
+  "description": "Copy this prompt for a bright pop art illustration of a woman with lavender waves, pink sunglasses and a colour-block jacket over pink and yellow circles.",
+  "primary_category": "illustration",
+  "categories": [
+   "illustration",
+   "fashion",
+   "portrait"
+  ],
+  "intro": "Candy colours and bold geometry make this illustration instantly cheerful. Flowing lavender hair, pink cat-eye sunglasses with reflective blue lenses and a colour-blocked jacket slipping off one shoulder give it strong fashion-sketch energy, while the pink and yellow circles behind her recall 80s Memphis-style graphics. The upward-tilted chin adds just the right amount of attitude.",
+  "creates": "A fashion illustration of a woman viewed slightly from below, with long, wavy lavender hair, oversized pink sunglasses showing blue and purple reflections, glossy pink lips and gold hoop earrings. She wears a white mock-neck sleeveless top under a pink, yellow and blue jacket falling from her shoulder. Behind her sit a pale lilac rectangle, pink and yellow circles and dots on white. Clean shading and outlines give it a polished digital finish.",
+  "works": "\"Geometric mix of pink, yellow, and white shapes, including circles\" builds the Memphis-flavoured backdrop that reads as 80s design. \"Large, reflective pink and blue sunglasses\" gives the face its focal point. \"Colorful, abstract-patterned jacket\" introduces the colour-block look. The model changed the circular pink earrings into gold hoops, a reminder that small accessory details often drift, so repeat any that matter to you.",
+  "tips": [
+   "Add 'Memphis Group pattern, squiggles and triangles' to make the background more unmistakably 1980s rather than simple circles.",
+   "If you need the pink earrings, repeat the colour next to the item, for example 'hot pink round earrings, not gold'.",
+   "Try 'airbrush illustration, soft gradients' instead of sharp lines for a look closer to period magazine and album art."
+  ],
+  "suits": "Suits fashion boutique social posts, beauty brand campaigns, phone wallpapers, sticker and print shops and anyone creating a playful, colourful avatar or header with a retro design twist.",
+  "personalize": "Change the hair colour, sunglasses and jacket pattern to your own style and swap the background shapes for your brand colours.",
+  "era_fit": "loose"
+ },
+ {
+  "id": "4yqE6jD21QsOjlTRGKiF",
+  "name": "Zebra Dress Drag Pink Car",
+  "slug": "1980s-drag-queen-zebra-dress-pink-car-photo-prompt",
+  "title": "Zebra Dress Drag Queen and Pink Car – 1980s Prompt",
+  "description": "Copy this prompt for a night-street fashion photo of a blonde drag queen in a zebra-print dress and studded belt, posing against a glossy pink sedan.",
+  "primary_category": "fashion",
+  "categories": [
+   "fashion",
+   "portrait",
+   "cinematic"
+  ],
+  "intro": "A zebra-print dress, hot pink tights and a candy-pink car make a gloriously loud combination, and the dark city street behind lets every colour pop. The teased platinum hair, purple eyeshadow and studded black belt are straight out of a mid-80s nightclub queue. The confident hand-on-hip pose and direct stare give it real editorial presence.",
+  "creates": "A realistic fashion photo of a drag queen standing beside the front of a glossy pink boxy sedan on a dark, empty street. She has voluminous blonde curls, dramatic purple eyeshadow and red lips, and wears a black and white zebra dress with pink accents, a wide studded black belt, pink bangles and shiny magenta tights. One hand rests on the car mirror. Moody, soft light isolates her from the shadowy concrete buildings behind.",
+  "works": "\"Bold zebra-print dress\" and \"thick black belt adorned with studs\" are concrete wardrobe cues that immediately signal the decade. \"Leans against a shiny pink car\" gives the pose and the colour anchor, while \"urban nightlife backdrop\" produces the dark street. \"Voluminous, 1980s style blonde hair\" and \"vibrant purple eyeshadow\" handle hair and makeup. The shoes are hidden by the car, so the heel detail had no visible effect.",
+  "tips": [
+   "Add 'on-camera flash, slight motion blur, 35mm film' for a paparazzi-style nightclub snapshot that feels genuinely from the era.",
+   "Include neon signage or a club entrance with a queue in the background to make the nightlife setting read more clearly.",
+   "Request 'full-length shot, car door open' if you want the pink stiletto heels visible in the frame."
+  ],
+  "suits": "Ideal for drag show promotion, Pride and cabaret posters, vintage clothing store lookbooks, 80s fashion moodboards and costume planning for themed parties or stage productions.",
+  "personalize": "Swap the zebra dress, hair colour and car colour for your own signature look, and change the age and background city to fit your performer.",
+  "era_fit": "strong"
+ }
+]

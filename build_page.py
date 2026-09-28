@@ -95,5 +95,5 @@ render();
 </body>
 </html>
 """
-(ROOT / "prompts.html").write_text(HTML.replace("__DATA__", data), encoding="utf-8")
-print(f"wrote prompts.html with {len(rows)} entries")
+(ROOT / "public" / "prompts.html").write_text(HTML.replace("__DATA__", data), encoding="utf-8")
+print(f"wrote public/prompts.html with {len(rows)} entries")

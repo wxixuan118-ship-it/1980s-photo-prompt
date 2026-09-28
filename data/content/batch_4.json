@@ -1,0 +1,366 @@
+[
+  {
+    "id": "cm08demmUAayDuQCN5SL",
+    "name": "Multi-Armed Rainbow Glitch Skeleton",
+    "slug": "1980s-vhs-glitch-rainbow-skeleton-dancer-photo-prompt",
+    "title": "Rainbow Glitch Skeleton Dancer – 1980s VHS Prompt",
+    "description": "Copy a math-heavy prompt that renders a six-armed skeleton dancer with a glowing butterfly ribcage, rainbow VHS streaks and glitchy tape noise.",
+    "primary_category": "illustration",
+    "categories": [
+      "illustration"
+    ],
+    "intro": "This one is pure oddity: a pale, six-armed skeleton strikes a wide aerobics stance while a neon butterfly glows inside its ribcage. Rainbow smears and horizontal tape tears slide across a black backdrop, and sparkles drift off the fingertips. It feels like a VHS workout tape recorded over a museum anatomy exhibit, strange enough to stop a scroll.",
+    "creates": "A tall, glossy 3D render of a skeletal figure standing feet apart on a reflective floor, three pairs of arms fanned out like a Hindu-deity silhouette. Iridescent pink, cyan and violet sheen runs along the bones and ribbed thighs. The background is black, split by rainbow bands, RGB glitch lines and scattered glitter, with garbled caption text in the corners. It is clearly digital art rather than a photograph.",
+    "works": "The long technical vocabulary rarely produces literal math, but it does steer texture: \"anisotropic diffusion stretch\" and \"shear-aligned labyrinths\" become the striated bone surfaces, while \"birefringent rainbow shear\" and \"hyperchroma overflow\" push the iridescent palette. The \"butterfly-wing\" interference line explains the glowing chest motif. The closing block on \"1980s VHS-style RGB drift cascade\" and \"chroma flicker-loss zones\" supplies the tape-tear streaks, and the keyword list leaks into the image as stray on-screen text.",
+    "tips": [
+      "Delete the final keyword list if you want a clean frame; the model is printing those underscore terms as garbled captions in the corners.",
+      "Add \"two arms only, human anatomy\" if the extra limbs bother you, or lean in by asking for eight arms in a circular fan.",
+      "For a stronger tape feel, add \"tracking lines, washed-out blacks, 4:3 CRT framing\" so the glitch reads as a worn cassette rather than a digital effect."
+    ],
+    "suits": "Suits synthwave and vaporwave album art, glitch-art zines, rave or club flyers, and anyone making strange visuals for a retro fitness or cyber-occult theme where an unsettling, eye-catching figure matters more than realism.",
+    "personalize": "Swap the aerobic dance pose and the butterfly chest motif for your own pose and emblem, keeping the VHS drift and iridescence lines intact.",
+    "era_fit": "loose"
+  },
+  {
+    "id": "DAoGedHnRKva4iaOcPdn",
+    "name": "Tense Talk by the Open Fridge",
+    "slug": "1980s-kitchen-conversation-open-fridge-film-still-photo-prompt",
+    "title": "Kitchen Talk by the Open Fridge – 1980s Film Prompt",
+    "description": "Copy this prompt for a warm, grainy film still: four people talking in a kitchen by an open fridge, one in a purple-and-gold number 10 jersey.",
+    "primary_category": "cinematic",
+    "categories": [
+      "cinematic",
+      "polaroid-film"
+    ],
+    "intro": "It looks like a paused frame from a family drama taped off late-night TV. A young woman in a purple-and-gold number 10 jersey stands with her back to us, framed by three adults in the half-light of a kitchen. The open fridge behind them and the guarded faces suggest an argument nobody wants to start, and the soft amber grain sells the decade.",
+    "creates": "A horizontal, eye-level group shot in a dim domestic kitchen. The centre figure wears a white football jersey with purple and yellow striping, long light-brown hair down her back. A blonde woman in a white shirt glances sideways at left, a curly-haired woman on the right gives a faint smile, and a man's shoulder fills the left edge. Warm window light, muted beige walls and an old white refrigerator complete the scene.",
+    "works": "The prompt reads like a caption for a real photograph, describing each person's hair, clothing and expression, which keeps the model grounded in naturalism. Specific props such as the \"number 10\" jersey and the fridge with a \"slightly open door\" give the scene a lived-in anchor. \"Soft and natural\" lighting prevents any glossy studio look, and the closing line, \"reminiscent of 1980s or 1990s television or film,\" supplies the soft grain and warm colour grade.",
+    "tips": [
+      "Add \"35mm film grain, slight halation, 4:3 TV frame\" to push it further toward a taped broadcast look.",
+      "Put a wall phone with a coiled cord, patterned wallpaper or a wood-grain cabinet in the background to lock the date firmly into the eighties.",
+      "Change the man's shirt to a tan windbreaker or the women's shirts to high-collar blouses for more era-specific wardrobe."
+    ],
+    "suits": "Good for pitch decks and mood boards for period dramas, short-film storyboards, nostalgic fiction covers, and social posts that play on the look of an old TV movie scene.",
+    "personalize": "Replace the jersey colours and number, the four characters' hair and outfits, and the fridge with your own props and cast while keeping the caption-style description and warm TV-film finish.",
+    "era_fit": "strong"
+  },
+  {
+    "id": "2J73Xz6wiE6T3HFBhADp",
+    "name": "Red Puppet Comic Book Page",
+    "slug": "1980s-red-puppet-comic-book-page-illustration-photo-prompt",
+    "title": "Red Puppet Comic Page – 1980s Comic Art Prompt",
+    "description": "Copy a prompt that draws a busy retro comic page of fuzzy red puppet heroes, Ben-Day textures, splash effects and a boxed yellow title panel.",
+    "primary_category": "illustration",
+    "categories": [
+      "illustration"
+    ],
+    "intro": "Fuzzy red puppet characters bounce around a crowded comic spread, grinning and waving through a flurry of white splash effects. The blue-grey inks, a newsstand kiosk scene and a chunky yellow masthead give it the feel of a bargain-bin issue from the spinner rack. The page is chaotic and the lettering is nonsense, which is half the charm.",
+    "creates": "A square hand-drawn comic illustration laid out as a full page: a yellow-and-blue title banner, a central panel of a city kiosk with red puppets and a dark silhouette, and more puppets posing at the bottom beside a robot figure and a small car. Dense columns of text frame the art, but the words are garbled filler. Colours are limited to red, yellow, blue and grey on cream paper.",
+    "works": "\"Ben-Day dots, limited color palette, and slightly misaligned color registration\" are the phrases doing the retro work, giving that flat, cheaply printed newsprint quality. \"Water/energy effects splashing dramatically\" becomes the white foam bursts scattered everywhere. Asking for a price tag, issue number, text boxes and corner cameos pushes the model toward a busy cover layout, though it ends up closer to an interior page. The \"1980s-90s comic art style\" line keeps the linework bold and outlined.",
+    "tips": [
+      "Cut the requests for text boxes and taglines if you want a cleaner cover; the model fills every gap with unreadable lettering.",
+      "Add \"single hero figure, full-bleed splash cover, large masthead at top\" to get a true cover instead of a multi-panel page.",
+      "Name a specific printing flaw such as \"yellowed newsprint, faded magenta\" to make the paper look genuinely aged."
+    ],
+    "suits": "Handy for parody posters, retro birthday invitations, comic-themed party decor, and meme makers who want a nostalgic newsstand-comic look around a cute mascot character or a family in-joke.",
+    "personalize": "Swap the red puppet hero for your own mascot or pet and change the tagline and setting while keeping the Ben-Day dots and misregistered colour.",
+    "era_fit": "loose"
+  },
+  {
+    "id": "zpUfSYr952Pc5Wulr7Wo",
+    "name": "Drag Queen in Retro Living Room",
+    "slug": "1980s-drag-queen-retro-living-room-photo-prompt",
+    "title": "Drag Queen in a Retro Living Room – 1980s Prompt",
+    "description": "Copy this prompt for a full-length drag queen portrait in a patterned mini dress, teal heels and huge blonde hair, standing in a lace-curtained lounge.",
+    "primary_category": "fashion",
+    "categories": [
+      "fashion",
+      "portrait"
+    ],
+    "intro": "A towering blonde bouffant, a mosaic-print mini dress and teal platform heels meet a living room that could belong to someone's aunt: mustard sofa, lace curtains, paisley rug. That clash between glamour and suburban homeliness is what makes the image fun, and the late-afternoon light through the windows keeps it warm rather than garish.",
+    "creates": "A full-body, horizontal portrait of a drag queen standing hands-on-hips in the centre of a wood-panelled lounge. She wears a multicoloured geometric dress with a teal belt and matching heels, electric blue eyeshadow and fuchsia lips. Around her sit mustard armchairs, a matching sofa, a bookcase, a fringed lamp and patterned wallpaper, lit by golden sun filtering through lace curtains.",
+    "works": "The prompt pairs wardrobe detail, \"shoulder pads and a mini skirt\", with specific makeup, \"electric blue eyeshadow and glossy fuchsia lips\", so the subject reads as eighties rather than generic glam. \"Geometric prints and vintage decor\" drives the pattern on both dress and walls. \"Sunlight pours through lace-curtained windows\" sets the warm, low-angle glow, and \"incredibly realistic style\" keeps the output photographic instead of illustrated.",
+    "tips": [
+      "Add \"shot on 35mm, slight grain, warm faded print\" to make it feel like a snapshot rather than a modern editorial.",
+      "Bring in a console TV, a rotary phone or a wall of framed family photos to date the room more precisely.",
+      "Swap the stiletto height for \"chunky pumps\" and ask for bigger shoulder pads if you want more authentic mid-decade tailoring."
+    ],
+    "suits": "Works well for drag performers' promo posts, Pride event graphics, retro fashion mood boards, and editorial concepts that play glamour against a cosy vintage home.",
+    "personalize": "Change the queen's heritage, hair colour and dress pattern, and replace the living room with your own vintage interior while keeping the lace-curtain sunlight.",
+    "era_fit": "strong"
+  },
+  {
+    "id": "IMgJnMchv4Fl44y5RB00",
+    "name": "Jack Frost at the Waffle Window",
+    "slug": "1980s-claymation-jack-frost-christmas-window-photo-prompt",
+    "title": "Jack Frost Claymation Window – 1980s Holiday Prompt",
+    "description": "Copy this prompt for a stop-motion style Christmas scene: an icy Jack Frost gazing through a frosted window at a family enjoying waffles by a tree.",
+    "primary_category": "illustration",
+    "categories": [
+      "illustration"
+    ],
+    "intro": "A small icy-haired figure in a knitted coat presses a hand to a frosted window while a laughing family shares waffles inside. The contrast between his cold blue face and the honey-gold glow of the kitchen tells the whole story at a glance. It captures the gentle, handmade charm of old television Christmas specials without needing a single word.",
+    "creates": "A square, stop-motion style render of a snowy window frame. On the left stands a pointy-eared Jack Frost with crystalline hair, a blue felt coat and a wistful look. Inside, a father, mother and two children in holiday knits laugh over plates of waffles on a gingham table, with a lit tree and wreath behind them. Frost crystals edge the glass and warm light spills out.",
+    "works": "Leading with \"1980s claymation Christmas specials\" sets the whole visual language before any subject appears. \"Hand-crafted textures, felt clothing\" gives the characters their soft puppet surfaces, while \"warm golden light from the house\" against his \"icy face\" builds the colour contrast that carries the emotion. \"Jealous and wistful\" shapes his expression, and \"square framing for album-cover art\" produces the balanced composition.",
+    "tips": [
+      "Add \"visible fingerprints in the clay, slightly uneven sculpting\" to make it look more hand-animated and less like polished CGI.",
+      "Mention \"shot on a miniature set, shallow depth of field\" to get a tabletop-model feel with a softer background.",
+      "Replace the waffles with cocoa and cookies or a roast dinner to change the story while keeping the outsider-looking-in setup."
+    ],
+    "suits": "Suits holiday album covers, Christmas cards, festive social media posts, children's story illustrations and nostalgic seasonal playlists that want the look of a vintage stop-motion TV special.",
+    "personalize": "Swap Jack Frost for your own winter character and the waffle breakfast for another family scene, keeping the frosted window and claymation textures.",
+    "era_fit": "loose"
+  },
+  {
+    "id": "4hQWcrIcY3qCIj5uFMxH",
+    "name": "Catalan Teachers in Gingham Smocks",
+    "slug": "1980s-catalan-school-teachers-gingham-smock-photo-prompt",
+    "title": "Catalan Teachers in Gingham Smocks – 1980s Prompt",
+    "description": "Copy this prompt for a 1985-style school snapshot: four smiling teachers in pink gingham smocks with Peter Pan collars, pupils crowding behind.",
+    "primary_category": "portrait",
+    "categories": [
+      "portrait",
+      "polaroid-film",
+      "fashion"
+    ],
+    "intro": "Four teachers stand shoulder to shoulder in matching gingham smocks, their permed curls and sensible shoes placing them squarely in the mid-eighties. Behind them a classroom full of pupils, crayon posters and a bulletin board adds the chatter of a real school day. The slightly faded colour and friendly group pose make it feel like a print pulled from a staffroom album.",
+    "creates": "A vertical colour group portrait of four women in a Spanish primary classroom. Three wear pink-and-white gingham smocks with white or pink Peter Pan collars; the fourth, holding a stack of books, wears a blue striped version. Children in pastel smocks mill about behind them among desks, painted posters and a wall clock. Lighting is flat and even, colours are softly washed, and black bars frame the image top and bottom.",
+    "works": "Naming a precise year, \"a 1985 moment,\" and calling it a \"color photograph\" pushes the model toward authentic film colour instead of stylised retro. The very specific costume, \"pink gingham teacher smock uniform with Peter Pan collar,\" gives the scene its defining detail. \"Bustling Catalan school environment\" fills the background with pupils and classroom clutter, and the nod to \"hair fashion\" is what brings out the short permed curls.",
+    "tips": [
+      "Add \"4:3 aspect ratio\" or \"no letterbox\" to avoid the black bands above and below the group.",
+      "Include \"slightly faded Kodak print, soft focus, warm cast\" to strengthen the look of a print from a family album.",
+      "Swap the Catalan setting for another region and adjust the smock pattern, such as navy check or plain white, to match that local tradition."
+    ],
+    "suits": "Ideal for school reunion invitations, local history pages, nostalgia accounts, period film costume research and anyone recreating a staffroom photo from the mid-eighties for a school anniversary or yearbook.",
+    "personalize": "Change the school's region, the smock colour and collar, and the number of teachers while keeping the 1985 colour-photograph wording.",
+    "era_fit": "strong"
+  },
+  {
+    "id": "rGqMZvzKA34kAEbNHPz2",
+    "name": "Flashlight on a Haunted Suburb Street",
+    "slug": "1980s-supernatural-suburb-flashlight-movie-poster-photo-prompt",
+    "title": "Haunted Suburb Flashlight Poster – 1980s Prompt",
+    "description": "Copy a movie-poster prompt with a slot for your character: a flashlight hero on a vine-choked suburban road under a red storm sky and a looming creature.",
+    "primary_category": "cinematic",
+    "categories": [
+      "cinematic"
+    ],
+    "intro": "Cold blue fog, a blood-red sky and a flashlight beam cutting across cracked asphalt give this poster instant dread. A shadowy giant hovers over the abandoned houses while a lone figure in a black hoodie stares straight out of the frame. The composition borrows the language of eighties-set sci-fi horror key art, and it leaves a clean slot for your own lead.",
+    "creates": "A horizontal, ultra-real poster of a man in a black hoodie standing mid-road in a derelict suburban street, holding a glowing flashlight at waist height. Twisted vines creep over wooden houses, red glowing spores float in the air and red light lines the kerbs. Behind him a huge silhouetted creature rises into a sky that shifts from deep cyan to stormy crimson, with a red outlined title logo top right.",
+    "works": "The bracketed \"[INSERT YOUR CHARACTER DESCRIPTION HERE]\" slot makes this a reusable template. Splitting the brief into Composition, Environment and Lighting sections keeps each layer consistent. \"Cold, deep cyan/blue\" against \"hellish red glow\" sets the two-tone palette, the flashlight's \"strong, bright white beam\" gives a clear focal point, and \"wide aperture portrait lens\" separates the figure from the fog. Naming a specific series pulls in its logo and creature, so expect that.",
+    "tips": [
+      "Replace the series name with a generic phrase like \"eighties sci-fi horror poster\" if you need artwork without an existing show's logo.",
+      "Add a period wardrobe such as a denim jacket, striped tee or bike helmet so your character belongs in the decade rather than today.",
+      "Request \"vertical 2:3 poster\" again at the end; the model sometimes ignores the orientation and returns a wide frame."
+    ],
+    "suits": "Great for fan-poster makers, cosplay promo shots, horror movie night invitations, Halloween party flyers and YouTubers who want a thumbnail with serious eighties sci-fi horror atmosphere.",
+    "personalize": "Fill the character slot with your own look and swap the creature for a monster of your choosing, keeping the blue-and-red storm lighting and flashlight beam.",
+    "era_fit": "loose"
+  },
+  {
+    "id": "oXpvl34D0sEQON4IraMJ",
+    "name": "Halloween Phone Call with a Stalker",
+    "slug": "1980s-halloween-kitchen-phone-call-slasher-photo-prompt",
+    "title": "Halloween Kitchen Phone Call – 1980s Slasher Prompt",
+    "description": "Copy a face-reference prompt for a slasher-style Halloween scene: orange corded phone, carved pumpkins, popcorn and a masked figure in the hallway.",
+    "primary_category": "cinematic",
+    "categories": [
+      "cinematic",
+      "portrait"
+    ],
+    "intro": "It is the classic setup of every late-night slasher: a woman on the kitchen phone, pumpkins half-carved on the counter, and a pale masked figure quietly watching from the hall. The bright orange coiled cord and wood cabinets pull in retro domestic detail, while the stalker in the background adds a jolt you only notice on a second look.",
+    "creates": "A horizontal scene in an oak-cabinet kitchen. A woman with long wavy strawberry-blonde hair and a black top holds an orange corded phone to her ear, gazing off dreamily. The counter holds two carved jack-o'-lanterns, a bowl of popcorn, newspaper and a matching orange handset base. A small TV glows on the side counter, and a masked man stands in the doorway at right. Light is fairly even daylight rather than night.",
+    "works": "This is a face-reference prompt; the opening tag and \"without changing my face\" tell the model to preserve an uploaded likeness. Concrete props, \"large 90s style orange chorded phone\", \"carving tools and pumpkin guts\" and \"a bowl of popcorn\", build the story on the counter. \"Standing in the doorway of a dimly lit hallway\" places the killer, and the \"avocado green and oranges\" palette plus \"grainy 70s style\" sets the vintage colour, though the lighting came out brighter than requested.",
+    "tips": [
+      "Strengthen \"night, single lamp, deep shadows, window black\" at the start of the prompt; the current output reads as afternoon light.",
+      "Pick one decade for the props instead of mixing y2k, 70s, 80s and 90s cues so the scene feels coherent.",
+      "Describe the TV image generically, such as \"an old horror film on screen,\" rather than naming a movie the model cannot reproduce."
+    ],
+    "suits": "Suits Halloween profile pictures, spooky-season Instagram series, horror podcast artwork and anyone wanting a personalised retro slasher still starring themselves, ready to share with friends on a spooky movie night.",
+    "personalize": "Upload your own reference photo and change the hair, outfit, phone colour and background killer while keeping the pumpkin counter and doorway reveal.",
+    "era_fit": "loose"
+  },
+  {
+    "id": "8B189tYjbLgNUtLptd7w",
+    "name": "Teased Blonde Glam Rock Mirror Portrait",
+    "slug": "1980s-big-teased-hair-glam-rock-portrait-photo-prompt",
+    "title": "Big Teased Hair Glam Rock Portrait – 1980s Prompt",
+    "description": "Copy this prompt for a close glam portrait: huge teased blonde hair, smoky eyes, dark red lips and a black sequin top, framed by a dressing-room mirror.",
+    "primary_category": "portrait",
+    "categories": [
+      "portrait",
+      "fashion"
+    ],
+    "intro": "The hair does all the talking here: an enormous, frizzy blonde mane teased high at the crown and spilling past the shoulders. Paired with smoky kohl-lined eyes, deep red lips and a glinting sequin jacket, it channels the rock-video glamour of the decade. The mirror framing and backstage wardrobe rail make it feel like a candid moment before a show.",
+    "creates": "A horizontal head-and-shoulders portrait of a drag performer looking into a mirror, her reflection filling the centre. Voluminous permed blonde hair with darker roots fans out around her face. She wears heavy black eyeliner, dark shadow and burgundy lipstick with a black sequinned top. A blurred shoulder and hair in the left foreground, a dark doorway and a clothing rail behind her suggest a dressing room under soft, warm light.",
+    "works": "Almost the entire prompt is about hair, and that focus pays off: \"voluminous and heavily teased for maximum height,\" \"windswept, tousled\" and \"slightly frizzy or permed\" give the model a clear, textured target instead of generic curls. \"Iconic 1980s big-hair fashion\" and the \"rock-inspired vibe\" set the style reference. Short makeup notes, \"dark eyeshadow, eyeliner, and heavy mascara, and dark red lipstick,\" complete the look without distracting from the hairstyle.",
+    "tips": [
+      "Add \"backstage bulb-lit vanity mirror\" to turn the soft setting into a proper dressing room with bright round bulbs.",
+      "Mention \"shot on 35mm, flash photography, slight grain\" for a harder, more candid rock-magazine finish.",
+      "Try swapping the sequin top for a studded leather jacket and lace gloves to lean further into glam-metal styling."
+    ],
+    "suits": "Great for drag performers' promo images, hair stylists' retro references, glam-rock playlist covers and fashion mood boards exploring the big-hair era, from glam metal videos to club-kid nightlife.",
+    "personalize": "Change the performer's heritage, hair colour and lipstick shade, keeping the detailed teasing, height and permed-texture phrases that create the look.",
+    "era_fit": "strong"
+  },
+  {
+    "id": "2hLIoFmHhf8MFoF9sqUK",
+    "name": "Moire Rainbow Leaping Dancer",
+    "slug": "1980s-vhs-moire-rainbow-dancer-abstract-art-photo-prompt",
+    "title": "Moire Rainbow Leaping Dancer – 1980s Abstract Prompt",
+    "description": "Copy a physics-flavoured prompt that renders a leaping figure covered in rainbow moire rings, set against a spiralling iridescent tunnel of colour.",
+    "primary_category": "illustration",
+    "categories": [
+      "illustration"
+    ],
+    "intro": "A slender figure leaps mid-air, its body swirling with contour-map rings of black, white and oil-slick colour. Behind it, concentric rainbow halos spiral into a dark vortex, as if the dancer were being pulled through a soap bubble. It is hypnotic, bright and a little dizzying, closer to op-art or a sticker-book fantasy than any photograph.",
+    "creates": "A tall digital artwork of an androgynous figure in a balletic leap, one arm raised, one leg bent behind. Its whole surface is patterned with tight moire fringes and iridescent spots. The background is a set of concentric rainbow rings around a black-and-white spiral centre, with a few tiny shattered shards floating at the edges. There is little sign of actual VHS distortion; the look is clean and high-contrast.",
+    "works": "The \"spatial aliasing moire fringes\" and \"Gibbs phenomenon overshoot\" wording is what paints the ringed banding over the body and background. \"Vortex directional field\" becomes the spiral tunnel behind the dancer, and the \"Lisa Frank Logic\" section with \"hyperchroma overflow\" and \"angle-reactive iridescence\" delivers the candy-rainbow palette. The requested \"aerobic dance pose\" softens into a graceful leap, and the VHS section has almost no visible effect.",
+    "tips": [
+      "Trim the long explanatory section after the keywords; it adds nothing visual and may dilute the stronger colour instructions.",
+      "If you want the tape look, move \"VHS tracking lines, chroma bleed, scanlines\" to the start of the prompt so it is weighted more heavily.",
+      "Specify \"leg warmers, headband, aerobics pose\" to make the figure read as an eighties workout rather than ballet."
+    ],
+    "suits": "Suits psychedelic poster art, electronic music artwork, festival visuals, op-art prints and designers who want a mesmerising abstract figure for backgrounds, visualizers, phone wallpapers or merch.",
+    "personalize": "Swap the leaping pose and the rainbow palette for your own pose and colour family, keeping the moire and vortex field language.",
+    "era_fit": "off"
+  },
+  {
+    "id": "WHKDgxfCEtgUjx47ElLq",
+    "name": "Pigtailed Schoolgirl in a Neon Arcade",
+    "slug": "1980s-neon-arcade-plaid-schoolgirl-pop-star-photo-prompt",
+    "title": "Neon Arcade Schoolgirl Pop Star – 1980s Prompt",
+    "description": "Copy this prompt for a painted neon arcade scene: a pigtailed pop star in a plaid skirt striking a dance pose among glowing cabinets and misty haze.",
+    "primary_category": "neon-city",
+    "categories": [
+      "neon-city",
+      "illustration",
+      "fashion"
+    ],
+    "intro": "Hot-pink neon trims the ceiling of a dim arcade while a blonde performer in pigtails and a plaid skirt poses in the aisle between glowing cabinets. Blue mist rolls along the carpet and old game posters line the walls. It fuses a late-nineties pop-video outfit with an eighties arcade setting, rendered as a glossy painted illustration.",
+    "creates": "A square digital painting looking down a narrow arcade aisle, cabinets glowing on both sides with bright marquee art. A young woman with blonde pigtails wears a white shirt, black tie and vest, a red tartan mini skirt and knee socks, one hand pointing to her head. Pink neon tubes outline the ceiling, faded posters cover it, and a light haze fills the room in purple and blue tones.",
+    "works": "The prompt names a real pop star and a TV series, which steers both the outfit and the arcade setting; \"vintage tartan schoolgirl outfit\" and \"signature pigtails\" define the costume. \"Flickering neon lights and vintage video games\" builds the room, while \"otherworldly mist\" and \"tattered posters\" add the haze and ceiling detail. \"Dark fantasy concept art\" is why the output looks painted rather than photographed.",
+    "tips": [
+      "Describe the performer generically instead of naming a real celebrity, which avoids likeness problems and gives you more control over the face.",
+      "Replace \"dark fantasy concept art\" with \"35mm flash photograph\" if you want a realistic arcade snapshot.",
+      "Name specific cabinet styles, such as \"wood-grain sides, vector-graphics screens,\" to anchor the arcade firmly in the early eighties."
+    ],
+    "suits": "Fits synth-pop playlist covers, retro gaming stream banners, dance-class posters, fan art and nostalgic party invitations built around arcade culture, neon colour and late-night gaming.",
+    "personalize": "Swap the performer and outfit for your own character and costume, keeping the neon-lit arcade aisle, pink ceiling tubes and blue haze.",
+    "era_fit": "loose"
+  },
+  {
+    "id": "i8WnwmpdWgjEIjZb7m08",
+    "name": "Tattooed Rocker on a Purple Stage",
+    "slug": "1980s-tattooed-rock-singer-purple-stage-lights-photo-prompt",
+    "title": "Tattooed Rocker on a Purple Stage – 1980s Prompt",
+    "description": "Copy this prompt for a gritty concert portrait: a tattooed blonde rocker in a ripped band tee and leather jacket, lit by purple haze and gold spots.",
+    "primary_category": "portrait",
+    "categories": [
+      "portrait",
+      "cinematic",
+      "fashion"
+    ],
+    "intro": "There is a real warmth to this rocker: a relaxed half-smile, messy blonde hair and hoops, rose tattoos climbing her neck. The ripped sleeveless band tee and oversized leather jacket bring attitude, while purple haze and a golden spotlight wrap her in club-stage atmosphere. It feels like a portrait of a veteran who has played these small rooms for decades.",
+    "creates": "A horizontal, waist-up concert photo of a woman in her forties or fifties on a smoky stage. She has choppy blonde hair with darker roots, silver hoop earrings and smoky eyes. A black cut-off band t-shirt with a faded graphic sits under an open black leather biker jacket, and tattoos cover her neck, collarbone and hands. Violet stage lights and a warm gold spot glow through heavy haze behind her.",
+    "works": "The prompt stacks clear visual identifiers: \"messy, layered blonde hair with dark roots,\" \"distressed black vintage band t-shirt\" and \"oversized, open leather biker jacket\" define the rock uniform. \"Intricate black ink tattoos\" on neck and hands adds texture. \"Purple and gold spotlights\" with \"dim, hazy club stage\" sets the colour scheme, and \"35mm film grain\" softens the digital sharpness. \"80s funk-rock aesthetic\" nudges the styling, though the result reads fairly contemporary.",
+    "tips": [
+      "Add a microphone stand, a guitar strap over the shoulder or a crowd silhouette in the foreground to make it clearly a live performance.",
+      "For a stronger eighties feel, ask for \"teased hair, fingerless gloves, studded belt, flash photography\" instead of the modern relaxed styling.",
+      "Specify an age, such as \"in her twenties,\" if you want a younger performer than the one this version produced."
+    ],
+    "suits": "Suits band promo photos, character art for music-based fiction, gig posters, tribute-night flyers and anyone building a gritty, lived-in rock persona for social media or a fictional band's album sleeve.",
+    "personalize": "Rename the character and change her hair, tattoos and band tee design, keeping the leather jacket, hazy stage and purple-and-gold lighting.",
+    "era_fit": "loose"
+  },
+  {
+    "id": "f7qW5euhnl4EJD4428vc",
+    "name": "Synthwave Cross and Open Bible",
+    "slug": "1980s-synthwave-cross-bible-sunset-hill-photo-prompt",
+    "title": "Synthwave Cross and Bible Sunset – 1980s Art Prompt",
+    "description": "Copy this prompt for a synthwave illustration: a glowing neon cross and open Bible on a grassy hill, palm trees and a striped sunset over the sea.",
+    "primary_category": "illustration",
+    "categories": [
+      "illustration"
+    ],
+    "intro": "A neon-outlined cross glows on a pink grassy hill beside an open Bible, while a striped retro sun sinks over distant fields and sea. Palm trees frame both sides like a stage curtain. The synthwave colour scheme turns a quiet devotional scene into something bright and graphic, peaceful rather than loud, which suits it well.",
+    "creates": "A horizontal flat-colour digital illustration. In the foreground an open book rests in violet grass next to a blue neon-edged cross. Rolling turquoise and green fields fall away toward a horizon of purple hills and a thin strip of ocean. A large orange sun with horizontal bands sits in a magenta and indigo sky with fluffy pink clouds, and palms line the left and right edges.",
+    "works": "\"Retro 80s art\" and \"synthwave\" set the palette of magenta, violet and teal and give the sun its signature stripes. \"Palm trees on the side\" produces the framing, and \"over looking a countryside landscape\" with \"ocean view in the far background\" builds the layered depth. \"Nature and peaceful\" keeps the mood calm, while \"highly detailed\" results in crisp line work more like a vector poster than a painting.",
+    "tips": [
+      "Add \"grid floor, chrome text, VHS scanlines\" for a more aggressive synthwave look, or leave them out to keep it gentle.",
+      "Include a short scripture reference or title space in the sky if you intend to use it as a church or event poster.",
+      "Swap the countryside for a desert or a coastal cliff while keeping the striped sun and palm framing."
+    ],
+    "suits": "Good for church youth group posters, Christian worship playlist covers, devotional social posts and faith-based merch that wants a fresh retro-wave look that feels bright, calm and welcoming.",
+    "personalize": "Replace the cross and Bible with your own symbol or object and change the landscape, keeping the striped sunset, palms and neon palette.",
+    "era_fit": "loose"
+  },
+  {
+    "id": "fkPpWYjzU17AW9Cp4iu1",
+    "name": "Aerobics Drag Queen in Leg Warmers",
+    "slug": "1980s-aerobics-drag-queen-leg-warmers-photo-prompt",
+    "title": "Aerobics Drag Queen in Leg Warmers – 1980s Prompt",
+    "description": "Copy this prompt for a bright studio shot of a muscular drag queen in a sky-blue bodysuit, hot-pink leg warmers and platform heels against a white wall.",
+    "primary_category": "fashion",
+    "categories": [
+      "fashion",
+      "portrait"
+    ],
+    "intro": "Aerobics-class fashion gets a drag makeover: a shiny sky-blue leotard, hot-pink leg warmers, matching headband and sweatbands, all on a powerfully muscular performer in towering pink platforms. The plain white wall means nothing competes with that colour pairing, and the confident flexing pose makes the image read like a workout video cover.",
+    "creates": "A square, full-length studio photograph of a muscular drag queen standing against a white wall on a grey floor. She wears a glossy sky-blue sleeveless bodysuit, fuchsia leg warmers pulled over pink platform stilettos, a pink headband and wristbands. Blonde curls frame dramatic purple eye makeup and glossy lips. One hand rests on her hip, the other behind her head, under bright, even lighting with a soft shadow.",
+    "works": "\"Sky blue bodysuit\" plus \"bright pink leg warmers\" sets a two-colour scheme that instantly says eighties fitness. \"Against a plain white wall\" strips the setting back so the outfit dominates, and \"lighting is bright, highlighting the glossy textures\" explains the shiny fabric. \"Muscular\" and \"long, muscular, toned legs\" shape the athletic build, while the \"matching pink headband and wristbands\" complete the aerobics costume.",
+    "tips": [
+      "Swap the white wall for a mirrored studio or a pastel gradient backdrop to make it look like an actual eighties workout video set.",
+      "Add \"soft film grain, slightly faded colours\" if you want a vintage print rather than a crisp modern studio shot.",
+      "Try a mid-movement pose such as a high kick or side lunge to add energy and emphasise the leg warmers."
+    ],
+    "suits": "Great for drag brunch or fitness class flyers, Pride posters, playful gym promotions, costume references and retro-themed social content with a bold, clean composition and plenty of space for text.",
+    "personalize": "Change the queen's heritage, the bodysuit and leg-warmer colours and the pose, while keeping the plain white wall and bright glossy lighting.",
+    "era_fit": "strong"
+  },
+  {
+    "id": "Odp63eWsqn6S8VCLlB1l",
+    "name": "Fuzzy Puppets Time Travel Poster",
+    "slug": "1980s-time-travel-movie-poster-puppet-parody-photo-prompt",
+    "title": "Fuzzy Puppets Time Travel Poster – 1980s Prompt",
+    "description": "Copy a playful parody prompt: blue and red furry puppets with cookies, a trench coat and a glowing time-travel car in a retro movie-poster layout.",
+    "primary_category": "illustration",
+    "categories": [
+      "illustration"
+    ],
+    "intro": "Two fuzzy puppets, one blue in a trench coat and fedora, one red and beaming, pose like movie stars in front of a glowing sports car while chocolate chip cookies float overhead. The chunky flame-gradient title in the corner nods to a much-loved eighties time-travel film. It is silly, colourful and deliberately over the top.",
+    "creates": "A square 3D-rendered poster with a dark sky background. In the centre a blue furry monster wears a beige trench coat, plaid shirt and hat, holding a small pipe and a box, while a red furry puppet grips a cookie beside him. A stainless sports car with a fiery glowing wheel sits at left, jars stand on a wooden table at right, and cookies drift through the air. The title reads as the original film name, not the requested pun.",
+    "works": "Specific costume notes, \"beige trench coat\" and \"holds a box filled with chocolate chip cookies,\" give the puppets their personalities. \"Stylized DeLorean car\" with \"fiery tire tracks\" brings the time-travel reference, and \"floating chocolate chip cookies\" fills the frame. The model kept the famous title instead of the pun \"Back to the Butter,\" a common result when a well-known logo is described; the stray lines at the top also add little.",
+    "tips": [
+      "Put the pun title in quotation marks at the very start of the prompt and say \"exact text\" to improve the chance it replaces the original film name.",
+      "Delete the opening scribbled phrases and the \"elmezz\" line; they are noise that the model cannot turn into anything useful.",
+      "Describe original puppet characters rather than named ones if you plan to use the poster anywhere beyond personal fun."
+    ],
+    "suits": "Fun for family movie-night invites, kids' birthday party posters, parody memes and anyone making a light-hearted mash-up of eighties cinema with puppet characters and a pile of cookies.",
+    "personalize": "Swap the two puppets for your own characters or family members and change the treat from cookies to whatever your title pun references.",
+    "era_fit": "loose"
+  },
+  {
+    "id": "cJYlq4MdU4FiRyig5K6L",
+    "name": "Three Drag Queens on Patterned Carpet",
+    "slug": "1980s-three-drag-queens-glam-group-portrait-photo-prompt",
+    "title": "Three Drag Queens Glam Group Shot – 1980s Prompt",
+    "description": "Copy this prompt for a glam group portrait of three drag queens in big hair, satin, leopard print and leather, posed on a patterned hotel carpet.",
+    "primary_category": "fashion",
+    "categories": [
+      "fashion",
+      "portrait"
+    ],
+    "intro": "Three queens, three looks: jet-black curls with a red bomber, a kneeling copper-haired star in teal satin and head-to-toe leopard, and a crimson mane over a graphic tee and leather leggings. The loud patterned carpet and hotel-function-room lighting make it feel like a backstage snapshot at a pageant, full of personality and colour.",
+    "creates": "A square group photograph in a carpeted function room with wall sconces and ceiling lights. At left, a queen with a black afro-style curly wig wears a red satin bomber, black mini dress and thigh-high platform boots. In the centre, one with teased orange hair kneels in a teal satin jacket and leopard catsuit with matching boots. At right, a red-haired queen poses in a band tee, studded belts, leather leggings and red heels.",
+    "works": "Describing each queen left, middle and right keeps the model from blending the outfits, so every costume lands in the right place. Precise colours, \"red bomber jacket,\" \"teal satin jacket over a leopard-print outfit,\" \"tight leather leggings\", set a strong complementary palette. \"Teased Burnt orange hair\" and \"voluminous black curls\" give distinct silhouettes, and \"geometric patterns of the carpet\" with \"warm lighting from nearby fixtures\" produces the dated hotel ballroom setting.",
+    "tips": [
+      "Add \"on-camera flash, slight red-eye, 35mm snapshot\" to make it look like a found backstage photo from a real eighties pageant.",
+      "Place the group in front of a tinsel curtain or a stage with a spotlight for a more performance-ready scene.",
+      "Add a fourth queen or swap one look for a sequined gown to vary the balance of casual and glamorous outfits."
+    ],
+    "suits": "Suits drag troupe promotional posters, pageant announcements, Pride month social content, costume design references and any campaign that needs a bold, colourful group line-up with three distinct personalities.",
+    "personalize": "Change the number of queens, their wig colours and outfits, and the room, keeping the left-middle-right description structure and warm patterned-carpet setting.",
+    "era_fit": "strong"
+  }
+]
