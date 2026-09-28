@@ -15,6 +15,8 @@ Usage (run with the project venv: .venv/bin/python gen_examples.py ...):
   gen_examples.py                      # generate everything that is missing (resumable)
   gen_examples.py --only e01 e05       # just these ids (or slugs); add --force to redo
   gen_examples.py --use-image e01=path/to/result.webp   # import an image you made by hand
+  gen_examples.py --prompt-text "Using my uploaded photo, ..." --ref woman_in --name test1
+                                       # one-off: any prompt on one reference -> images/custom/test1.webp
 """
 import argparse
 import base64
@@ -179,7 +181,27 @@ def main():
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--use-image", action="append", default=[], metavar="ID=PATH",
                     help="import a hand-made result for a prompt instead of calling the API")
+    ap.add_argument("--prompt-text", help="one-off mode: run this prompt instead of the site's prompts")
+    ap.add_argument("--ref", default="woman_in", choices=REFS, help="reference person for --prompt-text")
+    ap.add_argument("--name", default="custom", help="output name for --prompt-text")
     args = ap.parse_args()
+
+    if args.prompt_text:
+        key = os.environ.get(PROVIDERS[args.provider]["env"])
+        if not key:
+            sys.exit(f"set {PROVIDERS[args.provider]['env']} first")
+        ref_path = REF_DIR / f"{args.ref}.webp"
+        if not ref_path.exists():
+            framing = ("waist-up, every face clearly visible and evenly lit" if args.ref in ("couple", "family")
+                       else "head and shoulders")
+            print(f"creating reference {args.ref} …", flush=True)
+            save_webp(generate(args.provider, key, REF_PROMPT.format(who=REFS[args.ref], framing=framing)),
+                      ref_path, max_side=1024)
+        print("generating …", flush=True)
+        out = ROOT / "images" / "custom" / f"{args.name}.webp"
+        size = save_webp(generate(args.provider, key, args.prompt_text, png_bytes(ref_path)), out)
+        print(f"before: {ref_path.relative_to(ROOT)}\nafter:  {out.relative_to(ROOT)} {size}")
+        return
 
     items = load_prompts()
     by_key = {**{i["id"]: i for i in items}, **{i["slug"]: i for i in items}}
