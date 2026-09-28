@@ -1,0 +1,272 @@
+[
+  {
+    "id": "e01",
+    "name": "Bollywood Heroine Publicity Still",
+    "keyword": "1980s bollywood heroine photo prompt",
+    "title": "1980s Bollywood Heroine Photo Prompt for ChatGPT",
+    "description": "Turn your own picture into a studio glamour still with a saree and big curls. This 1980s bollywood heroine photo prompt works in ChatGPT and Gemini.",
+    "categories": [
+      "bollywood",
+      "women",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "bollywood",
+    "prompt": "Using my uploaded photo, recreate me as the leading lady in a 1980s Hindi film publicity still. Keep my face, facial features, natural skin tone, age and body proportions exactly as they are and clearly recognisable; do not slim, lighten or beautify me. Style my hair in big, glossy side-swept curls with height at the crown and a single gajra of jasmine pinned behind one ear. Dress me in a peacock-blue chiffon saree with a zari border and a short puff-sleeved blouse, jhumka earrings and thin glass bangles. Makeup: kohl-lined eyes, frosted rose lipstick, a small round bindi. Pose me three-quarter to camera, chin slightly lowered, against a mottled teal studio backdrop. Light it with one large soft key and a warm hair light, shot on medium-format colour negative with gentle diffusion, visible grain, slightly lifted blacks and a faint magenta print cast. No modern objects, no text or logos, not a filter, not an illustration.",
+    "intro": "The Hindi film publicity still of the 1980s had a very particular glamour: soft diffused light, towering curls, chiffon sarees and a gaze just off camera. Seeing your own face inside that frame is the heart of the trend, and it works because the look is dramatic enough to feel like another era while still being believable as a real studio print.",
+    "creates": "The finished edit shows you from the waist up in a peacock-blue chiffon saree with a gold border, framed against a mottled teal backdrop. Your hair is set in large glossy curls with a jasmine gajra, and the makeup is kohl, frosted rose lips and a small bindi. Light is soft and flattering, with a warm glow on the hair, fine grain and a slight magenta tint like an old colour print.",
+    "works": "The opening line \"keep my face, facial features, natural skin tone\" and the instruction \"do not slim, lighten or beautify me\" keep the model from swapping in a generic actress face. Specific wardrobe details such as \"zari border\" and \"puff-sleeved blouse\" stop it drifting into modern bridal wear. \"Medium-format colour negative\" with \"lifted blacks\" gives the print texture, and the closing \"not a filter, not an illustration\" discourages the smooth, painted finish.",
+    "tips": [
+      "Upload a front-facing photo in soft daylight with your hair pulled back, so the model can see your hairline and ears before it adds the curls and earrings.",
+      "If your face starts looking like someone else, reply with \"keep my exact nose, eyes and jawline from the uploaded photo\" and regenerate only the face.",
+      "Swap the peacock-blue saree for maroon Banarasi silk or a pastel georgette to change the mood without rewriting the lighting and film details."
+    ],
+    "suits": "Anyone who wants a filmi heroine portrait of themselves, for an Instagram Add Yours sticker, a WhatsApp profile picture, a birthday post or a side-by-side with a parent's old studio photo.",
+    "personalize": "Change the saree colour, the flower in the hair and the backdrop tint to match your own favourite film look.",
+    "best_with": "ChatGPT or Gemini"
+  },
+  {
+    "id": "e02",
+    "name": "Bollywood Hero Studio Portrait",
+    "keyword": "1980s bollywood hero photo prompt",
+    "title": "1980s Bollywood Hero Photo Prompt for ChatGPT & Gemini",
+    "description": "See yourself as a filmi leading man with a moustache and wide collar. This 1980s bollywood hero photo prompt works on your photo in ChatGPT or Gemini.",
+    "categories": [
+      "bollywood",
+      "men",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "bollywood",
+    "prompt": "Using my uploaded photo, turn me into a 1980s Hindi film hero posing for a studio portrait. Keep my face, facial features, skin tone, age, build and body proportions recognisable and unchanged; do not add muscle or smooth my skin. Give me thick, blow-dried hair with volume at the front and slightly long sideburns, plus a full moustache that suits my face. Dress me in a cream shirt with a wide pointed collar worn open two buttons, a thin gold chain, a wide leather belt and high-waisted brown pleated trousers. Pose me standing with one hand on my hip, body angled, eyes to the lens, in front of a hand-painted studio backdrop of hills and a lake. Light it with a warm tungsten key from the side and soft fill, shot on 35mm colour film with moderate grain, warm yellow cast and a slightly soft focus. No modern objects, text or logos, not a filter, not a painting.",
+    "intro": "The 1980s Hindi film hero had swagger built from simple things: a blow-dried mane, a proud moustache, an open wide collar and trousers pulled high. Studio portraits against painted scenery were everywhere, from film offices to neighbourhood photo shops, so the look feels both heroic and familiar when your own face is in it.",
+    "creates": "The edit is a three-quarter-length studio portrait of you standing with a hand on your hip in a cream wide-collar shirt, a thin gold chain and high-waisted brown trousers. Your hair has volume at the front and longer sideburns, with a full moustache. Behind you is a painted backdrop of hills and a lake, lit by warm tungsten light that gives the whole frame a yellow tint and gentle grain.",
+    "works": "\"Keep my face, facial features, skin tone, age, build\" holds your identity, and \"do not add muscle or smooth my skin\" blocks the usual action-star makeover. The \"hand-painted studio backdrop of hills and a lake\" places it in a real photo studio rather than a film set. \"Warm tungsten key\" and \"35mm colour film with moderate grain\" set the colour and texture, while \"not a filter, not a painting\" keeps it looking photographed.",
+    "tips": [
+      "Use a photo where you are standing or at least shot from the chest up, so the model has a sense of your real build and shoulders.",
+      "If you already have a beard or dislike moustaches, replace that line with your own facial hair so the face drifts less from the original.",
+      "For a rougher angry-young-man mood, change the cream shirt to a denim jacket over a black vest and the backdrop to a plain grey wall."
+    ],
+    "suits": "Men who want a playful filmi portrait for Instagram, a dad-and-son comparison post, a groom's pre-wedding joke card, or a profile picture that gets a reaction from the family group chat.",
+    "personalize": "Replace the shirt colour, the backdrop scenery and the pose with details you remember from your family's old studio photos.",
+    "best_with": "ChatGPT or Gemini"
+  },
+  {
+    "id": "e03",
+    "name": "Indian Film Magazine Cover Portrait",
+    "keyword": "1980s indian magazine cover prompt",
+    "title": "1980s Indian Magazine Cover Prompt for ChatGPT & Gemini",
+    "description": "Get a glossy editorial portrait with bold makeup and dramatic light. This 1980s indian magazine cover prompt works on your own photo in ChatGPT or Gemini.",
+    "categories": [
+      "bollywood",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "bollywood",
+    "prompt": "Using my uploaded photo, create a 1980s Indian film magazine cover portrait of me, but with no masthead, headlines or any text at all. Keep my face, facial features, skin tone, age and body proportions faithful and recognisable; no face reshaping or beautifying. Style me in bold period fashion: a jewel-toned outfit with sharp padded shoulders and a metallic sash or brooch, large gold hoop or button earrings, and hair set high with sculpted waves. Use strong defined makeup with a deep lip and softly shaded eyes, or clean grooming with neat side-parted hair if I am a man. Frame me tightly from the chest up, head tilted, against a flat saffron-to-coral gradient backdrop. Light with a hard beauty dish above and a coloured rim light behind. Render it as a glossy offset-printed page: fine halftone dots, slightly oversaturated reds, a faint centre fold crease. No modern objects, no logos, not a filter, not digital art.",
+    "intro": "Film magazines in 1980s India sold on their covers: tight glamorous crops, jewel colours, saturated print and stars staring straight out of the newsstand. Recreating that frame with your own face, minus the headlines, gives you a portrait that looks like you once made the cover, without any fake text to clutter it.",
+    "creates": "You appear in a tight chest-up crop, head tilted, in a jewel-toned outfit with padded shoulders and bold gold earrings, hair set high in sculpted waves. The background is a flat saffron-to-coral gradient with a coloured rim of light around you. The surface looks printed rather than photographed on film, with fine halftone dots, rich reds and a soft vertical crease through the middle, and there is no text anywhere.",
+    "works": "Stating \"no masthead, headlines or any text at all\" early matters, because image models love to invent garbled cover titles. \"No face reshaping or beautifying\" protects your likeness from glossy retouch. The capture line \"fine halftone dots, slightly oversaturated reds, a faint centre fold crease\" tells the model to imitate paper and ink rather than a digital photo, and \"not digital art\" keeps the gradient looking printed.",
+    "tips": [
+      "Upload a sharp, well-lit close-up of your face; this prompt crops tightly, so blurry source photos show their flaws much more than in full-length edits.",
+      "If stray letters still appear, reply \"remove every letter and number from the image\" and ask for the same image again rather than rewriting the prompt.",
+      "Try an emerald or royal-purple backdrop instead of saffron, or ask for a monsoon-special mood with rain-wet hair and a softer rim light."
+    ],
+    "suits": "Anyone who wants a bold standalone portrait for a profile picture, a birthday post or a carousel. It suits men and women and works well as the first slide of a trend post.",
+    "personalize": "Change the outfit colour, backdrop gradient and earrings to your own taste, and add one prop you would have held on the cover.",
+    "best_with": "ChatGPT or Gemini"
+  },
+  {
+    "id": "e04",
+    "name": "Indian Wedding Album Portrait",
+    "keyword": "1980s indian wedding photo prompt",
+    "title": "1980s Indian Wedding Photo Prompt for ChatGPT & Gemini",
+    "description": "Restage your couple or family photo as an old album print with garlands and flash. This 1980s indian wedding photo prompt works in ChatGPT or Gemini.",
+    "categories": [
+      "bollywood",
+      "couple-family",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "bollywood",
+    "prompt": "Using the uploaded photo(s), recreate everyone as they would appear in a 1980s Indian wedding album. Keep every person in the photo(s), with each face, facial features, skin tone, age, height and body proportions recognisable; do not merge, remove or beautify anyone. Dress the bride in red and gold silk with a heavy gold necklace, maang tikka and jasmine in her bun, and the groom in an ivory silk kurta or a cream achkan with a safa. Place thick marigold and rose garlands around the couple's necks. Set them seated or standing before a mandap draped in shiny satin, tinsel and a strip of fairy bulbs, with relatives in period clothes where extra people are present. Shoot it like a hired wedding photographer: on-camera flash, hard shadows on the wall behind, 35mm colour negative, warm orange skin, faded album-print colour and a slight tilt. No modern objects, phones or text, not a filter, not a painting.",
+    "intro": "Almost every Indian family has an album from a 1980s wedding: heavy garlands, blazing flash, satin draped over the mandap and relatives squeezed into the frame. Placing yourselves in that album is a warm, funny way to join the trend as a couple or family, because the setting is instantly recognisable across generations.",
+    "creates": "The finished edit looks like a page from a wedding album. The couple sits or stands under a mandap hung with shiny satin, tinsel and small bulbs, wearing red and gold silk and ivory kurta or achkan, with thick marigold garlands around their necks. Direct flash lights the faces brightly and throws hard shadows behind them, and the colours have the warm orange, slightly faded look of an old print.",
+    "works": "\"Keep every person in the photo(s)\" and \"do not merge, remove or beautify anyone\" address the biggest risk in group edits, which is losing or blending faces. Named details like \"marigold and rose garlands\" and \"satin, tinsel and a strip of fairy bulbs\" pin down the decor of the decade. \"On-camera flash, hard shadows on the wall behind\" recreates the hired photographer's style, and \"no modern objects, phones\" keeps the scene clean.",
+    "tips": [
+      "Upload a photo where each person's face is clear and similar in size; tiny background faces are the first ones the model will change.",
+      "If someone's face drifts, reply naming them by position, such as \"keep the person on the left exactly as in the photo\", and regenerate.",
+      "Swap the red and gold outfits for a South Indian kanjivaram and veshti, or add a Christian or Sikh ceremony setting that matches your family."
+    ],
+    "suits": "Couples celebrating an anniversary, newlyweds, or families recreating their parents' wedding. It fits Instagram carousels, anniversary WhatsApp statuses and printed gifts that sit next to the real old album.",
+    "personalize": "Change the outfits, headwear and mandap decor to match your own community's wedding traditions and the colours your family used.",
+    "best_with": "ChatGPT or Gemini"
+  },
+  {
+    "id": "e05",
+    "name": "Doordarshan Era TV Studio Portrait",
+    "keyword": "1980s doordarshan photo prompt",
+    "title": "1980s Doordarshan Photo Prompt for ChatGPT & Gemini",
+    "description": "Look like a presenter or guest on an early Indian TV set. This 1980s doordarshan photo prompt works on your own photo in ChatGPT or Gemini.",
+    "categories": [
+      "bollywood",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "bollywood",
+    "prompt": "Using my uploaded photo, show me as a presenter or studio guest on a 1980s Indian state television programme. Keep my face, facial features, skin tone, age and body proportions exactly recognisable; do not smooth, slim or beautify me. Give me neatly combed hair and modest studio dress: a starched cotton handloom saree with a small brooch at the shoulder, or a plain safari suit or kurta with a pen in the pocket if I am a man. Seat me behind a simple wooden desk with a single grey microphone on a stand and a steel water glass, facing the camera, composed and polite. Behind me, a plain powder-blue flat with a painted stripe. Light it with warm tungsten floods. Make it look like a frame grabbed from broadcast video: soft focus, faint scan lines, colour bleeding at edges and a gentle yellow cast. No logos, captions or modern objects, not a filter, not an illustration.",
+    "intro": "Early Indian television had an unhurried, earnest look: a presenter at a plain desk, warm lights, a single microphone and colours that bled slightly on the screen. That modest studio style is now deeply nostalgic, and seeing yourself as the newsreader or interview guest feels both funny and oddly dignified.",
+    "creates": "You appear seated behind a simple wooden desk with a microphone and a steel glass, dressed in a starched handloom saree with a brooch or a safari suit with a pen in the pocket. The background is a plain powder-blue flat with one painted stripe. The image looks like a paused video frame, soft and a little washed out, with faint horizontal lines, edges where colours spill and a warm yellow tint.",
+    "works": "\"Do not smooth, slim or beautify me\" keeps your real face under the studio glare. Props such as \"single grey microphone on a stand and a steel water glass\" make the set read as a modest state broadcaster. The capture line \"frame grabbed from broadcast video: soft focus, faint scan lines, colour bleeding\" gives the tube-screen texture instead of film grain, and \"no logos, captions\" avoids invented channel graphics.",
+    "tips": [
+      "Upload a straight-on, shoulders-up photo with a neutral expression; newsreader framing is very frontal, so side-angle selfies tend to cause face changes.",
+      "If the scan lines look too heavy or glitchy, reply \"make the video texture subtle, like a clean recording\" and keep everything else the same.",
+      "Turn it into a quiz show or farmers' programme by swapping the desk for a panel table and adding a potted plant and a simple chalkboard."
+    ],
+    "suits": "People who grew up with one TV channel, or anyone wanting a gently comic retro portrait for Instagram, a LinkedIn joke post, or a family group chat throwback.",
+    "personalize": "Change the outfit, desk props and backdrop colour to suit whether you want to be the newsreader, the interview guest or the quiz host.",
+    "best_with": "ChatGPT or Gemini"
+  },
+  {
+    "id": "e06",
+    "name": "Indian Bazaar Street Snapshot",
+    "keyword": "1980s indian street photo prompt",
+    "title": "1980s Indian Street Photo Prompt for ChatGPT & Gemini",
+    "description": "Put yourself on a busy bazaar road with taxis and painted signs. This 1980s indian street photo prompt works on your own picture in ChatGPT or Gemini.",
+    "categories": [
+      "bollywood",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "bollywood",
+    "prompt": "Using my uploaded photo, place me in a candid street snapshot taken in an Indian city bazaar in 1987. Keep my face, facial features, skin tone, age and body proportions recognisable and unchanged; no beautifying. Dress me in everyday clothes of that year: a printed polyester shirt and flared trousers, or a cotton salwar kameez with a dupatta over one shoulder, with sandals and a steel wristwatch. I am walking toward the camera on a crowded pavement, mid-step, half smiling. Behind me: a black and yellow Ambassador taxi, two parked scooters, a cycle rickshaw and shopfronts with hand-painted signboards whose lettering is blurred and unreadable. Harsh midday sun and deep shadows under awnings. Shot on a point-and-shoot with 200-speed colour film: slight motion blur on passers-by, warm faded colours, soft corners and a bit of light leak on one edge. No modern cars, phones, readable text or logos, not a filter, not an illustration.",
+    "intro": "Street photos from the late 1980s show Indian cities before the brand boom: Ambassador taxis, scooters, hand-painted boards and cotton everyday wear. Dropping yourself into that bazaar as a casual passer-by feels far more personal than a posed studio shot, because it looks like a relative just happened to catch you on film.",
+    "creates": "The edit shows you walking toward the camera on a busy bazaar pavement in a printed shirt and flared trousers or a cotton salwar kameez. Behind you are a black and yellow Ambassador taxi, parked scooters and a rickshaw, with shops under hand-painted boards. Midday sun makes strong shadows, and the colours are warm and faded with a little blur on the crowd and a light leak at one edge.",
+    "works": "\"Keep my face ... recognisable and unchanged\" anchors identity even at a smaller scale in a busy scene. Concrete street furniture, \"Ambassador taxi, two parked scooters, a cycle rickshaw\", fixes the time and place. \"Lettering is blurred and unreadable\" avoids garbled fake signs, and \"point-and-shoot with 200-speed colour film\" plus \"light leak on one edge\" gives the casual snapshot feel rather than a polished editorial.",
+    "tips": [
+      "A full-body or waist-up photo works best here; a tight selfie gives the model too little to go on for posture and clothes in a street scene.",
+      "If your face gets too small and changes, ask for \"a medium shot with me filling a third of the frame\" and regenerate.",
+      "Change the city by naming local details, like trams and yellow taxis for a Calcutta street or auto-rickshaws and a sea-facing road for Bombay."
+    ],
+    "suits": "Anyone who likes candid, documentary-style throwbacks. It suits travel accounts, city nostalgia posts, Instagram Add Yours stickers and people who prefer an everyday look over glamour.",
+    "personalize": "Name your own city and add one local landmark, shop type or vehicle so the street feels like the one you grew up near.",
+    "best_with": "ChatGPT or Gemini"
+  },
+  {
+    "id": "e07",
+    "name": "Indian Family Album Snapshot",
+    "keyword": "1980s indian family album prompt",
+    "title": "1980s Indian Family Album Prompt for ChatGPT & Gemini",
+    "description": "Turn a group picture into a faded flash snapshot at home. This 1980s indian family album prompt keeps every face and works in ChatGPT or Gemini.",
+    "categories": [
+      "bollywood",
+      "couple-family",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "bollywood",
+    "prompt": "Using the uploaded photo(s), recreate all of us as a family snapshot from a 1980s Indian photo album. Keep every person, with each face, facial features, skin tone, age and body proportions recognisable; do not merge, drop, add or beautify anyone. Dress us in the everyday best of the time: cotton sarees, printed salwar suits, half-sleeve checked shirts and sweater vests. Arrange us squeezed together on a sofa with lace covers, with a wooden-cased television, a steel almirah and a potted money plant in the room, or on a whitewashed veranda if the source photo is outdoors. Everyone looks at the camera, some smiling, one person blinking slightly. Shot on a basic 35mm camera with built-in flash: red-eye in one or two faces, dark background, orange-shifted colours, faded print with a white border and a creased corner. No modern objects, phones or text, not a filter, not an illustration.",
+    "intro": "The family album snapshot is the most personal part of the trend: relatives squeezed on a lace-covered sofa, a wooden TV in the corner and a flash that made someone blink. Recreating your own family inside that frame is funny and touching, and it makes a lovely thing to share with parents who remember the real ones.",
+    "creates": "The edit looks like a loose print from an old album, with a white border and a creased corner. Your whole group sits close together on a lace-covered sofa or a whitewashed veranda, in cotton sarees, checked shirts and sweater vests. The flash lights faces brightly and leaves the room behind dark, colours lean orange and faded, a couple of eyes glow red and one person is mid-blink.",
+    "works": "\"Keep every person\" and \"do not merge, drop, add or beautify anyone\" matter most in group edits, where models often invent or lose people. Home details like \"wooden-cased television\", \"steel almirah\" and \"potted money plant\" place it in a real 1980s home. \"Built-in flash: red-eye in one or two faces\" and \"one person blinking\" add the imperfections that make it believable, and \"no modern objects, phones\" keeps the room period-clean.",
+    "tips": [
+      "Upload a group photo where every face is visible and roughly the same size; if needed, upload separate portraits and say how many people there are.",
+      "If a relative changes, reply \"keep the grandmother in the centre exactly as in the photo\" and regenerate, naming people by their position.",
+      "For a festival version, add rangoli, diyas and new clothes for Diwali, or a small Christmas star and plum cake on the table."
+    ],
+    "suits": "Families making a throwback post, siblings surprising parents, or anyone preparing an anniversary or reunion slideshow. Works well as a WhatsApp family group share or a side-by-side with a real album page.",
+    "personalize": "Change the room details, clothes and number of people to match your own family home and who you want in the picture.",
+    "best_with": "ChatGPT or Gemini"
+  },
+  {
+    "id": "e08",
+    "name": "Silk Saree Studio Portrait",
+    "keyword": "1980s saree photo prompt",
+    "title": "1980s Saree Photo Prompt for ChatGPT & Gemini",
+    "description": "Get a classic studio portrait in silk with gold jewellery. This 1980s saree photo prompt works on your own uploaded photo in ChatGPT or Gemini.",
+    "categories": [
+      "bollywood",
+      "women",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "bollywood",
+    "prompt": "Using my uploaded photo, make a classic 1980s photo-studio portrait of me in a silk saree. Keep my face, facial features, natural skin tone, age and body proportions recognisable; do not lighten my skin, reshape my face or beautify me. Drape me in a mustard kanjivaram silk saree with a wide temple-pattern border in deep green, pallu over my left shoulder. Add a gold choker, a long chain, gold studs, bangles and a red bindi. Style my hair in a smooth bouffant at the crown with a low bun behind. Seat me on a carved wooden chair, hands in my lap, with a calm slight smile. Behind me, a painted backdrop of a pillared garden with a balustrade. Light it with two soft umbrella lights, shot on medium-format colour film: fine grain, warm tones, slightly faded greens and a matte print. No modern objects, no text or logos, not a filter, not a painting.",
+    "intro": "The formal silk saree portrait was a staple of 1980s photo studios, taken for engagements, festivals or simply to send to relatives. The combination of rich silk, gold jewellery, a bouffant and a painted garden backdrop is graceful rather than flashy, which makes it one of the most shareable versions of the trend for mothers, daughters and grandmothers alike.",
+    "creates": "The result is a seated, knee-up portrait of you on a carved wooden chair in a mustard kanjivaram silk saree with a deep green temple border. You wear a gold choker, long chain, bangles and a red bindi, and your hair is set in a smooth bouffant with a bun. The painted garden backdrop and soft umbrella light give it a calm formality, with fine grain and slightly faded warm colours.",
+    "works": "\"Do not lighten my skin, reshape my face or beautify me\" is the key guard, since saree portraits often trigger fairness bias in image models. Specific drape and fabric notes, \"mustard kanjivaram\", \"temple-pattern border\", \"pallu over my left shoulder\", stop it defaulting to a generic modern saree. \"Two soft umbrella lights\" and \"medium-format colour film\" give studio texture, and \"not a painting\" keeps the backdrop from blending into an artwork.",
+    "tips": [
+      "Choose a photo with good light on both sides of your face; this pose is fully frontal, so shadows or angle in the source will change your features.",
+      "If your skin tone gets lighter, reply \"match my skin tone exactly to the uploaded photo\" and regenerate before changing anything else.",
+      "Try a Mysore silk in parrot green, a Paithani with a peacock pallu, or a white and gold Kerala kasavu for a different regional feel."
+    ],
+    "suits": "Women who love traditional wear and silk, and families making mother-daughter or three-generation posts. Works for Instagram, festival greetings, WhatsApp statuses and printed gifts for grandparents.",
+    "personalize": "Replace the saree type, border colour and jewellery with pieces from your own wardrobe or family, so the portrait feels like yours.",
+    "best_with": "ChatGPT or Gemini"
+  },
+  {
+    "id": "e09",
+    "name": "Filmi Hero With Vintage Motorcycle",
+    "keyword": "1980s bollywood motorcycle photo prompt",
+    "title": "1980s Bollywood Motorcycle Photo Prompt for ChatGPT",
+    "description": "Ride into a golden-hour roadside scene on a vintage bike. This 1980s bollywood motorcycle photo prompt works on your own photo with ChatGPT or Gemini.",
+    "categories": [
+      "bollywood",
+      "men",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "bollywood",
+    "prompt": "Using my uploaded photo, show me as a 1980s Hindi film hero posing with a vintage motorcycle. Keep my face, facial features, skin tone, age, build and body proportions recognisable; do not bulk me up or smooth my skin. Give me feathered hair with volume on top, longish sideburns and a neat moustache if it suits me. Dress me in a short-sleeved rust and brown geometric print shirt tucked into high-waisted flared indigo jeans, a broad belt and aviator sunglasses pushed up on my head. I am sitting sideways on a black and chrome single-cylinder motorcycle with a round headlamp, one boot on the ground, arms crossed, grinning. Setting: a highway shoulder with a milestone, a banyan tree and dry fields. Golden-hour sun from behind, amber flare, warm skin. Shot on 35mm colour film: visible grain, warm oversaturated oranges, soft corners. No brand names, number plates with text, modern vehicles or logos, not a filter, not an illustration.",
+    "intro": "The hero on a motorcycle at sunset is one of the most-loved images in 1980s Hindi cinema: patterned shirt, flared jeans, aviators and an open road. It is playful, confident and pure nostalgia, so putting yourself on that bike gives a portrait that feels like a lobby card for a film that was never made.",
+    "creates": "You sit sideways on a black and chrome motorcycle with a round headlamp, arms crossed and grinning, in a rust and brown geometric print shirt tucked into high-waisted flared jeans, aviators pushed up in feathered hair. The setting is a highway shoulder with a milestone, a banyan tree and dry fields, with a low golden sun behind you creating amber flare and warm, grainy colours.",
+    "works": "\"Do not bulk me up or smooth my skin\" prevents the action-hero body swap models often add. \"Black and chrome single-cylinder motorcycle with a round headlamp\" describes a period bike without naming a brand, and \"no brand names, number plates with text\" avoids garbled lettering. \"Golden-hour sun from behind, amber flare\" sets the cinematic glow, while \"35mm colour film: visible grain\" keeps it looking like a real still.",
+    "tips": [
+      "Use a photo where you are seated or standing with your body visible; a face-only selfie makes the model guess your build and posture.",
+      "If the face changes once the sunglasses appear, ask for the aviators to stay on the head and not over the eyes, then regenerate.",
+      "Swap the highway for a hill-station road with pine trees and mist, or put a friend on the pillion using the uploaded photo(s) wording."
+    ],
+    "suits": "Men who ride, bike lovers, or anyone wanting a bold filmi portrait for Instagram reels covers, profile photos or a joke movie-poster post with friends.",
+    "personalize": "Change the shirt print, the bike colour and the landscape to match a road trip or place that matters to you.",
+    "best_with": "ChatGPT or Gemini"
+  },
+  {
+    "id": "e10",
+    "name": "Mid-Eighties Master Portrait",
+    "keyword": "1980s ai photo prompt",
+    "title": "1980s AI Photo Prompt for ChatGPT & Gemini",
+    "description": "See how you would have looked in 1985 with bold styling and a date stamp. This 1980s ai photo prompt works on your own photo in ChatGPT or Gemini.",
+    "categories": [
+      "studio",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "studio",
+    "prompt": "Using my uploaded photo, show me as I would have looked if this picture had been taken in 1985. Keep me clearly myself: same face, features, skin tone, age, body shape and expression; no beautifying, slimming or de-ageing. Restyle only my hair, clothes, accessories and surroundings with confident mid-1980s taste: volume and texture in the hair, a colour-blocked jacket or knit with wide shoulders and pushed-up sleeves, a contrasting shirt or top underneath, and one standout accessory such as oversized plastic earrings or a chunky digital watch. Put me in a 1985 setting that suits my original photo, like a wood-panelled living room or a shopping arcade. Capture it with a compact camera and on-camera flash: bright face, dark background, 35mm grain, slightly faded warm colour and an orange digital date stamp reading 8 '85 in the lower right corner. No modern objects, phones, screens or logos, not a filter, not an illustration.",
+    "intro": "This is the all-purpose version of the trend, for anyone who simply wants to know how they would have looked in the mid-1980s. It adapts to any face, gender and background, and the combination of bold styling, direct flash and an orange date stamp is the shorthand people instantly read as a real old snapshot.",
+    "creates": "The edit keeps your face and expression but gives you big textured hair, a colour-blocked jacket or knit with wide shoulders and one bold accessory, set in a place that fits your original photo, such as a panelled living room or a shopping arcade. The flash lights you brightly while the background falls into shadow, colours are warm and a little faded, and an orange date stamp sits in the corner.",
+    "works": "\"Keep me clearly myself\" followed by \"no beautifying, slimming or de-ageing\" is the core identity lock. \"Restyle only my hair, clothes, accessories and surroundings\" limits what the model may change. The phrase \"suits my original photo\" keeps the setting flexible for any upload. \"Compact camera and on-camera flash\" with a precise \"orange digital date stamp\" gives the snapshot look, and \"no modern objects, phones, screens\" removes giveaways.",
+    "tips": [
+      "Start with a clear, evenly lit photo facing the camera, without sunglasses, heavy filters or strong beauty-mode smoothing already applied.",
+      "If the result looks like a different person, reply \"use my exact face from the uploaded photo and only change the styling\" and regenerate.",
+      "Change the year in both the first sentence and the date stamp, for example 1982 or 1989, to shift the styling earlier or later in the decade."
+    ],
+    "suits": "Anyone joining the trend for the first time, of any gender or background. Good for Instagram Add Yours stickers, story polls asking friends to guess the year, and before-and-after posts.",
+    "personalize": "Change the setting, the standout accessory and the date on the stamp to match a place and year that mean something to you.",
+    "best_with": "ChatGPT or Gemini"
+  },
+  {
+    "id": "e11",
+    "name": "College Yearbook Portrait",
+    "keyword": "1980s yearbook photo prompt",
+    "title": "1980s Yearbook Photo Prompt for ChatGPT & Gemini",
+    "description": "Get a classic head-and-shoulders school portrait with a laser backdrop. This 1980s yearbook photo prompt works on your own photo in ChatGPT or Gemini.",
+    "categories": [
+      "studio",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "studio",
+    "prompt": "Using my uploaded photo, turn me into a 1980s college yearbook portrait. Keep my face, facial features, skin tone, age and proportions recognisable; do not smooth my skin, whiten my teeth or change my face shape. Frame me head-and-shoulders, body turned slightly, face toward the lens with a polite closed-mouth or small smile. Give me period hair, such as a feathered cut or a voluminous side part, and picture-day clothes: a pastel oxford shirt with a narrow knit tie or a ruffled high-collar blouse under a cardigan, with small earrings if they suit me. Background: a blue and purple mottled canvas with faint pink laser lines crossing behind my shoulder. Light it flat and even from a large soft source, with a catchlight in each eye. Make it look like a real school photographer's print: fine grain, slightly cool colour, gentle vignette, glossy paper texture. No modern objects, text, names or logos, not a filter, not an illustration.",
+    "intro": "Yearbook portraits from the 1980s are a genre of their own: the same head tilt, the same flat friendly light, and the unforgettable laser or mottled backdrop. Seeing your face in that format is instantly funny and relatable, and because the framing is simple it tends to keep your features very accurately.",
+    "creates": "The edit is a head-and-shoulders portrait of you, turned slightly with a small polite smile, wearing a pastel oxford shirt with a thin knit tie or a ruffled blouse under a cardigan. Your hair is feathered or neatly side-parted with volume. Behind you is a mottled blue and purple canvas crossed by faint pink laser lines, lit flat and evenly, with slightly cool colours, fine grain and a glossy print finish.",
+    "works": "\"Do not smooth my skin, whiten my teeth or change my face shape\" guards against yearbook-style retouching. The backdrop line \"blue and purple mottled canvas with faint pink laser lines\" makes the result read as picture day in one glance. \"Flat and even from a large soft source\" plus \"catchlight in each eye\" sets the school photographer's lighting, and \"no ... text, names or logos\" stops the model adding a fake caption.",
+    "tips": [
+      "Upload a front-facing head-and-shoulders photo with a neutral background; this is a close crop, so a sharp face matters more than anything else.",
+      "If the laser lines cover your face or look too neon, ask for \"only faint laser lines behind the shoulder, away from the face\" and regenerate.",
+      "For a plainer version, change the backdrop to smooth grey-blue mottled canvas, or swap the tie and blouse for a letterman sweater."
+    ],
+    "suits": "Students, alumni planning reunions, friend groups doing a matching set, and anyone who wants a playful retro profile picture. It also works well for LinkedIn joke posts and class group chats.",
+    "personalize": "Change the hairstyle, clothing colours and backdrop pattern to match what picture day looked like where you would have studied.",
+    "best_with": "ChatGPT or Gemini"
+  }
+]

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2b1055"/><stop offset="1" stop-color="#ff2e88"/></linearGradient>
+<linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd27a"/><stop offset="1" stop-color="#ff5e8a"/></linearGradient></defs>
+<rect width="1080" height="1350" fill="url(#g)"/>
+<circle cx="760" cy="880" r="230" fill="url(#s)" opacity=".9"/><rect x="0" y="800" width="1080" height="6" fill="#2b1055"/><rect x="0" y="834" width="1080" height="9" fill="#2b1055"/><rect x="0" y="868" width="1080" height="12" fill="#2b1055"/><rect x="0" y="902" width="1080" height="15" fill="#2b1055"/><rect x="0" y="936" width="1080" height="18" fill="#2b1055"/><rect x="0" y="970" width="1080" height="21" fill="#2b1055"/>
+<text x="90" y="170" font-family="Georgia, serif" font-size="40" fill="#fff" opacity=".8" letter-spacing="4">UPLOAD YOUR PHOTO · 1980s</text>
+<text y="330" font-family="Georgia, serif" font-size="92" font-weight="700" fill="#fff"><tspan x="90" dy="0">Hong Kong Neon</tspan><tspan x="90" dy="104">Street Style</tspan></text>
+<text x="90" y="1270" font-family="Helvetica, Arial, sans-serif" font-size="34" fill="#fff" opacity=".85">Example image coming soon · vintagephotoprompt.com</text>
+</svg>

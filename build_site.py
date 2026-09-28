@@ -30,10 +30,9 @@ ld_json = lambda obj: json.dumps(obj, ensure_ascii=False).replace("</", "<\\/")
 # ---------------------------------------------------------------- data
 rows = {r["id"]: r for r in json.loads((ROOT / "data" / "prompts.json").read_text())}
 copy = {}
-for f in sorted((ROOT / "data" / "content").glob("*.json")):
+for f in sorted((ROOT / "data" / "content").glob("batch_*.json")):
     for c in json.loads(f.read_text()):
-        if f.name != "keywords.json":
-            copy[c["id"]] = c
+        copy[c["id"]] = c
 # Per-page target keyword, title and description (overrides the drafted ones).
 kw_file = ROOT / "data" / "content" / "keywords.json"
 for k in json.loads(kw_file.read_text()) if kw_file.exists() else []:
@@ -183,6 +182,184 @@ CATEGORIES = {
     },
 }
 
+# "Upload your photo" (image-edit) collections, listed before the text-to-image ones.
+HUB = "chatgpt-1980s-photo-prompts"
+EDIT_CATEGORIES = {
+    HUB: {
+        "name": "Upload Your Photo", "h1": "ChatGPT 1980s Photo Prompts",
+        "title": "ChatGPT 1980s Photo Prompts – Turn Your Photo Into the 80s",
+        "description": "ChatGPT 1980s photo prompts that turn your own picture into a real-looking 80s "
+                       "photo. Your face stays, the hair, outfit and setting change. Works in Gemini too.",
+        "intro": [
+            "These ChatGPT 1980s photo prompts are made for the viral trend: upload a clear photo of "
+            "yourself, paste a prompt, and see what you would have looked like in 1985. Every prompt "
+            "locks your face and identity, then changes only the hair, clothes, setting and film look.",
+            "They work the same way in Gemini. Pick a style below, from Bollywood studio portraits and "
+            "wedding albums to mall laser backdrops, arcades and VHS home videos.",
+        ],
+        "guide_h2": "How to keep your face in a ChatGPT photo prompt",
+        "guide": [
+            "Upload the right photo. A sharp, front-facing picture in daylight with your whole face "
+            "visible gives the model the most to hold on to. Skip sunglasses, heavy filters and group "
+            "shots unless the prompt is written for groups.",
+            "If the face drifts, do not start over. Reply in the same chat with a short correction such "
+            "as “keep my face exactly as in the uploaded photo, change only the clothes and background” "
+            "and regenerate.",
+            "Push the era with capture details rather than more clothing words. Direct flash, film "
+            "grain, a slight color cast and a date stamp make the result look found, not filtered.",
+        ],
+        "source": ("the 1980s", "https://en.wikipedia.org/wiki/1980s"),
+    },
+    "bollywood": {
+        "name": "Bollywood & India", "h1": "1980s Bollywood Photo Prompts",
+        "title": "1980s Bollywood Photo Prompts for ChatGPT & Gemini",
+        "description": "1980s Bollywood photo prompts for your own photo: heroine and hero portraits, "
+                       "wedding albums, Doordarshan-era and street looks. For ChatGPT and Gemini.",
+        "intro": [
+            "These 1980s Bollywood photo prompts turn your uploaded picture into the kind of image that "
+            "filled film magazines, studio walls and family albums in 80s India: voluminous curls, silk "
+            "sarees, moustaches, painted backdrops and warm tungsten light.",
+            "Each one keeps your face and skin tone recognisable and changes the styling around you, "
+            "from a heroine publicity still to a 1987 bazaar street or a wedding album page.",
+        ],
+        "guide_h2": "What makes a Bollywood photo prompt look authentic",
+        "guide": [
+            "Studio portraits of the time used painted or mottled backdrops and a single warm key "
+            "light. Ask for those instead of a plain modern background.",
+            "Jewellery and hair carry the look: gold jhumkas, bangles, a bindi, bouffant or soft curls "
+            "for women; thick side-parted hair and a moustache for men.",
+            "Keep colors rich but slightly aged. Saturated reds and golds with a faded print finish "
+            "read as 80s India, while heavy sepia makes the picture look decades older.",
+        ],
+        "source": ("Hindi cinema", "https://en.wikipedia.org/wiki/Hindi_cinema"),
+    },
+    "men": {
+        "name": "Men", "h1": "1980s Photo Prompts for Men",
+        "title": "1980s Photo Prompts for Men – ChatGPT & Gemini",
+        "description": "1980s photo prompts for men: moustache studio portraits, denim and classic "
+                       "cars, office suits, gym shots and motorcycle heroes. Upload your photo and copy.",
+        "intro": [
+            "These 1980s photo prompts for men start from your own uploaded picture and rebuild it with "
+            "the decade's staples: thick feathered hair, a neat moustache, denim jackets, wide ties, "
+            "tank tops and the classic cars and motorcycles people posed beside.",
+            "Every prompt keeps your face, age and build recognisable, so the result looks like an old "
+            "photo of you rather than a stranger in costume.",
+        ],
+        "guide_h2": "Details that make a men's photo prompt convincing",
+        "guide": [
+            "Hair first: thick, side-parted or feathered with visible volume. If you have a beard "
+            "today, decide whether the prompt should trim it to a moustache or keep it.",
+            "Choose one strong prop that dates the picture, such as a boxy car, a chrome motorcycle, a "
+            "wall of dumbbells or a wood-panelled office, rather than many small ones.",
+            "Direct flash and warm film color are more convincing than piling on more era clothing. "
+            "Ask for grain and a slightly soft focus.",
+        ],
+        "source": ("1980s in fashion", "https://en.wikipedia.org/wiki/1980s_in_fashion"),
+    },
+    "women": {
+        "name": "Women", "h1": "1980s Photo Prompts for Women",
+        "title": "1980s Photo Prompts for Women – ChatGPT & Gemini",
+        "description": "1980s photo prompts for women: big-hair studio glamour, denim street style, "
+                       "power suits, leather and motorcycles. Upload your photo to ChatGPT or Gemini.",
+        "intro": [
+            "These 1980s photo prompts for women turn your uploaded picture into a studio glamour shot, "
+            "a street-style snapshot or a power-suit portrait, with the volume, shoulder pads, bold "
+            "makeup and warm film color of the decade.",
+            "Your face, skin tone and proportions stay the same; only the hair, wardrobe, setting and "
+            "photo finish change.",
+        ],
+        "guide_h2": "How to style a women's photo prompt",
+        "guide": [
+            "Pick one hair signature: big teased curls, a side ponytail, crimped waves or a feathered "
+            "bob. Naming it precisely avoids a generic modern blowout.",
+            "Balance the outfit with the setting. A silk blouse and pearls belong in a soft-box studio; "
+            "an oversized denim jacket belongs on a sunny street.",
+            "Ask for period makeup placed the way it was then: blush high on the cheekbones, bright or "
+            "frosted eyeshadow and glossy lips.",
+        ],
+        "source": ("1980s in fashion", "https://en.wikipedia.org/wiki/1980s_in_fashion"),
+    },
+    "couple-family": {
+        "name": "Couple & Family", "h1": "1980s Couple and Family Photo Prompts",
+        "title": "1980s Couple and Family Photo Prompts for ChatGPT",
+        "description": "1980s couple and family photo prompts: upload a photo of two or more people "
+                       "and get a prom night, wedding album, TV night or holiday snapshot from the 80s.",
+        "intro": [
+            "These 1980s couple and family photo prompts are written for pictures with more than one "
+            "person. Upload a photo of you and your partner, parents or kids, and the prompt keeps every "
+            "face while turning the scene into an 80s prom night, wedding album or living-room snapshot.",
+            "They are the version of the trend people share most in family groups, because everyone "
+            "gets to see themselves in the same old photo.",
+        ],
+        "guide_h2": "Getting every face right in a group photo prompt",
+        "guide": [
+            "Use one photo where everyone faces the camera and is clearly lit. Separate photos can "
+            "work, but the model keeps faces better when they arrive together.",
+            "Name how many people should appear. A line such as “keep all four people from the "
+            "uploaded photo” stops the model dropping or adding someone.",
+            "If one face drifts, ask the model to fix only that person and keep the rest of the image "
+            "unchanged.",
+        ],
+        "source": ("snapshot photography", "https://en.wikipedia.org/wiki/Snapshot_(photography)"),
+    },
+    "studio": {
+        "name": "Studio Portraits", "h1": "1980s Studio Portrait Prompts",
+        "title": "1980s Studio Portrait Prompts – Yearbook, ID & Glamour",
+        "description": "1980s studio portrait prompts for your own photo: yearbook, passport, black and "
+                       "white headshots, laser backdrops and the classic 1985 look. ChatGPT and Gemini.",
+        "intro": [
+            "These 1980s studio portrait prompts recreate the pictures most people actually have from "
+            "the decade: school yearbooks, ID photos, mall glamour shots and formal headshots, all built "
+            "from your own uploaded photo.",
+            "They start with the 1985 prompt that kicked off the trend and move through flat yearbook "
+            "light, laser-beam backdrops and silver-gelatin black and white.",
+        ],
+        "guide_h2": "Lighting a studio portrait prompt the 80s way",
+        "guide": [
+            "Yearbook and ID photos used flat, even light from the front. Ask for it explicitly or the "
+            "model will add dramatic modern shadows.",
+            "Glamour studios used a big soft box, a hair light and heavy diffusion. Words like soft "
+            "focus and airbrushed glow push the result in that direction.",
+            "Backdrops matter as much as clothes: mottled grey or blue canvas, laser beams or a pastel "
+            "gradient each date the image at a glance.",
+        ],
+        "source": ("portrait photography", "https://en.wikipedia.org/wiki/Portrait_photography"),
+    },
+    "retro-scenes": {
+        "name": "Retro Scenes", "h1": "1980s Retro Scene Photo Prompts",
+        "title": "1980s Retro Scene Photo Prompts – Arcade, VHS & Disco",
+        "description": "1980s retro scene photo prompts that put you in an arcade, a diner, a roller "
+                       "disco, a VHS home video or a Miami sunset. Upload your photo and copy a prompt.",
+        "intro": [
+            "These 1980s retro scene photo prompts drop you into the places that define the decade: a "
+            "glowing arcade, a chrome diner, a roller rink, a wood-panelled living room on camcorder "
+            "tape and a pastel Miami sunset.",
+            "Each prompt keeps your face and builds the whole scene around you, including the light, "
+            "the camera and the small imperfections that make an old photo believable.",
+        ],
+        "guide_h2": "Choosing the right scene for your photo prompt",
+        "guide": [
+            "Match the scene to your uploaded photo. A close-up selfie suits portrait-style scenes like "
+            "the arcade; a full-body shot works better for roller disco or car scenes.",
+            "Let the light come from the scene: cabinet screens, mirror balls, diner fluorescents or "
+            "sunset. That keeps your face lit the same way as the background.",
+            "Add the capture format last. VHS scan lines, disposable-camera flash or a date stamp "
+            "finish the scene without touching your face.",
+        ],
+        "source": ("VHS", "https://en.wikipedia.org/wiki/VHS"),
+    },
+}
+PALETTES = {  # placeholder gradients per primary category
+    "bollywood": ("#7a1f3d", "#e8a24a"), "men": ("#1d3557", "#457b9d"), "women": ("#6a1b4d", "#e76f8a"),
+    "couple-family": ("#3d2c5e", "#d4a373"), "studio": ("#23395b", "#8ea8c3"),
+    "retro-scenes": ("#2b1055", "#ff2e88"), HUB: ("#2b1055", "#e8a24a"),
+}
+for v in CATEGORIES.values():
+    v["group"] = "t2i"
+for v in EDIT_CATEGORIES.values():
+    v["group"] = "edit"
+CATEGORIES = {**EDIT_CATEGORIES, **CATEGORIES}
+
 TOOL = [  # model id pattern -> tool shown in "Best with"
     (r"nano-banana", "Gemini (Nano Banana)"),
     (r"gpt_image", "ChatGPT (GPT Image)"),
@@ -223,7 +400,48 @@ for i, it in enumerate(items):
     it.setdefault("keyword", it["name"].lower() + " prompt")
     it["kw_title"] = " ".join(w if w[0].isdigit() else w.capitalize() for w in it["keyword"].split())
 items[0]["alt"] = f"1980s photo prompt example: {items[0]['name']}"
-by_cat = {k: [it for it in items if k in it["cats"]] for k in CATEGORIES}
+for it in items:
+    it["group"] = "t2i"
+
+
+def placeholder_svg(it):
+    """Stand-in artwork for edit prompts until a real before/after example exists."""
+    c1, c2 = PALETTES.get(it["primary"], PALETTES[HUB])
+    words, lines = it["name"].split(), [""]
+    for w in words:
+        if len(lines[-1]) + len(w) > 16:
+            lines.append("")
+        lines[-1] = (lines[-1] + " " + w).strip()
+    text = "".join(f'<tspan x="90" dy="{0 if i == 0 else 104}">{esc(l)}</tspan>' for i, l in enumerate(lines))
+    stripes = "".join(f'<rect x="0" y="{800 + i * 34}" width="1080" height="{6 + i * 3}" fill="{c1}"/>' for i in range(6))
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{c1}"/><stop offset="1" stop-color="{c2}"/></linearGradient>
+<linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd27a"/><stop offset="1" stop-color="#ff5e8a"/></linearGradient></defs>
+<rect width="1080" height="1350" fill="url(#g)"/>
+<circle cx="760" cy="880" r="230" fill="url(#s)" opacity=".9"/>{stripes}
+<text x="90" y="170" font-family="Georgia, serif" font-size="40" fill="#fff" opacity=".8" letter-spacing="4">UPLOAD YOUR PHOTO · 1980s</text>
+<text y="330" font-family="Georgia, serif" font-size="92" font-weight="700" fill="#fff">{text}</text>
+<text x="90" y="1270" font-family="Helvetica, Arial, sans-serif" font-size="34" fill="#fff" opacity=".85">Example image coming soon · vintagephotoprompt.com</text>
+</svg>
+"""
+
+
+edits = []
+for f in sorted((ROOT / "data" / "content").glob("edit_*.json")):
+    for c in json.loads(f.read_text()):
+        slug = re.sub(r"[^a-z0-9]+", "-", c["keyword"].lower()).strip("-")
+        cats = [k for k in c["categories"] if k in CATEGORIES]
+        edits.append({**c, "slug": slug, "img": f"/placeholders/{slug}.svg", "w": 1080, "h": 1350,
+                      "placeholder": True, "prompt": c["prompt"].strip(), "neg": "",
+                      "tool": c.get("best_with") or "ChatGPT or Gemini", "author": "", "post_url": "",
+                      "primary": cats[0], "cats": cats, "url": f"/prompt/{slug}/", "group": "edit",
+                      "pinned": False, "alt": f"{c['name']} – example image coming soon"})
+        edits[-1]["kw_title"] = " ".join(w if w[0].isdigit() else w.capitalize() for w in c["keyword"].split())
+        edits[-1]["kw_title"] = edits[-1]["kw_title"].replace("Chatgpt", "ChatGPT")
+all_items = items + edits
+slugs = [it["slug"] for it in all_items]
+assert len(slugs) == len(set(slugs)), "duplicate slugs"
+by_cat = {k: [it for it in all_items if k in it["cats"]] for k in CATEGORIES}
 
 
 # ---------------------------------------------------------------- shared chrome
@@ -258,7 +476,7 @@ def head(title, desc, path, og_img, ld=None, extra="", noindex=False):
   </a>
   <form class="search" action="/" method="get" role="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
     <input id="q" name="q" type="search" placeholder="Search prompts: polaroid, neon, portrait…" aria-label="Search prompts"></form>
-  <nav aria-label="Main"><a href="/">Home</a><a href="/portrait/">Portrait</a><a href="/fashion/">Fashion</a><a href="/polaroid-film/">Polaroid &amp; Film</a><a href="/neon-city/">Neon &amp; City</a></nav>
+  <nav aria-label="Main"><a href="/">Home</a><a href="/{HUB}/">Upload Your Photo</a><a href="/portrait/">Portrait</a><a href="/fashion/">Fashion</a><a href="/polaroid-film/">Polaroid &amp; Film</a><a href="/neon-city/">Neon &amp; City</a></nav>
 </div></header>
 """
 
@@ -289,9 +507,16 @@ def grid(cards_items, max_cols=5, search=False, first_alt=None):
     return f'<div class="grid" data-max="{max_cols}"{" data-search" if search else ""}>\n{body}\n</div>\n{data}'
 
 
-def chips(active=""):
-    out = [f'<a class="chip{" on" if not active else ""}" href="/">All</a>']
-    out += [f'<a class="chip{" on" if k == active else ""}" href="/{k}/">{esc(v["name"])}</a>' for k, v in CATEGORIES.items()]
+def chips(active="", group="t2i"):
+    if group == "edit":
+        out = [f'<a class="chip{" on" if k == active else ""}" href="/{k}/">{esc("All photo edits" if k == HUB else v["name"])}</a>'
+               for k, v in CATEGORIES.items() if v["group"] == "edit"]
+        out.append('<a class="chip" href="/">Text-to-image gallery</a>')
+    else:
+        out = [f'<a class="chip{" on" if not active else ""}" href="/">All</a>']
+        out += [f'<a class="chip{" on" if k == active else ""}" href="/{k}/">{esc(v["name"])}</a>'
+                for k, v in CATEGORIES.items() if v["group"] == "t2i"]
+        out.append(f'<a class="chip" href="/{HUB}/">Upload your photo</a>')
     return f'<nav class="chips" aria-label="Categories">{"".join(out)}</nav>'
 
 
@@ -305,6 +530,11 @@ def crumbs(trail):
         {"@type": "ListItem", "position": n + 1, "name": name, "item": BASE + path.lstrip("/")}
         for n, (name, path) in enumerate(trail)]}
     return f'<nav class="crumbs" aria-label="Breadcrumb">{" <span>›</span> ".join(links)}</nav>', ld
+
+
+def low(text):
+    """Lowercase a heading for use mid-sentence, keeping brand names cased."""
+    return text.lower().replace("chatgpt", "ChatGPT")
 
 
 def first_sentences(text, max_words=40):
@@ -368,6 +598,7 @@ write("/", head(HOME_TITLE, HOME_DESC, "/", items[0]["img"], home_ld) + f"""
     <li><a href="/#era-look">What makes it look 1980s</a></li>
     <li><a href="/#faq">FAQ</a></li>
     <li><a href="/prompts.html">All prompts as text</a></li>
+    <li><a href="/{HUB}/">Prompts for your own photo</a></li>
   </ul>
 </div>
 
@@ -405,7 +636,10 @@ write("/", head(HOME_TITLE, HOME_DESC, "/", items[0]["img"], home_ld) + f"""
 for key, cat in CATEGORIES.items():
     its = by_cat[key]
     path = f"/{key}/"
-    bc_html, bc_ld = crumbs([("Home", "/"), (cat["name"], path)])
+    trail = [("Home", "/")]
+    if cat["group"] == "edit" and key != HUB:
+        trail.append((CATEGORIES[HUB]["name"], f"/{HUB}/"))
+    bc_html, bc_ld = crumbs(trail + [(cat["name"], path)])
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "CollectionPage", "@id": BASE + key + "/#page", "url": BASE + key + "/",
          "name": cat["title"], "description": cat["description"]},
@@ -416,7 +650,9 @@ for key, cat in CATEGORIES.items():
     featured = "".join(f'<li><a href="{f["url"]}"><strong>{esc(f["name"])}</strong></a> – {esc(first_sentences(f["intro"]))}</li>'
                        for f in its[:8])
     others = "".join(f'<li><a href="/{k}/">{esc(v["h1"])}</a> ({len(by_cat[k])})</li>'
-                     for k, v in CATEGORIES.items() if k != key)
+                     for k, v in CATEGORIES.items() if k != key and v["group"] == cat["group"])
+    others += "".join(f'<li><a href="/{k}/">{esc(v["h1"])}</a> ({len(by_cat[k])})</li>'
+                      for k, v in CATEGORIES.items() if k != key and v["group"] != cat["group"])
     write(path, head(cat["title"], cat["description"], path, its[0]["img"], ld) + f"""
 <main>
 <div class="wrap intro">
@@ -425,13 +661,13 @@ for key, cat in CATEGORIES.items():
   {''.join(f'<p>{esc(p)}</p>' for p in cat["intro"])}
 </div>
 <div class="wrap" id="gallery">
-  <div class="gal-head"><h2>Browse {len(its)} {esc(cat["h1"].lower())}</h2></div>
-  {chips(key)}
-  {grid(its, first_alt=f"{cat['h1']} example: {its[0]['name']}")}
+  <div class="gal-head"><h2>Browse {len(its)} {esc(low(cat["h1"]))}</h2></div>
+  {chips(key, cat["group"])}
+  {grid(its, first_alt=f"{cat['h1']} example: {its[0]['name']}" + (" (example image coming soon)" if its[0].get("placeholder") else ""))}
 </div>
 <article class="guide">
   <section>
-    <h2>Featured {esc(cat["h1"].split(" ", 1)[1].lower())}</h2>
+    <h2>Featured {esc(low(cat["h1"].split(" ", 1)[1]))}</h2>
     <ul class="featured">{featured}</ul>
   </section>
   <section>
@@ -452,14 +688,18 @@ for key, cat in CATEGORIES.items():
 def related(it, n=7):
     def score(o):
         return (o["primary"] == it["primary"]) * 3 + len(set(o["cats"]) & set(it["cats"]))
-    pool = [o for o in items if o is not it]
-    pool.sort(key=lambda o: (-score(o), items.index(o)))
+    pool = [o for o in all_items if o is not it and o["group"] == it["group"]]
+    pool.sort(key=lambda o: (-score(o), all_items.index(o)))
     return pool[:n]
 
 
-for it in items:
+for it in all_items:
     cat = CATEGORIES[it["primary"]]
-    bc_html, bc_ld = crumbs([("Home", "/"), (cat["name"], f"/{it['primary']}/"), (it["name"], it["url"])])
+    edit = it["group"] == "edit"
+    trail = [("Home", "/")]
+    if edit and it["primary"] != HUB:
+        trail.append((CATEGORIES[HUB]["name"], f"/{HUB}/"))
+    bc_html, bc_ld = crumbs(trail + [(cat["name"], f"/{it['primary']}/"), (it["name"], it["url"])])
     h1 = it["kw_title"]
     page_url = BASE + it["url"].lstrip("/")
     ld = {"@context": "https://schema.org", "@graph": [
@@ -470,13 +710,23 @@ for it in items:
          "width": it["w"], "height": it["h"], "caption": it["name"],
          **({"creator": {"@type": "Person", "name": it["author"]}} if it["author"] else {})},
         bc_ld]}
-    steps = [
+    if edit:
+        steps = [
+            "Tap <strong>Copy prompt</strong> above to copy the full text.",
+            f"Open {esc(it['tool'])} and start a new chat. Upload a clear, well-lit photo where your face is fully visible"
+            " (no sunglasses or heavy filters); for couple or family prompts, upload a photo with everyone in it.",
+            "Paste the prompt and send it. " + esc(it["personalize"]),
+            "If the face changes, reply “keep my face exactly as in the uploaded photo” and regenerate. "
+            "Try two or three versions and keep the one that looks most like a real old print.",
+        ]
+    else:
+      steps = [
         "Tap <strong>Copy prompt</strong> above to copy the full text.",
         f"Open {esc(it['tool'])}, or any image generator you prefer, and paste the prompt into a new chat or prompt box.",
         esc(it["personalize"]),
         "Generate three or four versions and keep the one with the most convincing grain, color and light. "
         "Use the tips below if the result looks too modern.",
-    ]
+      ]
     cat_links = " ".join(f'<a class="tag" href="/{k}/">{esc(CATEGORIES[k]["name"])}</a>' for k in it["cats"])
     rel = related(it)
     credit = (f'Example image by {esc(it["author"])}, shared publicly on '
@@ -486,10 +736,10 @@ for it in items:
 <div class="wrap">
   {bc_html}
   <div class="d-grid">
-    <figure class="d-img"><img src="{it["img"]}" width="{it["w"]}" height="{it["h"]}" alt="{esc(it["name"])}, made with this {esc(it["keyword"])}" fetchpriority="high"></figure>
+    <figure class="d-img"><img src="{it["img"]}" width="{it["w"]}" height="{it["h"]}" alt="{esc(it["name"])}{" – preview for this " + esc(it["keyword"]) + ", example image coming soon" if edit else ", made with this " + esc(it["keyword"])}" fetchpriority="high"></figure>
     <div class="d-main">
       <h1>{esc(h1)}</h1>
-      <p class="sub">{esc(it["name"])} · the full {esc(it["keyword"])}, ready to paste into {esc(it["tool"])} or any other image generator you use.</p>
+      <p class="sub">{esc(it["name"])} · {("the full " + esc(it["keyword"]) + ". Upload a photo of yourself to " + esc(it["tool"]) + ", paste this prompt and get your 80s version.") if edit else ("the full " + esc(it["keyword"]) + ", ready to paste into " + esc(it["tool"]) + " or any other image generator you use.")}</p>
       <p class="lead">{esc(it["intro"])}</p>
       <div class="d-actions"><button class="btn main" type="button" data-copy="prompt-text">Copy prompt</button><span class="best">Best with: <strong>{esc(it["tool"])}</strong></span></div>
       <h2 class="lbl">Prompt</h2>
@@ -520,14 +770,14 @@ for it in items:
   <section>
     <h2>What makes this prompt work</h2>
     <p>{esc(it["works"])}</p>
-    <p class="credit">{credit}<a href="{esc(it["post_url"])}" rel="nofollow noopener" target="_blank">OpenArt</a>. The prompt is shown as originally posted.</p>
+    {"" if edit else f'<p class="credit">{credit}<a href="{esc(it["post_url"])}" rel="nofollow noopener" target="_blank">OpenArt</a>. The prompt is shown as originally posted.</p>'}
   </section>
 </article>
 
 <section class="wrap more">
   <h2>More prompts like this</h2>
   {grid(rel, max_cols=4)}
-  <p class="more-links"><a href="/{it["primary"]}/">Browse all {len(by_cat[it["primary"]])} {esc(cat["h1"].lower())}</a> · <a href="/">Back to the 1980s photo prompt gallery</a></p>
+  <p class="more-links"><a href="/{it["primary"]}/">Browse all {len(by_cat[it["primary"]])} {esc(low(cat["h1"]))}</a> · {f'<a href="/{HUB}/">All ChatGPT 1980s photo prompts</a>' if edit else '<a href="/">Back to the 1980s photo prompt gallery</a>'}</p>
 </section>
 </main>
 """ + FOOT)
@@ -539,7 +789,9 @@ write("/404.html", head("Page not found – Vintage Photo Prompt", "This page do
 """ + FOOT)
 
 urls = [("/", [it["img"] for it in items])] + [(f"/{k}/", []) for k in CATEGORIES] + \
-       [(it["url"], [it["img"]]) for it in items] + [("/prompts.html", [])]
+       [(it["url"], [] if it.get("placeholder") else [it["img"]]) for it in all_items] + [("/prompts.html", [])]
+for it in edits:
+    write(it["img"], placeholder_svg(it))
 sitemap = ['<?xml version="1.0" encoding="UTF-8"?>',
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
            'xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">']
@@ -555,4 +807,4 @@ write("/robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {BASE}sitemap.xml\n")
 (OUT / "assets").mkdir(parents=True, exist_ok=True)
 shutil.copy(ROOT / "assets" / "site.css", OUT / "assets" / "site.css")
 shutil.copy(ROOT / "assets" / "site.js", OUT / "assets" / "site.js")
-print(f"built {len(items)} prompt pages, {len(CATEGORIES)} category pages, homepage, sitemap ({len(urls)} urls)")
+print(f"built {len(all_items)} prompt pages ({len(edits)} photo-edit), {len(CATEGORIES)} category pages, homepage, sitemap ({len(urls)} urls)")

@@ -1,0 +1,270 @@
+[
+  {
+    "id": "e23",
+    "name": "Family Afternoon in Front of the TV",
+    "keyword": "1980s family watching tv photo prompt",
+    "title": "1980s Family Watching TV Photo Prompt for ChatGPT",
+    "description": "Use this 1980s family watching tv photo prompt to put your group on a floral sofa by a boxy CRT set. Works in ChatGPT or Gemini with your own photo.",
+    "categories": [
+      "couple-family",
+      "retro-scenes",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "couple-family",
+    "prompt": "Using the uploaded photo(s), place every person shown into a 1980s living room on a weekday afternoon, gathered on a brown-and-orange floral sofa watching a boxy wood-grain CRT television with a rabbit-ear antenna. Keep each person's face, facial features, skin tone, age and body proportions exactly recognisable; do not beautify, slim or smooth anyone, and do not add or remove people. Give adults feathered or permed hair, knit cardigans, polo shirts and high-waisted slacks; children wear striped T-shirts and corduroy. Add a shag rug, a crocheted doily on top of the TV, a bowl of popcorn and soft sun slanting through net curtains. Poses are relaxed, some glancing back at the camera. Shot on 35mm consumer colour negative film: warm yellow cast, mild grain, faded shadows, slight vignette, a small crease in the print. The screen shows only a blurred glow. No modern devices, flat screens, logos or readable text; a real family snapshot, not a filter or illustration.",
+    "intro": "Almost every family album from the decade has a picture like this: everyone squeezed onto one sofa, half watching the set, half watching whoever holds the camera. Recreating it with your own family turns an ordinary group photo into something that feels like a found print from a relative's shoebox, which is why it lands so well in family chats.",
+    "creates": "The finished image shows your group on a patterned brown-and-orange sofa in a cosy living room, turned toward a chunky wood-grain television with rabbit ears. Afternoon light falls through net curtains onto a shag rug and a bowl of popcorn. Everyone keeps their own face but wears cardigans, polos and corduroy. The colours lean warm and yellow, shadows are faded, and the print has a soft crease.",
+    "works": "The line \"place every person shown\" plus \"do not add or remove people\" stops the model from dropping or inventing family members. \"Do not beautify, slim or smooth anyone\" keeps faces honest. Props like \"a crocheted doily on top of the TV\" make the room specific instead of generic retro. \"The screen shows only a blurred glow\" avoids fake broadcast text, and \"not a filter or illustration\" pushes toward a real photographic look.",
+    "tips": [
+      "Upload a group photo where every face is clearly visible and similar in size; tiny or turned-away faces are the ones most likely to drift.",
+      "If one person changes, reply with that person's position, for example \"the man on the left must keep his exact face from the upload\", and regenerate.",
+      "For a different mood, swap the afternoon sun for lamplight at night, or replace the popcorn with dinner plates on TV trays."
+    ],
+    "suits": "Families recreating a shared memory, siblings making a gift for parents, or anyone posting a throwback-style group picture to a family chat, a reunion album or an anniversary post.",
+    "personalize": "Change the sofa pattern, the snack on the table and each person's clothing to match what your own household would have had.",
+    "best_with": "ChatGPT or Gemini"
+  },
+  {
+    "id": "e24",
+    "name": "Old Passport and ID Picture",
+    "keyword": "1980s passport photo prompt",
+    "title": "1980s Passport Photo Prompt for ChatGPT & Gemini",
+    "description": "Try this 1980s passport photo prompt to turn your picture into a straight-on ID shot with plain backdrop and faded colour. Works in ChatGPT and Gemini.",
+    "categories": [
+      "studio",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "studio",
+    "prompt": "Using my uploaded photo, recreate me as a 1980s passport or ID photograph. Keep my face, facial features, skin tone, age, hairline and head shape exactly as they are; no beautification, no skin smoothing, no reshaping. Frame my head and upper shoulders straight-on, neutral expression, eyes level with the lens, against a plain pale-blue or off-white backdrop. Style my hair in a neat period cut that suits me, and dress me in formal wear of the time: a dark blazer with a wide-collared shirt and knotted tie, or a buttoned blouse with a small pendant. Lighting is flat and frontal from a single flash, leaving a faint shadow behind the head. Render it as a small photo-booth style print with slightly muted colour, a mild magenta shift, fine grain and a tiny scuff at one edge. No official stamps, seals or readable text, no modern clothing, no logos; not a painting, sketch or filter.",
+    "intro": "An old ID picture is the least glamorous photo anyone owns, and that is exactly the charm. Seeing yourself stiff, straight-on and slightly faded, as if the photo came out of a drawer of expired documents, is funny and oddly convincing. It is also one of the easiest looks for the model to get right, because the pose is simple.",
+    "creates": "You get a tight head-and-shoulders portrait facing the camera squarely with a neutral expression, set against a flat pale-blue or off-white wall. Your hair is neatly cut in a period style and you wear a dark blazer and wide collar or a buttoned blouse. Flat flash leaves a soft shadow behind your head, and the small print has muted, slightly magenta colour, fine grain and a worn edge.",
+    "works": "\"Head and upper shoulders straight-on\" and \"eyes level with the lens\" lock the framing that makes an ID photo read instantly. The identity line names \"hairline and head shape\", which matter more than usual in such a tight crop. \"A mild magenta shift\" and \"a tiny scuff at one edge\" give believable ageing. \"No official stamps, seals or readable text\" keeps the model from inventing documents, and \"not a painting, sketch or filter\" keeps it photographic.",
+    "tips": [
+      "Upload a front-facing photo with neutral expression and even light; a smiling or angled selfie makes the model rebuild more of your face and raises drift.",
+      "If your features soften or change, add \"match the uploaded face pixel for pixel in proportions\" and ask for a regeneration rather than editing the result.",
+      "Swap the pale-blue backdrop for off-white or grey, or ask for a strip of four photo-booth frames for a playful variation."
+    ],
+    "suits": "Anyone joining the trend who wants a deadpan, low-effort result, people making funny profile pictures, and friends comparing their serious old ID versions side by side in a group chat or story.",
+    "personalize": "Change the clothing line to what you would really have worn for an official photo and pick the backdrop colour you remember.",
+    "best_with": "ChatGPT or Gemini"
+  },
+  {
+    "id": "e25",
+    "name": "Silver Gelatin Studio Headshot",
+    "keyword": "1980s black and white headshot prompt",
+    "title": "1980s Black and White Headshot Prompt for ChatGPT",
+    "description": "This 1980s black and white headshot prompt turns your photo into a grainy silver-gelatin studio portrait with side light. For ChatGPT or Gemini.",
+    "categories": [
+      "studio",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "studio",
+    "prompt": "Using my uploaded photo, turn me into a 1980s black-and-white studio headshot. Preserve my face, facial features, bone structure, skin texture, age and proportions so I am clearly recognisable; do not beautify or airbrush. Give me a period hairstyle that suits my hair type, such as a soft side-swept cut, a layered bob, or short tapered sides with volume on top, and dress me in a dark crewneck sweater or a shirt with a narrow tie. Pose three-quarter to camera, chin slightly lowered, eyes to the lens. Light me with one large key light from camera left and a small reflector, so one cheek falls into gentle shadow against a mottled grey canvas backdrop. Shot on medium-format black-and-white film and printed on fibre silver-gelatin paper: fine even grain, deep blacks, creamy highlights, a faint white border. No colour, no digital sharpness, no text or logos, not an illustration.",
+    "intro": "Monochrome headshots from the decade were what actors, musicians and graduating students handed out, and they still look serious and flattering without trying. Removing colour also removes a lot of the tell-tale signs of AI editing, so this is one of the most believable ways to see your own face in a period portrait.",
+    "creates": "The result is a quiet three-quarter headshot on a mottled grey canvas background. A single soft light from the left models your face, leaving one cheek in gentle shadow. You wear a dark sweater or narrow tie and a period haircut suited to your hair. The tones run from deep black to creamy white with fine, even grain, framed by a thin white paper border.",
+    "works": "\"Bone structure, skin texture\" is added to the usual identity lock because black and white exaggerates shape and texture, so both must stay yours. \"One large key light from camera left and a small reflector\" gives a clear lighting direction instead of flat grey. \"Fibre silver-gelatin paper\" and \"creamy highlights\" steer the tonal feel, while \"no digital sharpness\" and \"not an illustration\" stop crisp, over-processed results.",
+    "tips": [
+      "Upload a well-lit colour photo with visible skin texture; heavily filtered selfies give the model nothing to preserve and the headshot will look plastic.",
+      "If the face drifts, regenerate with \"keep my exact eye shape, nose and jawline from the uploaded photo\" added right after the identity sentence.",
+      "Move the key light to camera right, switch the backdrop to plain black, or ask for a slightly warmer selenium-toned print for variety."
+    ],
+    "suits": "Anyone who wants a serious, timeless portrait rather than a costume, including performers, writers and professionals looking for a distinctive profile picture or a framed print for a portfolio page.",
+    "personalize": "Replace the example hairstyles and the sweater or tie with the cut and clothing you would actually have chosen for a studio sitting.",
+    "best_with": "ChatGPT or Gemini"
+  },
+  {
+    "id": "e26",
+    "name": "Mall Studio Laser Glamour Shot",
+    "keyword": "1980s laser background portrait prompt",
+    "title": "1980s Laser Background Portrait Prompt for ChatGPT",
+    "description": "Use this 1980s laser background portrait prompt for a cheesy mall-studio glamour shot with pink and blue beams. Works in ChatGPT or Gemini on your photo.",
+    "categories": [
+      "studio",
+      "retro-scenes",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "studio",
+    "prompt": "Using my uploaded photo, make me the subject of a 1980s shopping-mall portrait studio glamour shot. Keep my face, facial features, skin tone, age and body proportions faithful and recognisable; no face reshaping, slimming or skin smoothing. Pose me with one hand under my chin and my head tilted, in front of a black backdrop crossed by streaking electric-blue and hot-pink laser beams with a soft starburst behind my shoulder. Give me big teased hair with lots of volume, a sequined or shoulder-padded top in cobalt or fuchsia, and shiny clip-on earrings or a thin chain. Lighting is soft beauty light from the front with a strong rim glow and a hazy airbrushed halo fading into the edges of the frame, deliberately cheesy. Present it as a glossy 8x10 portrait print with punchy saturation, fine grain and a soft-focus vignette. No modern objects, no brand names or text, not a digital neon filter, CGI or illustration.",
+    "intro": "The laser-beam backdrop was the most over-the-top option at the portrait counter, and people chose it on purpose. It is gloriously tacky, and seeing your own face posed with a hand under the chin in that setting is the kind of result people screenshot and send to everyone immediately. The humour works because it looks like a real product.",
+    "creates": "You appear in a posed glamour portrait, chin resting on your hand and head tilted, against black with blue and pink laser streaks and a starburst near your shoulder. Your hair is teased high and you wear a sequined or shoulder-padded top with shiny earrings or a chain. A rim glow outlines you, the edges fade into airbrushed haze, and the whole image has the gloss of an 8x10 studio print.",
+    "works": "\"Shopping-mall portrait studio\" sets the context so the model aims for a commercial studio look rather than a nightclub. \"No face reshaping, slimming or skin smoothing\" matters here because glamour prompts invite heavy beautification. \"A soft starburst behind my shoulder\" and \"airbrushed halo\" pin down the signature effects. \"Deliberately cheesy\" keeps the tone right, and \"not a digital neon filter, CGI\" stops glossy modern synthwave art.",
+    "tips": [
+      "Upload a clear chest-up photo with your face near the camera; the hand-under-chin pose is easier for the model when it can see your shoulders.",
+      "If the model makes you look like a different person, remove \"big teased hair\" temporarily, get the face right, then add the hair back.",
+      "Try a purple and teal beam colour pair, a flatter solid-blue backdrop, or a double-exposure profile in the corner for a variation."
+    ],
+    "suits": "People who want the funniest possible version of the trend, best friends making matching glamour shots, and anyone posting a joke profile picture or a birthday greeting with a ridiculous retro portrait.",
+    "personalize": "Change the beam colours, the top and the jewellery to your taste, and swap the chin pose for an over-the-shoulder glance if you prefer.",
+    "best_with": "ChatGPT or Gemini"
+  },
+  {
+    "id": "e27",
+    "name": "Neon Glow Video Arcade Portrait",
+    "keyword": "1980s arcade portrait photo prompt",
+    "title": "1980s Arcade Portrait Photo Prompt for ChatGPT",
+    "description": "This 1980s arcade portrait photo prompt puts you among glowing game cabinets with neon light on your face. Use it in ChatGPT or Gemini with your photo.",
+    "categories": [
+      "retro-scenes",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "retro-scenes",
+    "prompt": "Using my uploaded photo, place me inside a dim 1980s video arcade at night. Keep my face, facial features, skin tone, age and body proportions exactly recognisable, with no beautification. Stand me between rows of upright game cabinets, one hand resting on a joystick panel, looking over my shoulder toward the camera. Dress me in a satin bomber jacket over a plain T-shirt and stonewashed jeans, and give me a period hairstyle that suits me, such as feathered layers, a mullet or a high side ponytail. The only light comes from the cabinet screens and a red exit lamp: green and magenta glow across one side of my face, deep shadows elsewhere, a patterned space-themed carpet underfoot. Shot handheld on fast 400-speed colour film without flash: visible grain, slight motion softness, crushed blacks, a warm shift. Screens show abstract glowing shapes only. No real game titles, logos, readable text or modern phones; not a render or illustration.",
+    "intro": "Arcades were where a lot of teenagers spent their evenings and pocket money, and the light in them was unlike anywhere else: dark rooms lit only by screens. A portrait in that glow feels cinematic without being staged, and it gives your own face strong colour and shadow that look great at small sizes on a phone.",
+    "creates": "The image shows you standing between rows of upright game cabinets, one hand on a joystick panel, glancing back at the camera. Green and magenta screen light washes over one side of your face while the rest falls into shadow. You wear a satin bomber and stonewashed jeans with a period hairstyle. Grain is visible, blacks are crushed and a patterned carpet shows at your feet.",
+    "works": "\"The only light comes from the cabinet screens\" is the key instruction; it forces coloured, directional light instead of an evenly lit set. \"Shot handheld on fast 400-speed colour film without flash\" explains the grain and softness so they look intentional. \"Screens show abstract glowing shapes only\" and \"no real game titles\" avoid trademarked characters, and \"not a render\" keeps the cabinets from looking like 3D models.",
+    "tips": [
+      "Upload a photo with your face turned slightly to one side; it helps the model place the coloured glow on one cheek without redrawing your features.",
+      "If the dark lighting blurs your likeness, add \"keep my face clearly readable in the screen light\" and regenerate once or twice.",
+      "Swap the pose for leaning into a cabinet mid-game, or change the glow colours to blue and amber for a different mood."
+    ],
+    "suits": "Gamers, people who grew up around arcades, and anyone wanting a moody night portrait for a profile picture, a gaming channel banner or a story post alongside the rest of the trend.",
+    "personalize": "Change the jacket, the hairstyle and the two glow colours on your face to match your own style.",
+    "best_with": "ChatGPT or Gemini"
+  },
+  {
+    "id": "e28",
+    "name": "Pastel Beachfront Sunset Portrait",
+    "keyword": "1980s miami pastel sunset prompt",
+    "title": "1980s Miami Pastel Sunset Prompt for ChatGPT & Gemini",
+    "description": "Use this 1980s miami pastel sunset prompt to show yourself in a pastel suit or cover-up under palms and a pink-teal sky. Works in ChatGPT or Gemini.",
+    "categories": [
+      "retro-scenes",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "retro-scenes",
+    "prompt": "Using my uploaded photo, show me on a 1980s Miami-style beachfront promenade at sunset. Keep my face, facial features, skin tone, age and body proportions faithful and recognisable; do not slim, tan or beautify me. Dress me in either an unstructured pastel linen suit in mint or peach with a plain T-shirt underneath and sleeves pushed up, or a pastel swimsuit with a sheer printed cover-up, plus thin-framed sunglasses pushed up onto my head. Hair is sun-lifted and slightly wind-blown. Behind me stand tall palm trees and a low art deco hotel with rounded corners, under a sky fading from flamingo pink into teal. Warm, low sun lights my face from the side. Shot on 35mm slide film with a slight red-magenta cast, soft grain, mild halation around the highlights and a few dust specks. No readable signs, no modern cars or phones, no logos; a real vacation photograph, not a poster or illustration.",
+    "intro": "Pastel suits, palm trees and a pink-and-teal sky are some of the most recognisable colours of the decade. This look is popular because it is flattering and warm rather than silly, and it gives your photo a holiday feeling. It also works well next to other posts in the trend, where darker studio shots dominate.",
+    "creates": "You stand on a seaside promenade at golden hour, either in a loose mint or peach linen suit with sleeves pushed up, or a pastel swimsuit with a sheer cover-up. Sunglasses sit on your head and your hair looks lifted by the breeze. Palms and a rounded art deco hotel rise behind you under a flamingo-pink to teal sky, with slide-film colour, gentle halation and faint dust.",
+    "works": "\"Do not slim, tan or beautify me\" adds \"tan\" because sunny beach scenes often darken or change skin tone. Offering \"either\" a suit or a swimsuit with cover-up lets you delete one option for a clear outfit. \"A sky fading from flamingo pink into teal\" defines the palette precisely. \"35mm slide film with a slight red-magenta cast\" gives the photographic colour, and \"not a poster or illustration\" avoids flat vector sunsets.",
+    "tips": [
+      "Upload a daylight photo taken outdoors if you can; indoor lighting makes the model work harder to relight your face for a sunset.",
+      "Delete whichever outfit option you do not want before sending, otherwise the model may blend the suit and the swimwear oddly.",
+      "For variation, ask for a white convertible parked behind you, or move the scene to a pier with the sun touching the water."
+    ],
+    "suits": "Anyone after a sunny, colourful holiday-style portrait, couples who want a matching pair of shots, and people posting summer throwbacks or travel-themed profile pictures during the trend.",
+    "personalize": "Pick one outfit, choose the pastel colour, and change the hotel or palms to a beach setting you know.",
+    "best_with": "ChatGPT or Gemini"
+  },
+  {
+    "id": "e29",
+    "name": "Camcorder Home Video Freeze Frame",
+    "keyword": "1980s vhs camcorder photo prompt",
+    "title": "1980s VHS Camcorder Photo Prompt for ChatGPT",
+    "description": "Try this 1980s vhs camcorder photo prompt to turn your picture into a paused home-video frame with scan lines and a timestamp. For ChatGPT or Gemini.",
+    "categories": [
+      "retro-scenes",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "retro-scenes",
+    "prompt": "Using the uploaded photo(s), turn this into a paused frame from a 1980s VHS camcorder home video. Keep every person's face, facial features, skin tone, age and body proportions recognisable; do not beautify anyone or change who is in the frame. Set the scene in a wood-panelled living room with a plaid armchair, a brass floor lamp, and a birthday cake or wrapped gifts on the coffee table. Dress people in period sweaters, turtlenecks and pleated trousers with hairstyles of the era. Light comes from a harsh camcorder lamp mounted on top of the camera, slightly blowing out the nearest faces. Show the tape look: soft low resolution, colour bleed around reds, faint horizontal scan lines, a thin tracking wobble along the bottom edge, and a blocky white date and time readout in the lower right. No modern devices, logos or brand names; it should look like a real tape still, not a digital glitch filter or illustration.",
+    "intro": "Home videos are how many families actually remember birthdays and holidays from the decade, more than photos. A single paused frame, with its smeared colour and blocky timestamp, feels instantly familiar and slightly nostalgic. It also hides small imperfections in the edit, because the low resolution of tape is part of the look.",
+    "creates": "The finished image looks like a still from a family tape: a wood-panelled living room with a plaid armchair, brass lamp and a cake or gifts on the table. People wear sweaters, turtlenecks and pleated trousers. The front faces are brightened by a harsh camcorder lamp. Colours smear around reds, scan lines run across the frame, the bottom edge wobbles and a white timestamp sits in the corner.",
+    "works": "\"Paused frame from a VHS camcorder home video\" tells the model the medium is video, not film, which changes the entire texture. \"Do not beautify anyone or change who is in the frame\" protects single and group uploads alike. \"A harsh camcorder lamp mounted on top\" explains the lighting. Specific artefacts like \"colour bleed around reds\" and \"tracking wobble\" feel real, and \"not a digital glitch filter\" avoids exaggerated modern glitch effects.",
+    "tips": [
+      "Upload a photo with faces fairly large in the frame; low-resolution tape texture is applied on top, so small faces can lose their likeness quickly.",
+      "If a face drifts, ask the model to apply the VHS effects more lightly on faces while keeping them on the background.",
+      "Change the birthday cake to a holiday tree, a graduation cap or a new pet to match the memory you want to recreate."
+    ],
+    "suits": "Families and friend groups recreating a birthday or holiday, people making a nostalgic video thumbnail, and anyone who remembers taped home movies and wants a still for a story or album.",
+    "personalize": "Swap the occasion props, the armchair and the timestamp date to match a real day you remember.",
+    "best_with": "ChatGPT or Gemini"
+  },
+  {
+    "id": "e30",
+    "name": "Roller Rink Disco Night",
+    "keyword": "1980s roller disco photo prompt",
+    "title": "1980s Roller Disco Photo Prompt for ChatGPT & Gemini",
+    "description": "Use this 1980s roller disco photo prompt to put yourself on quad skates under a mirror ball and coloured beams. Works in ChatGPT or Gemini on your photo.",
+    "categories": [
+      "retro-scenes",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "retro-scenes",
+    "prompt": "Using my uploaded photo, show me at a 1980s roller disco rink. Keep my face, facial features, skin tone, age and body proportions exactly recognisable, with no smoothing or reshaping. Put me mid-glide on quad roller skates with bright coloured wheels, one arm out for balance, smiling toward the camera. Dress me in striped tube socks, satin shorts or high-waisted jeans, a cropped sweatshirt or ringer tee, terry wristbands and leg warmers, with hair teased up or held back by a headband. Above me hangs a spinning mirror ball throwing specks of light, while red, violet and yellow beams sweep across a glossy wooden floor, other skaters blurred behind me. Captured on 35mm film using on-camera flash with a slow shutter, so I am sharp with streaks of light around me. Warm grain, slight blur at the edges. No modern clothing, no logos or readable signs; not a CGI render or illustration.",
+    "intro": "Roller rinks were a weekend ritual, with music, coloured light and a mirror ball over the floor. A skating portrait feels lively and fun without needing a special occasion, and it shows off an outfit in full, which makes it a good choice for people who want more than a head-and-shoulders picture from the trend.",
+    "creates": "You glide across a glossy wooden rink on quad skates with bright wheels, one arm out, smiling at the camera. You wear tube socks, satin shorts or high-waisted jeans, a cropped sweatshirt, wristbands and leg warmers. A mirror ball scatters specks of light, coloured beams sweep the floor, and skaters behind you blur. You stay sharp while light streaks trail around you, with warm grain throughout.",
+    "works": "\"Mid-glide\" and \"one arm out for balance\" give the model a believable skating pose, which avoids stiff standing figures. \"On-camera flash with a slow shutter, so I am sharp with streaks of light\" describes a real film technique and explains the motion trails. The identity lock includes \"no smoothing or reshaping\" because full-body shots often alter bodies. \"Not a CGI render\" stops the rink from looking like a 3D scene.",
+    "tips": [
+      "Upload a full-length or knee-up photo if possible; a close-up selfie forces the model to invent your body, which can change proportions.",
+      "If your face becomes too small and drifts, ask for a closer framing from the waist up while keeping the skates visible in a second version.",
+      "Try couple skating hand in hand, a slower backward glide, or swap the beam colours to pink and blue for a different feel."
+    ],
+    "suits": "People who love skating or dancing, friends planning a themed party, and anyone wanting an energetic full-outfit shot for a story, a party invite or a playful profile picture.",
+    "personalize": "Change the outfit pieces, wheel colour and beam colours, and decide whether you want to be skating alone or with a partner.",
+    "best_with": "ChatGPT or Gemini"
+  },
+  {
+    "id": "e31",
+    "name": "Late Night Diner Booth Flash",
+    "keyword": "1980s diner booth photo prompt",
+    "title": "1980s Diner Booth Photo Prompt for ChatGPT & Gemini",
+    "description": "This 1980s diner booth photo prompt seats you in a red vinyl booth with a milkshake under harsh flash. Works in ChatGPT or Gemini with your own photo.",
+    "categories": [
+      "retro-scenes",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "retro-scenes",
+    "prompt": "Using my uploaded photo, seat me in a 1980s roadside diner booth late at night. Keep my face, facial features, skin tone, age and body proportions recognisable; no beautification or slimming. The booth is red vinyl with white piping, and the formica table holds a tall strawberry milkshake with a striped straw, a plate of fries and a napkin dispenser; behind me are a chrome counter, round stools and a glass pie case. Dress me in a denim jacket with rolled cuffs over a pastel top, or a varsity-style cardigan, with a period hairstyle that suits me. Pose leaning on the table, mid-laugh, glancing at the camera. Lit by harsh on-camera flash: bright face, a hard shadow on the booth behind me, sharp reflections on chrome, a greenish fluorescent tint in the background. 35mm consumer print with warm grain and slightly clipped highlights. No modern phones, no brand logos or readable menu text; not a filter or illustration.",
+    "intro": "A late-night diner stop is a familiar scene from films and real life, and a flash snapshot in a vinyl booth captures that loose, happy end-of-the-evening feeling. It feels candid rather than posed, which makes the edited picture of you believable, and the red booth and milkshake read clearly even at thumbnail size.",
+    "creates": "You sit in a red vinyl booth with white piping, leaning on a formica table, mid-laugh and glancing at the lens. A tall strawberry milkshake, fries and a napkin dispenser sit in front of you, with a chrome counter, stools and a pie case behind. Harsh flash brightens your face and throws a hard shadow, chrome gleams, and the background has a greenish fluorescent tint.",
+    "works": "\"Harsh on-camera flash: bright face, a hard shadow on the booth behind me\" describes the exact lighting signature of a snapshot, so the image avoids soft studio light. \"Mid-laugh, glancing at the camera\" makes it candid. \"A greenish fluorescent tint in the background\" adds realistic mixed lighting. \"No brand logos or readable menu text\" prevents invented signage, and \"not a filter or illustration\" keeps it photographic.",
+    "tips": [
+      "Upload a smiling or laughing photo; asking the model to add a laugh to a neutral face is where features most often change.",
+      "If your face drifts, remove \"mid-laugh\" and replace it with \"with the same expression as in my uploaded photo\", then regenerate.",
+      "Add a friend across the table using a two-person upload, or swap the milkshake for coffee and pie for a quieter mood."
+    ],
+    "suits": "Friends and couples recreating a night out, food lovers, and anyone wanting a casual, candid throwback picture for a story, a photo dump or a playful profile update.",
+    "personalize": "Change the milkshake flavour, the food on the table and your jacket to reflect what you would have ordered and worn.",
+    "best_with": "ChatGPT or Gemini"
+  },
+  {
+    "id": "e32",
+    "name": "Orange Date Stamp Album Snapshot",
+    "keyword": "1980s date stamp family photo prompt",
+    "title": "1980s Date Stamp Family Photo Prompt for ChatGPT",
+    "description": "Use this 1980s date stamp family photo prompt for an overexposed backyard or holiday snapshot with an orange date. For ChatGPT or Gemini on your photo.",
+    "categories": [
+      "retro-scenes",
+      "couple-family",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "retro-scenes",
+    "prompt": "Using the uploaded photo(s), turn this into a 1980s point-and-shoot snapshot from a family album. Keep every person's face, facial features, skin tone, age and body proportions recognisable, and include everyone shown; no beautification or face swapping. Set it in a suburban backyard or on a holiday outing: a sprinkler on the lawn, a white plastic lawn chair, a kettle barbecue, or a picnic blanket by a lake. Dress people in era clothing such as polo shirts, high-waisted shorts, sundresses, windbreakers and white sneakers, with period hair. Poses are casual and a little awkward, squinting into the sun. Shot on a compact 35mm camera: slightly overexposed, washed-out highlights, warm yellow cast, soft corners, gentle grain, the subject a little off-centre. Add an orange seven-segment date stamp such as 7 14 '86 in the lower right corner. The print has rounded corners and a faint fold. No modern objects or logos; a real snapshot, not a filter or illustration.",
+    "intro": "The orange date in the corner is one of the strongest signals of a real family photo from the decade, and many people's childhoods are recorded in exactly these slightly overexposed, off-centre prints. This look is less about fashion and more about everyday memory, which is why it resonates with families and couples alike.",
+    "creates": "The finished picture looks like it was taken on a compact camera on a summer day: a backyard with a sprinkler, lawn chair or barbecue, or a lakeside picnic. People wear polo shirts, high-waisted shorts, sundresses and white sneakers, squinting into the sun. Highlights are washed out, colours warm and yellow, corners soft, and an orange date stamp glows in the lower right of a rounded-corner print.",
+    "works": "\"Include everyone shown; no beautification or face swapping\" guards group uploads, where models sometimes merge faces. \"Slightly overexposed\" and \"the subject a little off-centre\" copy real amateur habits, making the image less polished. \"An orange seven-segment date stamp such as 7 14 '86\" gives an exact format so the stamp looks authentic. \"A real snapshot, not a filter or illustration\" keeps the result photographic.",
+    "tips": [
+      "Upload a daylight photo where everyone faces roughly toward the camera; backlit or shadowed faces make the overexposed look erase features.",
+      "If someone is missing or duplicated, reply naming how many people should appear and where each one stands, then regenerate.",
+      "Change the date in the stamp to a meaningful year, or swap the backyard for a beach, campsite or theme-park queue."
+    ],
+    "suits": "Families, couples and siblings who want a warm, everyday throwback, people making anniversary or birthday posts, and anyone adding a believable old snapshot to a family group chat.",
+    "personalize": "Pick one setting, set the date stamp to a year that matters to you, and change the outfits to what your family wore.",
+    "best_with": "ChatGPT or Gemini"
+  },
+  {
+    "id": "e33",
+    "name": "Hong Kong Neon Street Style",
+    "keyword": "1980s hong kong street photo prompt",
+    "title": "1980s Hong Kong Street Photo Prompt for ChatGPT",
+    "description": "This 1980s hong kong street photo prompt shows you by a phone booth under warm neon, like a Cantonese film still. For ChatGPT or Gemini with your photo.",
+    "categories": [
+      "retro-scenes",
+      "women",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "retro-scenes",
+    "prompt": "Using my uploaded photo, place me on a busy 1980s Hong Kong street in the evening, in the look of a Cantonese film still. Keep my face, facial features, skin tone, age and body proportions exactly recognisable; do not beautify me or alter my ethnicity. Stand me beside a red public phone booth, receiver in hand, turning toward the camera. Dress me in a padded-shoulder cream blazer over a silk blouse, a high-waisted pencil skirt or tapered trousers, and a slim gold wristwatch; hair in a voluminous feathered bob with a side part, and a bold red lip. Behind me, stacked neon signs glow red, green and amber, their traditional Chinese characters kept blurred and unreadable, above a crowded pavement and a passing double-decker tram. Shot on tungsten-balanced film: warm haze, soft glow around every light, rich grain. No real shop names, brands, logos or readable text, no modern phones; not an illustration.",
+    "intro": "Street scenes from Cantonese cinema of the decade have a very particular mood: crowded pavements, stacked neon, humid haze and sharply tailored clothes. The look is stylish and romantic rather than kitsch, and it has become a favourite for people who want a moody, cinematic portrait that still feels like a real place.",
+    "creates": "You stand beside a red phone booth on a crowded evening street, receiver in hand, turning toward the camera. You wear a cream padded-shoulder blazer, silk blouse and pencil skirt or tapered trousers, with a feathered bob and red lip. Neon signs in red, green and amber blur overhead, a double-decker tram passes, and warm haze softens every light with rich film grain.",
+    "works": "\"In the look of a Cantonese film still\" sets a cinematic tone without naming any real film or person. \"Do not beautify me or alter my ethnicity\" strengthens the identity lock for a setting where models may shift features. \"Traditional Chinese characters kept blurred and unreadable\" avoids garbled or real signage. \"Tungsten-balanced film: warm haze, soft glow around every light\" explains the colour, and \"not an illustration\" keeps it photographic.",
+    "tips": [
+      "Upload a waist-up photo with even lighting; the neon will be added on top, so a photo already lit by coloured light confuses skin tone.",
+      "If the face changes, regenerate with \"keep my exact face from the upload, only change clothes, hair and background\" added after the identity sentence.",
+      "Swap the phone booth for a street-food stall, a taxi door or a rain-wet pavement with an umbrella to vary the scene."
+    ],
+    "suits": "Women who love film-inspired fashion, people with family ties to the city, and anyone wanting a moody cinematic portrait for a profile picture, a story or a film-themed photo dump.",
+    "personalize": "Change the blazer colour, skirt or trousers, hairstyle and the prop in your hand to fit your own style.",
+    "best_with": "ChatGPT or Gemini"
+  }
+]

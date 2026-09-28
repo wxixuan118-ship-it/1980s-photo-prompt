@@ -1,0 +1,273 @@
+[
+  {
+    "id": "e12",
+    "name": "Moustache And Sweater Vest Portrait",
+    "keyword": "1980s moustache sweater vest portrait prompt",
+    "title": "1980s Moustache Sweater Vest Portrait Prompt for ChatGPT",
+    "description": "Use this 1980s moustache sweater vest portrait prompt in ChatGPT or Gemini to turn your own photo into a warm studio print with argyle vest and moustache.",
+    "categories": [
+      "men",
+      "studio",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "men",
+    "prompt": "Using my uploaded photo, turn me into a man sitting for a 1980s portrait studio session, around 1984. Keep my face, facial features, skin tone, age and body proportions exactly as they are and clearly recognisable; do not slim, smooth or beautify me. Give me a full, neatly trimmed moustache that suits my face, side-parted hair with a little volume on top, and a cream turtleneck under a brown-and-rust argyle sweater vest. Seat me three-quarter turned on a posing stool against a mottled grey-blue canvas backdrop, one hand resting on my knee, with a relaxed, slightly formal smile. Light it with a single umbrella flash from the left and a weak fill, shot on medium-format colour negative film: fine grain, warm skin tones, slightly lifted blacks, soft vignette, a faint crease in one print corner. No modern objects, text or logos; it should look like a real studio print, not a filter or illustration.",
+    "intro": "The moustache-and-sweater-vest portrait is the picture that sat framed on a thousand living-room shelves: slightly formal, a little shy, very sincere. People want to see how they would have carried that look, and whether a moustache actually suits them, without growing one. It is also a gentle, flattering era look that works for almost any face.",
+    "creates": "A three-quarter studio portrait of you on a posing stool, wearing a cream turtleneck under a brown-and-rust argyle sweater vest, with a trimmed moustache and a side-parted, lightly lifted hairstyle. The background is a mottled grey-blue canvas. Light falls from one side with soft shadows, the colours are warm and slightly faded, and the print shows fine grain, a soft vignette and a small crease in one corner.",
+    "works": "The identity lock, \"do not slim, smooth or beautify me\", stops the model from polishing your face into someone else. \"Mottled grey-blue canvas backdrop\" and \"single umbrella flash from the left\" pin down the exact studio setup of the decade, so the light looks photographed rather than generated. \"Slightly lifted blacks\" and \"a faint crease\" add the ageing of a real print, and the closing line rules out the smooth filter look.",
+    "tips": [
+      "Upload a front-facing or slightly angled head-and-shoulders photo in even light; a clean-shaven face lets the model add the moustache without fighting your existing facial hair.",
+      "If the face drifts, reply with \"keep my exact face from the uploaded photo, only change hair, moustache and clothes\" and regenerate instead of starting a new chat.",
+      "Swap the argyle vest for a cable-knit cardigan or a corduroy blazer, or change the backdrop to mottled brown, to get several versions of the same session."
+    ],
+    "suits": "Men who want a nostalgic family-album portrait, anyone curious how they look with a moustache, and people joining the 1980s trend on Instagram stories, WhatsApp statuses or a before-and-after carousel.",
+    "personalize": "Change the moustache style, the vest pattern and colours, or the backdrop tone to match your own taste or your father's old portrait.",
+    "best_with": "ChatGPT or Gemini"
+  },
+  {
+    "id": "e13",
+    "name": "Denim Jacket Classic Car",
+    "keyword": "1980s denim jacket classic car prompt",
+    "title": "1980s Denim Jacket Classic Car Prompt for ChatGPT & Gemini",
+    "description": "This 1980s denim jacket classic car prompt edits your own photo into a sunlit street snapshot leaning on an old sedan. Works in ChatGPT and Gemini.",
+    "categories": [
+      "men",
+      "retro-scenes",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "men",
+    "prompt": "Using my uploaded photo, show me as a man in 1986, leaning against the front fender of a two-tone sedan from the late seventies parked on a quiet suburban street. Keep my face, facial features, skin tone, age and body build unchanged and recognisable; no beautification or de-aging. Style my hair short on the sides with a longer, slightly feathered top. Dress me in a stonewashed denim jacket with the collar turned up over a plain white T-shirt, faded straight-leg jeans and white canvas sneakers, arms loosely crossed. Late-afternoon sun comes low from the side, throwing long shadows across the asphalt, chain-link fences and parked station wagons. Make it look like a 35mm snapshot on consumer colour film: visible grain, warm amber cast, slightly soft edges, an orange date stamp reading '86 in the lower right. No modern cars, phones, signs or logos; a real photograph, not a filter or painting.",
+    "intro": "A guy, a denim jacket and a car he was proud of: it is one of the most recognisable snapshots of the decade. The look is relaxed rather than costumey, so it feels believable on almost anyone. People like it because it reads as a real memory, the kind of photo a friend took on a Saturday afternoon.",
+    "creates": "An outdoor snapshot of you leaning on the fender of a two-tone late-seventies sedan on a quiet suburban street. You wear a stonewashed denim jacket with the collar up, a white T-shirt and faded jeans. Low sun throws long shadows over the asphalt, the whole frame has a warm amber cast and visible grain, and an orange '86 date stamp sits in the lower right corner.",
+    "works": "\"Keep my face ... unchanged and recognisable; no beautification or de-aging\" holds your identity while everything around you changes. Naming \"a two-tone sedan from the late seventies\" gives the model a period car without a brand it might render badly. \"Consumer colour film\", \"warm amber cast\" and the \"'86\" stamp make it a snapshot, not a studio shot, and \"No modern cars, phones, signs or logos\" keeps later details out of the street.",
+    "tips": [
+      "Choose a photo showing you from the waist up at least, so the model has a sense of your build before it poses you against the car.",
+      "If your face changes, ask it to \"use my exact face from the uploaded photo\" and to keep the car and outfit as they are, then regenerate.",
+      "Try a pickup truck or a muscle car instead of the sedan, or add a sheepskin-collared denim jacket for a late-autumn version."
+    ],
+    "suits": "Men who like a casual, cool era look without big hair or neon, car enthusiasts, and anyone posting a then-and-now comparison on Instagram, Facebook or a WhatsApp group chat.",
+    "personalize": "Change the car type and colour, the season of the light, or the year on the date stamp to the year you were born.",
+    "best_with": "ChatGPT or Gemini"
+  },
+  {
+    "id": "e14",
+    "name": "Wood-Panelled Office Man",
+    "keyword": "1980s businessman office portrait prompt",
+    "title": "1980s Businessman Office Portrait Prompt – ChatGPT & Gemini",
+    "description": "A 1980s businessman office portrait prompt for ChatGPT or Gemini that puts your own face behind an oak desk in a wide tie and pinstripe suit.",
+    "categories": [
+      "men",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "men",
+    "prompt": "Using my uploaded photo, place me as a man at work in a 1983 corporate office. Preserve my face, facial features, skin tone, age and body proportions exactly and keep me instantly recognisable; do not retouch or idealise me. Give me neatly combed hair with a side part and a charcoal pinstripe suit with a pale blue shirt and a wide burgundy paisley tie. Seat me behind a heavy oak desk in a wood-panelled office with a rotary desk phone, a Rolodex, a brass desk lamp, stacked manila folders and a glass ashtray, venetian blinds behind me. I am looking up from paperwork toward the camera, pen in hand. Overhead fluorescent tubes mixed with window light give a slight green-yellow cast. Shot on 35mm colour film for a company newsletter: medium grain, muted contrast, mild softness. No later-decade computers, no modern text or logos; a real photograph, not a filter or illustration.",
+    "intro": "The early-eighties office had a look all its own: panelled walls, a heavy desk, a tie wide enough to be a statement. Seeing yourself as the manager in that room is funny and oddly dignified at the same time. It is a favourite for people who work in offices today and want to compare their desk with their parents' generation.",
+    "creates": "A mid-shot of you seated behind a heavy oak desk in a wood-panelled office, dressed in a charcoal pinstripe suit, pale blue shirt and wide burgundy paisley tie. Around you are a rotary phone, a Rolodex, a brass lamp, manila folders and a glass ashtray, with venetian blinds behind. The light has a faint green-yellow fluorescent tint, and the image has the muted contrast and grain of a newsletter photo.",
+    "works": "\"Do not retouch or idealise me\" keeps your real face instead of a generic executive. The desk props, \"a rotary desk phone, a Rolodex ... a glass ashtray\", are specific enough to date the room instantly. \"Overhead fluorescent tubes mixed with window light\" produces the slightly off colour real office photos had, and \"for a company newsletter\" sets a modest, documentary tone. \"No later-decade computers\" stops anachronistic screens appearing on the desk.",
+    "tips": [
+      "Upload a photo where you are looking at the camera with a neutral or slight smile; the \"looking up from paperwork\" pose reads best with a direct gaze.",
+      "If the tie or suit comes out too modern and slim, add \"wide lapels and a wide tie, early-1980s cut\" and regenerate the same chat.",
+      "Replace the paisley tie with a knitted or striped one, or swap the ashtray for a coffee mug and a calculator for a less smoky office."
+    ],
+    "suits": "Office workers, managers and anyone who enjoys workplace humour; it works well on LinkedIn as a light-hearted post, in team chats, or as a retro profile picture for a work anniversary.",
+    "personalize": "Change the suit colour, tie pattern and desk props to reflect your own job, such as blueprints for an engineer or ledgers for an accountant.",
+    "best_with": "ChatGPT or Gemini"
+  },
+  {
+    "id": "e15",
+    "name": "Old-School Bodybuilding Gym",
+    "keyword": "1980s bodybuilder gym photo prompt",
+    "title": "1980s Bodybuilder Gym Photo Prompt for ChatGPT & Gemini",
+    "description": "Edit your own photo with this 1980s bodybuilder gym photo prompt: tank top, sweatband, chrome weights and flash glare. Works in ChatGPT and Gemini.",
+    "categories": [
+      "men",
+      "retro-scenes",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "men",
+    "prompt": "Using my uploaded photo, show me training in a 1980s neighbourhood bodybuilding gym, around 1984. Keep my face, facial features, skin tone, age and natural body proportions recognisable; add only a believable amount of muscle tone and do not beautify or reshape my face. Give me slightly damp, feathered hair, a terry-cloth sweatband, a cut-off ribbed tank top, short nylon shorts with contrast piping, tube socks and high-top trainers. I am mid-curl with a chrome dumbbell in front of a mirrored wall, surrounded by chrome barbells, a vinyl-padded bench, a rubber floor mat and peeling workout posters taped to painted brick. Lit by harsh on-camera flash that bounces off the chrome, with dim tungsten light behind. Shot on 35mm colour film: coarse grain, saturated reds and yellows, slight motion blur on the weight, a small date stamp. No modern machines, text or logos; a real photograph, not a filter or render.",
+    "intro": "Old-school gyms were all chrome, sweat and posters, and the outfits were famously short. This look is fun because it is bold and a little ridiculous, yet it still feels like a real photo someone snapped between sets. Gym-goers like seeing their current training translated into the decade that made bodybuilding mainstream.",
+    "creates": "A candid flash photo of you mid-curl with a chrome dumbbell in front of a mirrored wall, wearing a sweatband, a cut-off tank top, short piped nylon shorts and tube socks. Chrome barbells, a vinyl bench and faded posters on painted brick fill the background. The flash glints off the metal, the weight shows slight motion blur, and the colours are saturated with coarse grain and a small date stamp.",
+    "works": "\"Add only a believable amount of muscle tone\" is the key line: it lets the model suggest training without inventing a different body. \"Harsh on-camera flash that bounces off the chrome\" creates the glare and hard shadows of real gym snapshots. \"Slight motion blur on the weight\" adds a candid imperfection AI images usually lack, and \"not a filter or render\" pushes it away from glossy 3D-looking skin.",
+    "tips": [
+      "Upload a photo in a T-shirt or gym clothes so the model can read your real build; a posed selfie in the gym mirror works well.",
+      "If the model makes you far more muscular, reply \"keep my real body shape from the photo, only slight tone\" and regenerate.",
+      "Change the exercise to a bench press or a lat pulldown, or add a spotter in the background, for a series of gym shots."
+    ],
+    "suits": "Gym regulars, lifters and fitness coaches who want a playful throwback; it fits Instagram reels, gym group chats, and transformation-style carousels next to a current training photo.",
+    "personalize": "Change the exercise, the colour of the tank top and shorts, and the level of muscle tone to match how you actually train.",
+    "best_with": "ChatGPT or Gemini"
+  },
+  {
+    "id": "e16",
+    "name": "Soft-Box Glamour Studio Portrait",
+    "keyword": "1980s glamour studio portrait prompt",
+    "title": "1980s Glamour Studio Portrait Prompt for ChatGPT & Gemini",
+    "description": "Turn your own photo into a soft-glow studio print with this 1980s glamour studio portrait prompt: silk blouse, shoulder pads, pearls. ChatGPT or Gemini.",
+    "categories": [
+      "women",
+      "studio",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "women",
+    "prompt": "Using my uploaded photo, turn me into a woman posing for a 1980s glamour studio portrait, around 1987. Keep my face, facial features, skin tone, age and body proportions exactly and recognisably mine; no face slimming, skin smoothing or beautification. Give me big, brushed-out layered hair with soft volume at the crown, rose-pink lipstick, frosted eyeshadow and a light blush. Dress me in an ivory silk blouse with padded shoulders and a soft bow at the neckline, a single strand of pearls and matching button earrings. I am turned slightly, chin resting lightly on my hand, against a smoky lavender backdrop. Light me with a large soft box above and a hair light behind for a glowing rim, with a gentle diffusion filter on the lens. Shot on medium-format colour film: fine grain, creamy highlights, slightly warm cast. No modern jewellery, text or logos; a genuine studio print, not an airbrushed filter or illustration.",
+    "intro": "The glamour portrait was the decade's special-occasion photo: big hair, silk, pearls and that dreamy soft-focus glow. It feels polished but not modern, which is exactly why it is popular. People want a portrait that looks like something their mother or aunt booked at the mall studio, but with their own face in it.",
+    "creates": "A soft, glowing studio portrait of you with brushed-out layered hair, rose-pink lips and frosted eyeshadow, in an ivory silk blouse with padded shoulders and a bow, wearing pearls. You pose with your chin on your hand against a smoky lavender backdrop. A rim of light outlines your hair, highlights look creamy and slightly diffused, and the colour has the warm, fine-grained quality of a medium-format print.",
+    "works": "\"No face slimming, skin smoothing or beautification\" is essential here, because a glamour brief invites the model to over-polish. \"A large soft box above and a hair light behind\" describes the real two-light setup that made these portraits glow. \"A gentle diffusion filter on the lens\" gives period softness optically instead of through plastic skin, and \"not an airbrushed filter\" warns against the modern beauty-app look.",
+    "tips": [
+      "Upload a well-lit close-up with your face fully visible and hair away from your eyes, so the model can rebuild the hairstyle cleanly.",
+      "If your skin comes out too smooth or your face narrower, reply \"restore my real skin texture and face shape from the photo\" and regenerate.",
+      "Swap the ivory blouse for a jewel-toned velvet top, or change the backdrop to dusty blue or peach, for different studio sessions."
+    ],
+    "suits": "Women who want an elegant, flattering throwback, including for birthdays or Mother's Day comparisons; it suits Instagram portraits, profile photos and side-by-side posts with an older family print.",
+    "personalize": "Change the blouse colour, jewellery and backdrop shade, or ask for a hairstyle closer to one you remember from a family photo.",
+    "best_with": "ChatGPT or Gemini"
+  },
+  {
+    "id": "e17",
+    "name": "Denim Street Style Snapshot",
+    "keyword": "1980s denim street style prompt",
+    "title": "1980s Denim Street Style Prompt for ChatGPT & Gemini",
+    "description": "With this 1980s denim street style prompt, ChatGPT or Gemini turns your own photo into a candid shopping-street snapshot with curls and oversized denim.",
+    "categories": [
+      "women",
+      "retro-scenes",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "women",
+    "prompt": "Using my uploaded photo, show me as a young woman on a city shopping street in 1988. Keep my face, facial features, skin tone, age and body proportions unchanged and easy to recognise; do not beautify or alter my features. Give me voluminous permed curls pulled to one side with a scrunchie, and dress me in an oversized acid-wash denim jacket with rolled sleeves over a striped boat-neck top, high-waisted tapered jeans, slouch socks and white sneakers, with a small crossbody purse. I am mid-stride in front of a record and video shop window under a striped awning, the window signage blurred and unreadable. Overcast daylight, captured by a friend on a point-and-shoot 35mm camera: slightly tilted framing, soft focus, visible grain, cool green cast in the shadows, faded print edges. No modern shopfronts, phones, brand logos or readable text; a real snapshot, not a filter or illustration.",
+    "intro": "Oversized denim and big curls are the most instantly recognisable late-eighties street look, and they still feel wearable. This version is a candid moment rather than a posed portrait, which makes it feel like a found photo. People love it because it looks like a friend caught you walking past a shop on a Saturday.",
+    "creates": "A candid street snapshot of you mid-stride past a record and video shop under a striped awning. You have voluminous permed curls with a side scrunchie and wear an oversized acid-wash denim jacket over a striped top, high-waisted tapered jeans and slouch socks. The frame is slightly tilted and soft, with visible grain, a cool green tint in the shadows and faded edges.",
+    "works": "\"Do not beautify or alter my features\" keeps the face yours under a big hairstyle change. \"Captured by a friend on a point-and-shoot\" and \"slightly tilted framing\" make the picture casual and imperfect, the opposite of an AI fashion shot. \"Window signage blurred and unreadable\" avoids garbled lettering, and \"cool green cast in the shadows\" copies how cheap film reacted to overcast light.",
+    "tips": [
+      "Upload a full-length or three-quarter photo if you have one; the outfit is the point here, so the model needs a sense of your height and build.",
+      "If the face drifts under the curls, ask to \"keep my exact face and hairline from the uploaded photo\" and regenerate in the same chat.",
+      "Try a denim-on-denim version with a matching skirt, or switch the location to a mall escalator or a bus stop for variety."
+    ],
+    "suits": "Women who like casual fashion and want a throwback that feels real rather than costumed; good for Instagram carousels, style accounts and nostalgic posts in college or friend groups.",
+    "personalize": "Change the denim wash, the top underneath, the hairstyle and the shop type to the kind of street you grew up around.",
+    "best_with": "ChatGPT or Gemini"
+  },
+  {
+    "id": "e18",
+    "name": "Campus Lawn College Girl",
+    "keyword": "1980s college girl campus prompt",
+    "title": "1980s College Girl Campus Prompt for ChatGPT & Gemini",
+    "description": "This 1980s college girl campus prompt edits your own photo into a yearbook-style candid with a sweater vest and textbooks on a lawn. ChatGPT or Gemini.",
+    "categories": [
+      "women",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "women",
+    "prompt": "Using my uploaded photo, show me as a woman college student on campus in 1985. Keep my face, facial features, skin tone, age and body proportions clearly mine; no de-aging, smoothing or beautification. Give me shoulder-length hair with soft feathered bangs and a padded headband, small gold stud earrings and minimal makeup. Dress me in a white round-collared blouse under a navy cable-knit sweater vest, a pleated plaid skirt and penny loafers, hugging a stack of clothbound textbooks and a spiral notebook. I am sitting on the grass of a campus lawn, with red-brick buildings, tall elms and a few students carrying canvas book bags softly out of focus behind me. Natural late-morning light, no flash, shot on 35mm colour negative film like a yearbook candid: fine grain, slightly faded greens, warm skin tones, gentle vignette. No laptops, phones, modern clothing, text or logos; a real photograph, not a filter or illustration.",
+    "intro": "The preppy campus look is soft, neat and a little bookish, and it photographs beautifully in natural light. It has a gentle nostalgia that many people connect with their parents' college stories. Students and graduates like it because it turns an ordinary selfie into something that could have come out of an old yearbook.",
+    "creates": "A daylight candid of you sitting on a campus lawn holding clothbound textbooks and a spiral notebook. You have shoulder-length hair with feathered bangs and a headband, and wear a white collared blouse under a navy cable-knit sweater vest with a plaid skirt and loafers. Red-brick buildings and students with book bags blur behind you, with faded greens, warm skin tones and fine grain.",
+    "works": "\"No de-aging, smoothing or beautification\" matters because a student theme tempts the model to make you look younger. \"Natural late-morning light, no flash\" sets a calm, soft mood different from the flash-heavy party shots of the decade. \"Like a yearbook candid\" gives the model a clear photographic reference, and \"slightly faded greens\" reproduces how grass aged on real prints. \"No laptops, phones\" removes the objects most likely to slip in.",
+    "tips": [
+      "Upload a daylight photo with soft, even light on your face; harsh indoor lighting makes the outdoor scene look pasted on.",
+      "If the model makes you look like a teenager, reply \"keep my real age from the photo\" and regenerate without changing the rest.",
+      "Change the season to autumn leaves with a wool coat, or move the scene to library steps or a dorm window for more variations."
+    ],
+    "suits": "College students, recent graduates and anyone who loves a preppy, bookish style; it works for graduation posts, back-to-school stories and throwback comparisons with a parent's old campus photo.",
+    "personalize": "Change the sweater vest colour, the skirt to corduroy trousers, or the textbooks to your own subject to make it feel personal.",
+    "best_with": "ChatGPT or Gemini"
+  },
+  {
+    "id": "e19",
+    "name": "Leather Jacket Motorcycle Road",
+    "keyword": "1980s leather jacket motorcycle prompt",
+    "title": "1980s Leather Jacket Motorcycle Prompt for ChatGPT & Gemini",
+    "description": "The 1980s leather jacket motorcycle prompt for ChatGPT or Gemini turns your own photo into a golden-hour shot beside a chrome bike on an empty road.",
+    "categories": [
+      "women",
+      "retro-scenes",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "women",
+    "prompt": "Using my uploaded photo, show me as a woman standing beside a motorcycle on an empty two-lane highway in 1986. Keep my face, facial features, skin tone, age and body proportions exactly and recognisably mine; no beautification or reshaping. Give me big, wind-tousled hair with volume at the roots, and dress me in a black leather jacket with zippers and epaulettes, a white tank top, stonewashed jeans and scuffed ankle boots, with dark aviator sunglasses on. I am leaning on a chrome-heavy standard motorcycle, arms folded, with desert scrub and wooden telephone poles stretching to the horizon. Golden-hour sun low behind me gives a warm rim light and a little lens flare. Shot on 35mm slide film: rich saturated oranges, deep shadows, fine grain, slightly soft corners, an orange date stamp in one corner. No modern motorcycles, helmets, text or logos; a real photograph, not a filter or illustration.",
+    "intro": "A leather jacket, a motorcycle and an empty road at sunset is the decade's idea of freedom in one frame. It is a confident, cinematic look that still feels like a real roadside photo rather than a movie poster. People like it because it shows a tougher, more adventurous side of themselves than a studio portrait.",
+    "creates": "A golden-hour roadside photo of you leaning on a chrome motorcycle with arms folded, wearing aviator sunglasses, a zipped black leather jacket, white tank top, stonewashed jeans and ankle boots. Your hair is big and wind-tousled. Desert scrub and telephone poles run to the horizon, the low sun gives a warm rim and small flare, and the colours are rich and saturated like slide film.",
+    "works": "\"No beautification or reshaping\" keeps your face and build true even with a glamorous setting. \"Golden-hour sun low behind me\" plus \"a little lens flare\" gives backlight that feels physical. \"35mm slide film\" is a specific choice that explains the deep saturated oranges and dark shadows, and \"slightly soft corners\" adds lens imperfection. \"No modern motorcycles, helmets\" prevents sleek sport bikes from replacing the classic chrome machine.",
+    "tips": [
+      "Because sunglasses cover the eyes, upload a clear photo where your jawline, nose and mouth are well lit, so the face stays recognisable.",
+      "If your face drifts, ask for the sunglasses to be pushed up on your head for one version, then regenerate with them on.",
+      "Switch to a red leather jacket or a bomber, or change the scene to a neon-lit roadside diner at dusk for a night version."
+    ],
+    "suits": "Women who want a bold, confident look, riders and road-trip lovers, or anyone who grew up on action films; it fits Instagram posts, profile pictures, travel accounts and throwback carousels.",
+    "personalize": "Change the jacket colour, the type of landscape and the time of day to match a road or place you actually know.",
+    "best_with": "ChatGPT or Gemini"
+  },
+  {
+    "id": "e20",
+    "name": "Power Suit Businesswoman",
+    "keyword": "1980s power suit businesswoman prompt",
+    "title": "1980s Power Suit Businesswoman Prompt for ChatGPT & Gemini",
+    "description": "Try this 1980s power suit businesswoman prompt in ChatGPT or Gemini: your own face in a big-shoulder blazer by an office tower window with a boxy computer.",
+    "categories": [
+      "women",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "women",
+    "prompt": "Using my uploaded photo, show me as a woman executive in a high-rise office in 1987. Keep my face, facial features, skin tone, age and body proportions unchanged and recognisable; do not smooth, slim or beautify me. Give me a sleek, voluminous blow-dried bob, bold red lipstick and gold clip-on earrings. Dress me in a double-breasted cobalt-blue blazer with broad padded shoulders, a cream blouse and a slim black skirt. I am standing at a floor-to-ceiling window overlooking a city skyline, one hand on a desk that holds a beige boxy computer with a glowing green monitor, a corded push-button phone, a leather briefcase. Mixed light: cool daylight from the window and a warm desk lamp on my face. Shot on 35mm colour film for a business magazine profile: fine grain, slight blue cast in the shadows, mild softness. No flat screens, smartphones, glass-tower skylines, readable text or logos; a real photograph, not a filter or illustration.",
+    "intro": "The power suit is the decade's clearest symbol of ambition: huge shoulders, bold colour and a corner office. Putting yourself into that frame is empowering and a little funny, especially next to the chunky computer. Professional women like this look because it celebrates career confidence in a way that still feels stylish today.",
+    "creates": "A mid-length photo of you standing by a floor-to-ceiling office window over a city skyline, in a cobalt-blue double-breasted blazer with broad shoulders, cream blouse and slim skirt, with a blow-dried bob and red lipstick. Your hand rests on a desk holding a beige boxy computer with a green-glowing screen, a push-button phone and a briefcase. Cool window light meets a warm lamp, with fine grain and slight softness.",
+    "works": "\"Do not smooth, slim or beautify me\" prevents the corporate-headshot polish models tend to add. \"Broad padded shoulders\" and \"double-breasted\" force the unmistakable silhouette instead of a modern slim blazer. \"Beige boxy computer with a glowing green monitor\" dates the office at a glance, and \"mixed light\" gives realistic uneven colour. \"No flat screens ... glass-tower skylines\" stops the model drawing a present-day city behind you.",
+    "tips": [
+      "Upload a waist-up photo with good posture; standing shots help the model build a convincing silhouette for the padded blazer.",
+      "If your face shifts, reply \"keep my exact face from the uploaded photo, change only outfit and office\" and regenerate.",
+      "Change the blazer to red or houndstooth, or seat yourself at the desk with a fax machine and a coffee cup, for more variations."
+    ],
+    "suits": "Working women, founders and managers, plus anyone marking a promotion or International Women's Day; it suits LinkedIn, Instagram and team chats as a confident, light-hearted post.",
+    "personalize": "Change the blazer colour and pattern, the desk props, or the city view to reflect your own industry and hometown.",
+    "best_with": "ChatGPT or Gemini"
+  },
+  {
+    "id": "e21",
+    "name": "Diner Date Night Couple",
+    "keyword": "1980s couple photo prompt",
+    "title": "1980s Couple Photo Prompt for ChatGPT & Gemini",
+    "description": "Upload a picture of you both and use this 1980s couple photo prompt in ChatGPT or Gemini to get a flash-lit diner date snapshot in casual period outfits.",
+    "categories": [
+      "couple-family",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "couple-family",
+    "prompt": "Using the uploaded photo(s), show both of us as a couple on a casual date in 1984. Keep every person in the photo, and preserve each person's face, facial features, skin tone, age, height difference and body proportions exactly and recognisably; do not beautify, swap or merge anyone. Give one partner a feathered haircut, a pastel polo shirt with a popped collar and a nylon windbreaker, and the other permed hair, a bright oversized sweatshirt worn off one shoulder and high-waisted jeans, adapting the clothes to each person. We are sharing a milkshake with two straws in a vinyl booth at a roadside diner, a jukebox and chrome napkin holder nearby, heads leaning together, laughing. Captured on a point-and-shoot with harsh direct flash: slight red-eye glint, dark falloff behind us, warm tungsten cast, visible grain and an orange date stamp in the corner. No modern phones, clothing, text or logos; a real snapshot, not a filter or illustration.",
+    "intro": "A date-night snapshot is the most personal kind of throwback: two people, one milkshake, and a flash that caught them mid-laugh. It lets couples imagine how they would have met or dated a few decades earlier. The look is warm and unposed, which makes it feel like a real memory rather than a staged photoshoot.",
+    "creates": "A flash-lit snapshot of the two of you in a vinyl diner booth, heads together and laughing over one milkshake with two straws. Your outfits are casual period pieces, like a popped-collar polo with a windbreaker and an oversized off-shoulder sweatshirt with high-waisted jeans. The background falls into darkness, faces have a slight red-eye glint, and the image is warm, grainy and date-stamped.",
+    "works": "\"Keep every person in the photo\" and \"do not beautify, swap or merge anyone\" address the biggest risk in multi-person edits: faces blending or someone disappearing. \"Height difference\" keeps your real relationship to each other in frame. \"Harsh direct flash\" with \"slight red-eye glint\" and \"dark falloff\" reproduces cheap-camera snapshots, and \"adapting the clothes to each person\" lets the prompt work for any couple.",
+    "tips": [
+      "Upload one clear photo with both faces visible and similarly lit; if you only have separate photos, upload both and say which person is on the left.",
+      "If one face drifts, reply naming that person, for example \"keep the person on the right exactly as in the photo\", and regenerate.",
+      "Move the date to a roller rink, a drive-in cinema or an arcade, keeping the flash and date stamp, for a small series."
+    ],
+    "suits": "Couples of any kind celebrating an anniversary or Valentine's Day, and anyone doing a joint throwback post on Instagram, Facebook or a family WhatsApp group.",
+    "personalize": "Change the date location, each person's outfit colours and the year on the stamp to the year you met.",
+    "best_with": "ChatGPT or Gemini"
+  },
+  {
+    "id": "e22",
+    "name": "Balloon Arch Prom Night",
+    "keyword": "1980s prom night couple prompt",
+    "title": "1980s Prom Night Couple Prompt for ChatGPT & Gemini",
+    "description": "This 1980s prom night couple prompt turns a photo of you both into a 1985 prom portrait with ruffled tux, puffed sleeves, balloon arch. ChatGPT or Gemini.",
+    "categories": [
+      "couple-family",
+      "studio",
+      "chatgpt-1980s-photo-prompts"
+    ],
+    "primary_category": "couple-family",
+    "prompt": "Using the uploaded photo(s), show both of us as a couple at a 1985 high-school prom. Keep every person in the photo and preserve each face, facial features, skin tone, age and body proportions exactly and recognisably; no beautification, de-aging or face swapping. Dress one partner in a powder-blue tuxedo with a ruffled-front shirt, velvet bow tie and matching cummerbund, and the other in a taffeta dress with big puffed sleeves and a sweetheart neckline, a wrist corsage and teased, curled hair, adapting the outfits to each person. Pose us in the classic prom stance, one standing behind the other with hands clasped at the waist, before a balloon arch and a glittering foil curtain. Lit by direct studio flash with a small umbrella fill, shot on medium-format colour film: crisp but grainy, slight magenta cast, glossy print with a thin white border. No modern outfits, phones, text or logos; a real prom portrait, not a filter or illustration.",
+    "intro": "The prom portrait under a balloon arch is a rite-of-passage photo, and the mid-eighties versions are gloriously over the top. Ruffles, puffed sleeves and a pastel tux make it one of the most fun couple edits to try. Couples enjoy it because it gives them the prom photo they never had together.",
+    "creates": "A posed prom portrait of the two of you, one standing behind the other with hands clasped at the waist. One wears a powder-blue tux with a ruffled shirt, velvet bow tie and cummerbund; the other a taffeta dress with puffed sleeves, a corsage and teased curls. Behind you are a balloon arch and a glittering foil curtain, lit by direct flash with a slight magenta cast and a white print border.",
+    "works": "\"No beautification, de-aging or face swapping\" matters here because a school prom setting nudges the model toward younger faces. \"The classic prom stance, one standing behind the other\" gives a precise, familiar pose instead of a random embrace. \"Direct studio flash with a small umbrella fill\" matches the portable setups used at school dances, and \"glossy print with a thin white border\" makes it look like a picture from the photo package.",
+    "tips": [
+      "Upload a photo where you are standing close together and both faces are sharp; group shots with other people make it harder to keep the right faces.",
+      "If one face looks younger or different, reply \"keep both faces at our real ages exactly as in the photo\" and regenerate.",
+      "Change the tux to white or burgundy and the dress to a sequinned or ruffled tier style to match your real prom colours."
+    ],
+    "suits": "Couples who want a playful anniversary post, friends going as prom dates, and anyone who missed their own prom; it is a strong fit for Instagram, Facebook and wedding-anniversary slideshows.",
+    "personalize": "Change the tux and dress colours, the backdrop theme and the prom year to match your own school or anniversary.",
+    "best_with": "ChatGPT or Gemini"
+  }
+]
