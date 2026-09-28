@@ -51,7 +51,10 @@ REF_PROMPT = ("A plain, modern, everyday smartphone photo of {who}, facing the c
               "natural expression, {framing}, casual present-day clothes, soft daylight, "
               "simple indoor background. A fictional person, not a real or famous person. "
               "Realistic, unedited, no filters, no text.")
-OVERRIDES = {"e33": "woman_ea"}  # prompt id -> reference name
+OVERRIDES = {  # prompt id -> reference name, where the category rules pick the wrong person
+    "e33": "woman_ea", "e34": "family", "e36": "family", "e42": "couple", "e43": "woman_in",
+    "e39": "man", "e40": "woman", "e41": "man_in", "e44": "woman",
+}
 
 PROVIDERS = {
     "gemini": {"env": "GEMINI_API_KEY", "model": os.environ.get("GEMINI_IMAGE_MODEL", "gemini-2.5-flash-image"),

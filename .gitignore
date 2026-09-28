@@ -5,3 +5,4 @@ __pycache__/
 *.pyc
 1980s-photo-prompt-report/
 .venv/
+data/x/

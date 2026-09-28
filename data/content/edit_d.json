@@ -1,0 +1,148 @@
+[
+ {
+  "id": "e34",
+  "name": "Mall Photo Studio Family Portrait",
+  "keyword": "1980s mall studio portrait prompt",
+  "title": "1980s Mall Studio Portrait Prompt for ChatGPT & Gemini",
+  "description": "This 1980s mall studio portrait prompt turns your group or pet photo into a stiff, sweet muslin-backdrop sitting. Works in ChatGPT or Gemini.",
+  "categories": [
+   "studio",
+   "couple-family",
+   "chatgpt-1980s-photo-prompts"
+  ],
+  "primary_category": "studio",
+  "prompt": "Using the uploaded photo(s), recreate only the people and pets in it as a late-1980s shopping-mall photo studio sitting. Keep every face, facial feature, skin tone, age and body proportion clearly recognisable; do not beautify, slim or smooth anyone, and do not add or remove anyone. Arrange them in a tight pyramid in front of a mottled blue-grey muslin backdrop, adults on a carpeted posing cube, others kneeling with a hand on a shoulder, heads tilted a little too carefully. Give them permed or feathered hair, cowl-neck sweaters, pastel collars under V-necks and pleated slacks; a pet sits upright in front in a plaid bandana. Lighting is flat umbrella flash with a faint shadow on the backdrop and small catchlights. Print it as a glossy 8x10 with soft focus, gentle grain and slightly warm skin. No modern clothing, phones, logos or text; a real mall-studio print, not a filter or illustration.",
+  "intro": "Mall portrait studios produced a very particular kind of picture: everyone matched, arranged in a careful pyramid and smiling a little too hard in front of a cloudy backdrop. It is gently funny and genuinely affectionate at the same time, which is why recreating it with your own people and pets makes such a good group chat moment or holiday card.",
+  "creates": "The result is a glossy studio print of your group posed in a tight pyramid against a mottled blue-grey muslin backdrop. Adults sit on a carpeted cube while others kneel or rest a hand on a shoulder, all with permed or feathered hair, cowl-neck sweaters and pastel collars. Your pet sits in front in a plaid bandana. The flash is flat and even, the focus soft, and the colours lean warm.",
+  "works": "\"Only the people and pets\" and \"do not add or remove anyone\" stop the model from inventing extra relatives or dropping the dog. \"Heads tilted a little too carefully\" delivers the stiff, earnest posing that makes this look recognisable. \"Flat umbrella flash with a faint shadow on the backdrop\" pins down the lighting instead of leaving it cinematic, and \"a real mall-studio print, not a filter or illustration\" keeps the finish photographic.",
+  "tips": [
+   "Upload a photo where every person and pet faces the camera with visible eyes; side profiles are the faces most likely to be reinvented by the model.",
+   "If the pet changes breed or colour, reply with a short description of it, for example \"a small black terrier with a white chest\", and regenerate.",
+   "Swap the blue-grey muslin for a rust or brown backdrop, or add a fake fireplace set, to get a slightly different studio feel."
+  ],
+  "suits": "Families, couples with pets, roommates and friend groups making a joke holiday card, an anniversary post, a reunion invite or a framed gag gift for parents who once sat for exactly this kind of portrait.",
+  "personalize": "Change the sweater colours, the backdrop shade and who sits on the posing cube so the arrangement reflects your own family.",
+  "best_with": "ChatGPT or Gemini"
+ },
+ {
+  "id": "e35",
+  "name": "Yearbook Page Collage With Classmates",
+  "keyword": "1980s yearbook page collage prompt",
+  "title": "1980s Yearbook Page Collage Prompt for ChatGPT & Gemini",
+  "description": "Use this 1980s yearbook page collage prompt to place your portrait on a doodled class page among made-up classmates. Use ChatGPT or Gemini.",
+  "categories": [
+   "studio",
+   "chatgpt-1980s-photo-prompts"
+  ],
+  "primary_category": "studio",
+  "prompt": "Using my uploaded photo, create a full 1980s high-school yearbook page in which my portrait is one tile in a grid of twelve small school photos. Keep my face, facial features, skin tone, age and proportions clearly recognisable; do not beautify or smooth my skin. In my tile I wear a wide-collared striped shirt with a thin sweater vest, big layered hair and a slightly nervous half-smile against a speckled grey school backdrop. The other eleven tiles are clearly different fictional classmates with braces, oversized frames and side ponytails. Set the grid on blue-lined notebook paper with pink highlighter stripes, ballpoint stars, arrows and a doodled cassette. Under each tile put short squiggly handwriting that is only illegible scribbles, never real names. Show halftone dots, faded ink and a yellowed edge. No real names, brands, logos or modern objects; a scanned printed page, not a digital graphic or illustration.",
+  "intro": "A yearbook page says more about the decade than any single portrait: the stiff poses, the uneven hair, the doodles someone added in ballpoint. Seeing yourself as one small tile among a class of strangers is funny and oddly convincing, and it makes a great alternative to the usual single-headshot throwback edit.",
+  "creates": "The edited image looks like a scanned yearbook page. Your school portrait sits in a grid of twelve small tiles, surrounded by fictional classmates with braces, big frames and side ponytails. Behind the grid is blue-lined notebook paper with pink highlighter stripes, stars, arrows and a doodled cassette. Captions are loose scribbles, and the print shows halftone dots, faded ink and a yellowed edge.",
+  "works": "\"My portrait is one tile in a grid of twelve\" tells the model which face must stay yours while the rest are invented. \"Clearly different fictional classmates\" stops it from cloning your face across the page. \"Only illegible scribbles, never real names\" avoids fake text and real identities, while \"halftone dots\" and \"a yellowed edge\" make it read as printed paper rather than \"a digital graphic or illustration\".",
+  "tips": [
+   "Upload a straight-on, evenly lit headshot; the tile is small, so a clear face with visible eyes survives the downscale much better than a candid.",
+   "If classmates start resembling you, reply \"make every other tile a distinctly different person in age, face shape and hair\" and regenerate the page.",
+   "For a sports-page variant, ask for team uniforms in the other tiles, or change the doodles to hearts and signatures for a signed-copy look."
+  ],
+  "suits": "Anyone doing a class reunion post, friends swapping throwback edits, teachers making a fun staff intro, or creators who want a nostalgic carousel image that is more playful than a single portrait.",
+  "personalize": "Change your tile's outfit, the paper colour and the doodle theme, for example band sketches, sports pennants or hearts, to match your own school memories.",
+  "best_with": "ChatGPT"
+ },
+ {
+  "id": "e36",
+  "name": "Christmas Morning Family Snapshot",
+  "keyword": "1980s christmas morning photo prompt",
+  "title": "1980s Christmas Morning Photo Prompt for ChatGPT & Gemini",
+  "description": "This 1980s christmas morning photo prompt puts your family in pajamas by a tinsel tree and torn wrapping. Works in ChatGPT or Gemini with your photo.",
+  "categories": [
+   "couple-family",
+   "retro-scenes",
+   "chatgpt-1980s-photo-prompts"
+  ],
+  "primary_category": "couple-family",
+  "prompt": "Using the uploaded photo(s), turn every person shown into an early-1980s Christmas morning snapshot in a small living room. Keep each person's face, facial features, skin tone, age and body proportions clearly recognisable; do not beautify, slim or smooth anyone, and do not add or remove people. Everyone sits on a mustard carpet in flannel pajamas and robes amid torn foil wrapping paper, curled ribbon and half-opened boxes, one person holding up a new sweater mid-laugh. Behind them stands a tree heavy with silver tinsel and big coloured bulb lights against a wood-panelled wall. Capture it with a cartridge instamatic and flashcube: hard frontal flash, bright faces, dark corners, red-eye in one person. The print is a shoebox photo with faded magenta colour, soft focus and a thin white border. No modern gadgets, logos or readable text; a real family snapshot, not a filter or illustration.",
+  "intro": "Christmas morning is one of the most photographed moments in any old family album, and those prints share a look: harsh flash, piles of paper, everyone half-dressed and mid-laugh. Putting your own family into that scene feels warm rather than ironic, which makes it a natural choice for holiday cards and seasonal throwback posts.",
+  "creates": "The finished picture shows your family on a mustard carpet in flannel pajamas and robes, amid torn foil paper and half-opened boxes. A tinsel-heavy tree with big coloured bulbs glows behind them against wood panelling. The flash is hard and frontal, corners fall dark, and one person has red-eye. The print has faded magenta colour, soft focus and a thin white border like a shoebox find.",
+  "works": "\"Do not add or remove people\" keeps the family intact, while \"one person holding up a new sweater mid-laugh\" gives the scene a candid centre instead of a posed lineup. \"Cartridge instamatic and flashcube\" and \"red-eye in one person\" define a specific, imperfect camera. \"Faded magenta colour\" describes how prints of the time actually aged, and \"not a filter or illustration\" keeps it looking photographed.",
+  "tips": [
+   "Use a group photo where faces are large and unobstructed; hats, sunglasses or heavy shadows in the upload make faces more likely to drift.",
+   "If a child looks older or younger than in your upload, reply with each person's approximate age and position and ask to keep their exact face.",
+   "For a later-80s variant, swap the flashcube for a 35mm point-and-shoot and add a date stamp in orange digits in the lower corner."
+  ],
+  "suits": "Families making a holiday card, grown siblings recreating a childhood Christmas for parents, couples posting a seasonal throwback, and anyone filling a December photo album or family group chat.",
+  "personalize": "Change the gifts being opened, the tree decorations and the pajama colours so the scene matches your own family's holiday traditions.",
+  "best_with": "ChatGPT or Gemini"
+ },
+ {
+  "id": "e37",
+  "name": "Living Room House Party Flash",
+  "keyword": "1980s house party photo prompt",
+  "title": "1980s House Party Photo Prompt for ChatGPT & Gemini",
+  "description": "Try this 1980s house party photo prompt to drop yourself mid-laugh into a crowded living room with streamers and a boombox. Works in ChatGPT or Gemini.",
+  "categories": [
+   "retro-scenes",
+   "chatgpt-1980s-photo-prompts"
+  ],
+  "primary_category": "retro-scenes",
+  "prompt": "Using the uploaded photo(s), place everyone shown at a crowded 1980s living-room house party late at night. Keep every face, facial feature, skin tone, age and body proportion clearly recognisable; do not beautify or smooth anyone, and do not add or remove the uploaded people. Catch me mid-laugh on a corduroy couch arm, head thrown back, holding a glass bottle of cola with a bent straw. Give me big layered hair, a slouchy off-the-shoulder sweatshirt and jelly bracelets. Around us blurred partygoers dance under crêpe-paper streamers and a banner with no readable words; a silver boombox sits beside cheese puffs and a fondue pot. Shot on a 35mm point-and-shoot with direct flash: blown highlights on faces, sharp shadows behind, murky orange background, slight tilt. No modern phones, plastic party cups, logos or readable text; a real party snapshot, not a filter or illustration.",
+  "intro": "House party flash photos are chaotic in the best way: someone always mid-laugh, a crooked frame and a room lit only by the camera. That energy is hard to fake with a posed portrait, so dropping yourself into one gives a throwback that feels lived-in and fun rather than staged.",
+  "creates": "The finished image shows you laughing on the arm of a corduroy couch with a glass cola bottle and bent straw, big hair and jelly bracelets. Behind you blurred partygoers dance under crêpe-paper streamers, and a silver boombox sits by bowls of cheese puffs and a fondue pot. Direct flash blows out your face, throws hard shadows and leaves the room a murky orange.",
+  "works": "\"Do not add or remove the uploaded people\" protects the real faces while \"blurred partygoers\" lets the room fill up without inventing sharp strangers. \"Head thrown back\" forces a candid moment. \"Direct flash: blown highlights on faces, sharp shadows behind\" nails the snapshot lighting, and ruling out \"plastic party cups\" plus \"no readable words\" on the banner remove the usual anachronisms and fake text.",
+  "tips": [
+   "Upload a photo where you are smiling or laughing naturally; a neutral face often gets stretched into an unconvincing grin when the model adds the laugh.",
+   "If your face drifts because of the head tilt, reply \"keep my face turned toward the camera with only a slight tilt\" and regenerate.",
+   "Swap the fondue pot and cola for a punch bowl and cake to make it a birthday party, or dim the scene with a lava lamp glow."
+  ],
+  "suits": "Friend groups recreating a night out, people planning an 80s-themed birthday, and anyone who wants a loose, funny throwback post for stories or a group chat rather than a formal portrait.",
+  "personalize": "Change the snacks, your outfit and where you are sitting or dancing so the party looks like one you would actually have been at.",
+  "best_with": "ChatGPT or Gemini"
+ },
+ {
+  "id": "e38",
+  "name": "Underground Warehouse Rave Flash",
+  "keyword": "1980s warehouse rave photo prompt",
+  "title": "1980s Warehouse Rave Photo Prompt for ChatGPT & Gemini",
+  "description": "This 1980s warehouse rave photo prompt puts you in strobe haze and an oversized tee, shot on a disposable. Use it in ChatGPT or Gemini with your own photo.",
+  "categories": [
+   "retro-scenes",
+   "chatgpt-1980s-photo-prompts"
+  ],
+  "primary_category": "retro-scenes",
+  "prompt": "Using my uploaded photo, put me in a late-1980s underground warehouse rave at around 3 a.m. Keep my face, facial features, skin tone, age and body proportions clearly recognisable; do not beautify or smooth my skin, and keep my own expression readable. I am mid-dance with one arm raised, sweat on my forehead, in an oversized plain white tee, baggy striped dungarees with one strap hanging and a pushed-back bucket hat. Behind me the crowd is a dark blur of raised hands in haze, cut by a green laser line, a strobe mid-flash and bare bulbs on brick pillars. Shot on a disposable camera with on-camera flash: my face slightly overexposed, heavy grain, a greenish cast and a soft light leak on one side. No modern phones, LED wristbands, logos or readable text; a real rave snapshot, not a filter or illustration.",
+  "intro": "Late-decade warehouse parties produced some of the most striking snapshots of the era: one flash-lit face in front of a sea of haze, lasers and raised hands. The look is raw and a little blurry, which is exactly why it feels authentic and stands out from the neat studio edits that dominate the trend.",
+  "creates": "The edited photo shows you mid-dance with one arm up, sweaty and half-smiling, in an oversized white tee, striped dungarees with a loose strap and a pushed-back bucket hat. Behind you a dark crowd of raised hands dissolves into haze under a green laser line, a strobe flash and bare bulbs on brick pillars. The flash overexposes your face, the grain is heavy and a light leak creeps in.",
+  "works": "\"Keep my own expression readable\" matters because dance poses tend to distort faces; it keeps the identity lock working mid-movement. \"The crowd is a dark blur of raised hands\" avoids sharp invented strangers. \"Disposable camera with on-camera flash\" and \"a greenish cast and a soft light leak\" set a cheap, imperfect capture, while ruling out \"LED wristbands\" removes the most common anachronism in rave edits.",
+  "tips": [
+   "Choose an upload where your face is fully lit and not turned; the dark scene and flash make weakly lit faces the first thing to change.",
+   "If the model closes your eyes too much or warps your face, ask for \"eyes open, looking just past the camera\" and regenerate.",
+   "For a cooler variant, change the green laser to a red one and the dungarees to a plain tie-dye long-sleeve."
+  ],
+  "suits": "Music fans, DJs, nightlife creators and anyone who wants an edgier throwback for an event promo, a story post or a profile picture that feels like a found party print.",
+  "personalize": "Change the outfit, the laser colour and your pose, from arm raised to hands on your knees, to match your own dance-floor style.",
+  "best_with": "ChatGPT or Gemini"
+ },
+ {
+  "id": "e39",
+  "name": "Rock Fan Bedroom With Guitar",
+  "keyword": "1980s rock fan bedroom photo prompt",
+  "title": "1980s Rock Fan Bedroom Photo Prompt for ChatGPT",
+  "description": "Use this 1980s rock fan bedroom photo prompt to pose with an electric guitar before a poster-covered wall. Works in ChatGPT or Gemini with your own photo.",
+  "categories": [
+   "retro-scenes",
+   "chatgpt-1980s-photo-prompts"
+  ],
+  "primary_category": "retro-scenes",
+  "prompt": "Using my uploaded photo, show me as a 1980s teenage rock fan in my bedroom. Keep my face, facial features, skin tone, age and body proportions clearly recognisable; do not beautify or smooth my skin. I sit on an unmade bed with a worn cherry-red electric guitar across my lap, one hand on the neck, giving the camera a half-serious look. Give me teased, layered hair, a sleeveless denim vest over a plain black tee, a studded wristband and ripped acid-wash jeans. The wall behind is covered edge to edge with generic rock posters of silhouetted guitarists and lightning bolts, with no band names, logos or readable words, and a small practice amp sits on the floor. Shot on a 35mm point-and-shoot with direct flash: hard shadow on the posters, warm tungsten cast from a bedside lamp, grain. No modern objects or real branding; a real snapshot, not a filter or illustration.",
+  "intro": "A teenage bedroom plastered with posters says everything about who someone wanted to be. Adding a guitar and a studded wristband turns a simple throwback into a small character portrait, and it works whether you actually play or just like the idea of having been that kid.",
+  "creates": "The final image shows you on an unmade bed with a worn cherry-red electric guitar across your lap, in a sleeveless denim vest, plain black tee, studded wristband and acid-wash jeans. The wall behind is layered edge to edge with unbranded rock posters of silhouettes and lightning bolts. Direct flash lights your face and throws hard shadows, while a bedside lamp adds a warm cast.",
+  "works": "\"Generic rock posters\" with \"no band names, logos or readable words\" keeps the wall convincing without inventing text or copying real artwork. \"One hand on the neck, giving the camera a half-serious look\" keeps your face forward so identity holds. \"Direct flash\" plus \"warm tungsten cast from a bedside lamp\" mixes two light sources the way real bedroom snapshots did, and \"not a filter or illustration\" guards the finish.",
+  "tips": [
+   "Upload a photo where your hands are not covering your face; the guitar pose goes more smoothly when the model does not need to guess your jawline.",
+   "If readable band names appear on posters, reply \"blur every poster so no words can be read\" and regenerate rather than editing by hand.",
+   "Change the guitar to a bass or a keytar, or swap the posters for motorcycle and city skyline prints, for a different teenage vibe."
+  ],
+  "suits": "Musicians, guitar learners, rock fans and anyone who wants a character-driven throwback for a profile picture, a band bio joke or a nostalgic story post about who they were at sixteen.",
+  "personalize": "Change the guitar colour, your outfit and the poster themes so the room looks like the one you had, or wished you had.",
+  "best_with": "ChatGPT or Gemini"
+ }
+]
