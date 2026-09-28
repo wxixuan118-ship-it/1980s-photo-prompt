@@ -11,6 +11,7 @@ name, slug, title, description, categories, intro, creates, works, tips, suits, 
 Images stay in images/ and are served at /images/ by server.js.
 """
 import datetime
+import hashlib
 import html
 import json
 import re
@@ -25,6 +26,8 @@ TODAY = datetime.date.today().isoformat()
 YEAR = datetime.date.today().year
 
 esc = lambda s: html.escape(str(s or ""), quote=True)
+# cache-busting version for /assets files (they are served with a 1-day max-age)
+ASSET_V = hashlib.md5((ROOT / "assets" / "site.css").read_bytes() + (ROOT / "assets" / "site.js").read_bytes()).hexdigest()[:8]
 ld_json = lambda obj: json.dumps(obj, ensure_ascii=False).replace("</", "<\\/")
 
 # ---------------------------------------------------------------- data
@@ -465,7 +468,7 @@ def head(title, desc, path, og_img, ld=None, extra="", noindex=False):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" href="/assets/site.css?v={ASSET_V}">
 {f'<script type="application/ld+json">{ld_json(ld)}</script>' if ld else ''}
 </head>
 <body>
@@ -486,7 +489,7 @@ FOOT = f"""<footer class="foot">
   <p>© {YEAR} {SITE} · A free library of vintage and 1980s AI photo prompts. Example images belong to their creators.</p>
 </footer>
 <div class="toast" id="toast" role="status"></div>
-<script src="/assets/site.js" defer></script>
+<script src="/assets/site.js?v={ASSET_V}" defer></script>
 </body>
 </html>
 """
@@ -530,6 +533,10 @@ def crumbs(trail):
         {"@type": "ListItem", "position": n + 1, "name": name, "item": BASE + path.lstrip("/")}
         for n, (name, path) in enumerate(trail)]}
     return f'<nav class="crumbs" aria-label="Breadcrumb">{" <span>›</span> ".join(links)}</nav>', ld
+
+
+COPY_ICON = ('<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" '
+             'aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>')
 
 
 def low(text):
@@ -743,8 +750,8 @@ for it in all_items:
       <p class="lead">{esc(it["intro"])}</p>
       <div class="d-actions"><button class="btn main" type="button" data-copy="prompt-text">Copy prompt</button><span class="best">Best with: <strong>{esc(it["tool"])}</strong></span></div>
       <h2 class="lbl">Prompt</h2>
-      <pre class="ptext" id="prompt-text">{esc(it["prompt"])}</pre>
-      {f'<h2 class="lbl">Negative prompt</h2><pre class="ptext neg">{esc(it["neg"])}</pre>' if it["neg"] else ''}
+      <div class="pbox"><button class="pcopy" type="button" data-copy="prompt-text" aria-label="Copy prompt">{COPY_ICON}<span>Copy</span></button><pre class="ptext" id="prompt-text">{esc(it["prompt"])}</pre></div>
+      {f'<h2 class="lbl">Negative prompt</h2><div class="pbox"><button class="pcopy" type="button" data-copy="neg-text" aria-label="Copy negative prompt">{COPY_ICON}<span>Copy</span></button><pre class="ptext neg" id="neg-text">{esc(it["neg"])}</pre></div>' if it["neg"] else ''}
       <div class="tags">{cat_links}</div>
     </div>
   </div>

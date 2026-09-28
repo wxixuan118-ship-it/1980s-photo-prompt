@@ -16,7 +16,15 @@
   // Copy buttons on detail pages: <button data-copy="element-id">
   $$('button[data-copy]').forEach(b => b.addEventListener('click', () => {
     const el = document.getElementById(b.dataset.copy);
-    if (el) copy(el.textContent);
+    if (!el) return;
+    copy(el.textContent);
+    const label = b.querySelector('span');
+    if (label) {
+      label.textContent = 'Copied';
+      b.classList.add('done');
+      clearTimeout(b._t);
+      b._t = setTimeout(() => { label.textContent = 'Copy'; b.classList.remove('done'); }, 1500);
+    }
   }));
 
   // Masonry grids: distribute cards into row-ordered columns by image aspect ratio.

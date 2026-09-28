@@ -112,3 +112,8 @@ button{font:inherit;color:inherit;cursor:pointer}
 @media (max-width:560px){.word{font-size:17px}.word span{display:none}.grid,.grid[data-max="4"]{columns:2;column-gap:10px}.grid.js{gap:10px}.pin{margin-bottom:10px}.top-in{gap:12px}.guide h2,.more h2{font-size:22px}}
 .sub{color:var(--muted);font-size:14px;margin:0 0 10px}
 .featured{padding-left:18px;margin:0}.featured li{margin:0 0 10px}.featured a{text-decoration:none}.featured a:hover{text-decoration:underline}
+.pbox{position:relative}
+.pbox .ptext{padding-top:44px}
+.pcopy{position:absolute;top:8px;right:8px;display:inline-flex;align-items:center;gap:6px;background:var(--bg);border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:5px 10px;font-size:13px;font-weight:500}
+.pcopy:hover{border-color:var(--accent);color:var(--accent)}
+.pcopy.done{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
