@@ -504,16 +504,18 @@ FOOT = f"""<footer class="foot">
 """
 
 
-def card(it, i, eager=False, alt=None):
+def card(it, i, eager=False, alt=None, pinned=None):
+    pinned = it["pinned"] if pinned is None else pinned
     return (f'<a class="pin" href="{it["url"]}" data-slug="{it["slug"]}">'
             f'<img src="{it["img"]}" width="{it["w"]}" height="{it["h"]}" loading="{"eager" if eager else "lazy"}"'
             f' decoding="async" alt="{esc(alt or it["alt"])}">'
-            f'<span class="badge{"" if it["pinned"] else " p"}"><i></i>{"Pinned" if it["pinned"] else "Prompt"}</span>'
+            f'<span class="badge{"" if pinned else " p"}"><i></i>{"Pinned" if pinned else "Prompt"}</span>'
             f'<span class="over"><span class="nm">{esc(it["name"])}</span></span></a>')
 
 
-def grid(cards_items, max_cols=5, search=False, first_alt=None):
-    body = "\n".join(card(it, i, eager=i < 6, alt=first_alt if i == 0 else None) for i, it in enumerate(cards_items))
+def grid(cards_items, max_cols=5, search=False, first_alt=None, pin_first=None):
+    body = "\n".join(card(it, i, eager=i < 6, alt=first_alt if i == 0 else None,
+                          pinned=None if pin_first is None else i < pin_first) for i, it in enumerate(cards_items))
     # prompt text for the hover "Copy prompt" button (and search on the homepage)
     data = f'<script>window.PROMPTS = Object.assign(window.PROMPTS || {{}}, {ld_json({it["slug"]: {"p": it["prompt"], "n": it["name"]} for it in cards_items})});</script>'
     return f'<div class="grid" data-max="{max_cols}"{" data-search" if search else ""}>\n{body}\n</div>\n{data}'
@@ -609,8 +611,17 @@ FAQ = [
      "pictures belong to the creators who posted them, so link to the original post if you "
      "republish one of their images."),
 ]
+# Homepage gallery: only genuine 1980s-style photos — our own photo-edit examples (minus the
+# illustration) interleaved 2:1 with the text-to-image examples rated era_fit == "strong".
+home_edits = [it for it in edits if not it.get("placeholder") and "illustration" not in it["keyword"]]
+home_t2i = [it for it in items if it.get("era_fit") == "strong"]
+home_items = []
+while home_edits or home_t2i:
+    home_items += home_edits[:2] + home_t2i[:1]
+    home_edits, home_t2i = home_edits[2:], home_t2i[1:]
+
 HOME_TITLE = "1980s Photo Prompt Gallery – Copy Retro AI Prompts"
-HOME_DESC = (f"Browse {len(items)} AI images and copy the exact 1980s photo prompt behind each one: "
+HOME_DESC = (f"Browse {len(home_items)} AI images and copy the exact 1980s photo prompt behind each one: "
              "film grain, Polaroid flash, neon nights, big hair and retro portraits.")
 home_ld = {"@context": "https://schema.org", "@graph": [
     {"@type": "WebSite", "@id": BASE + "#website", "url": BASE, "name": "Vintage Photo Prompt",
@@ -619,15 +630,15 @@ home_ld = {"@context": "https://schema.org", "@graph": [
     {"@type": "CollectionPage", "@id": BASE + "#page", "url": BASE, "name": HOME_TITLE,
      "description": HOME_DESC, "isPartOf": {"@id": BASE + "#website"}, "mainEntity": {"@id": BASE + "#gallery"}},
     {"@type": "ItemList", "@id": BASE + "#gallery", "name": "1980s photo prompt examples",
-     "numberOfItems": len(items),
+     "numberOfItems": len(home_items),
      "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": BASE + it["url"].lstrip("/"),
-                          "name": it["name"]} for i, it in enumerate(items)]},
+                          "name": it["name"]} for i, it in enumerate(home_items)]},
     {"@type": "FAQPage", "@id": BASE + "#faq", "mainEntity": [
         {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in FAQ]},
 ]}
 faq_html = "\n".join(f"<h3>{esc(q)}</h3>\n<p>{esc(a)}</p>" for q, a in FAQ)
 
-write("/", head(HOME_TITLE, HOME_DESC, "/", items[0]["img"], home_ld) + f"""
+write("/", head(HOME_TITLE, HOME_DESC, "/", "/images/showcase/1985-after.webp", home_ld) + f"""
 <main>
 <div class="wrap intro">
   <h1>1980s Photo Prompt Gallery</h1>
@@ -645,9 +656,9 @@ write("/", head(HOME_TITLE, HOME_DESC, "/", items[0]["img"], home_ld) + f"""
 {showcase()}
 
 <div class="wrap" id="gallery">
-  <div class="gal-head"><h2>Browse 1980s photo prompts</h2><span class="count">{len(items)} prompts</span></div>
+  <div class="gal-head"><h2>Browse 1980s photo prompts</h2><span class="count">{len(home_items)} prompts</span></div>
   {chips()}
-  {grid(items, search=True)}
+  {grid(home_items, search=True, pin_first=10, first_alt=f"1980s photo prompt example: {home_items[0]['name']}")}
 </div>
 
 <article class="guide">
@@ -720,7 +731,7 @@ for key, cat in CATEGORIES.items():
   </section>
   <section>
   <h2>More 1980s prompt collections</h2>
-  <ul class="links">{others}<li><a href="/">Full 1980s photo prompt gallery</a> ({len(items)})</li></ul>
+  <ul class="links">{others}<li><a href="/">Full 1980s photo prompt gallery</a> ({len(home_items)})</li></ul>
   </section>
 </article>
 </main>
@@ -870,7 +881,7 @@ write("/image-license/", head("Image License – Vintage Photo Prompt",
 </main>
 """ + FOOT)
 
-urls = [("/", [it["img"] for it in items])] + [(f"/{k}/", []) for k in CATEGORIES] + \
+urls = [("/", [it["img"] for it in home_items])] + [(f"/{k}/", []) for k in CATEGORIES] + \
        [(it["url"], [] if it.get("placeholder") else [it["img"]]) for it in all_items] + [("/prompts.html", []), ("/image-license/", [])]
 for it in edits:
     if it.get("placeholder"):
