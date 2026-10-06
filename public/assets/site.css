@@ -140,3 +140,4 @@ button{font:inherit;color:inherit;cursor:pointer}
 .tree [aria-current]{color:var(--accent);font-weight:600}
 .tree .leaf{columns:2 220px;column-gap:24px}
 .tree .leaf li{break-inside:avoid}
+.byline{font-size:13px;color:var(--muted);margin:0 0 10px}.byline a{color:var(--muted)}.byline a:hover{color:var(--accent)}

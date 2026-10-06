@@ -16,6 +16,7 @@ import html
 import json
 import re
 import shutil
+import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).parent
@@ -30,6 +31,19 @@ esc = lambda s: html.escape(str(s or ""), quote=True)
 ASSET_V = hashlib.md5((ROOT / "assets" / "site.css").read_bytes() + (ROOT / "assets" / "site.js").read_bytes()).hexdigest()[:8]
 LICENSE_URL = "https://creativecommons.org/licenses/by/4.0/"  # licence for our own generated example images
 LICENSE_PAGE = BASE + "image-license/"
+# Byline shown on prompt pages and the about page. Leave the name empty until the person who
+# reviews the prompts is confirmed; pages then show only the update date.
+AUTHOR = {"name": "Vivian Wang", "url": "/about/"}
+
+
+def updated(path):
+    """Last commit date (YYYY-MM-DD) of a content file, so the date only moves when the copy does."""
+    try:
+        out = subprocess.run(["git", "log", "-1", "--format=%cs", "--", str(path)], cwd=ROOT,
+                             capture_output=True, text=True).stdout.strip()
+    except OSError:
+        out = ""
+    return out or TODAY
 ld_json = lambda obj: json.dumps(obj, ensure_ascii=False).replace("</", "<\\/")
 
 # ---------------------------------------------------------------- data
@@ -37,7 +51,7 @@ rows = {r["id"]: r for r in json.loads((ROOT / "data" / "prompts.json").read_tex
 copy = {}
 for f in sorted((ROOT / "data" / "content").glob("batch_*.json")):
     for c in json.loads(f.read_text()):
-        copy[c["id"]] = c
+        copy[c["id"]] = {**c, "updated": updated(f)}
 # Per-page target keyword, title and description (overrides the drafted ones).
 kw_file = ROOT / "data" / "content" / "keywords.json"
 for k in json.loads(kw_file.read_text()) if kw_file.exists() else []:
@@ -439,6 +453,19 @@ for r in sorted(rows.values(), key=lambda r: (-r["heat"], r["rank"])):
                   "tool": tool_for(r.get("model")), "author": r.get("author") or "",
                   "post_url": r["post_url"], "primary": primary, "cats": cats,
                   "url": f"/prompt/{c['slug']}/"})
+# Only text-to-image examples that genuinely read as 1980s photos get a page. The rest (era_fit
+# "loose"/"off") were retired and 301 to their collection; collections left empty 301 to home.
+REDIRECTS = {}
+retired = [it for it in items if it.get("era_fit") != "strong"]
+items = [it for it in items if it.get("era_fit") == "strong"]
+for k in [k for k, v in CATEGORIES.items() if v["group"] == "t2i" and not any(k in it["cats"] for it in items)]:
+    del CATEGORIES[k]
+    REDIRECTS[f"/{k}/"] = "/"
+for it in items:
+    it["cats"] = [k for k in it["cats"] if k in CATEGORIES]
+for it in retired:
+    live = [k for k in [it["primary"]] + it["cats"] if k in CATEGORIES]
+    REDIRECTS[it["url"]] = f"/{live[0]}/" if live else "/"
 slugs = [it["slug"] for it in items]
 assert len(slugs) == len(set(slugs)), "duplicate slugs"
 for i, it in enumerate(items):
@@ -477,7 +504,9 @@ ex_file = ROOT / "data" / "examples.json"
 examples = json.loads(ex_file.read_text()) if ex_file.exists() else {}  # written by gen_examples.py
 edits = []
 for f in sorted((ROOT / "data" / "content").glob("edit_*.json")):
+    upd = updated(f)
     for c in json.loads(f.read_text()):
+        c["updated"] = upd
         slug = re.sub(r"[^a-z0-9]+", "-", c["keyword"].lower()).strip("-")
         cats = [k for k in c["categories"] if k in CATEGORIES]
         edits.append({**c, "slug": slug, "img": f"/placeholders/{slug}.svg", "w": 1080, "h": 1350,
@@ -536,7 +565,7 @@ def head(title, desc, path, og_img, ld=None, extra="", noindex=False):
 
 
 FOOT = f"""<footer class="foot">
-  <nav aria-label="Categories">{''.join(f'<a href="/{k}/">{esc(v.get("label", v["h1"]))}</a>' for k, v in CATEGORIES.items())}<a href="/prompts.html">All prompts as text</a><a href="/image-license/">Image license</a></nav>
+  <nav aria-label="Categories">{''.join(f'<a href="/{k}/">{esc(v.get("label", v["h1"]))}</a>' for k, v in CATEGORIES.items())}<a href="/prompts.html">All prompts as text</a><a href="/about/">About</a><a href="/image-license/">Image license</a></nav>
   <p>© {YEAR} {SITE} · A free library of vintage and 1980s AI photo prompts. Example images belong to their creators.</p>
 </footer>
 <div class="toast" id="toast" role="status"></div>
@@ -606,6 +635,13 @@ def tree(current=""):
             f'<li>{a(f"/{HUB}/", label(HUB), len(by_cat[HUB]))}<ul>{hub_pages}{subs}</ul></li>'
             f'<li>Text-to-image prompt collections<ul class="leaf">{t2i}</ul></li>'
             f'<li>{a("/prompts.html", "All prompts as plain text")}</li></ul></li></ul>')
+
+
+def byline(date):
+    d = datetime.date.fromisoformat(date)
+    who = f'By <a href="{AUTHOR["url"]}" rel="author">{esc(AUTHOR["name"])}</a> · ' if AUTHOR["name"] else ""
+    return (f'{who}Updated <time datetime="{date}">{d.strftime("%b")} {d.day}, {d.year}</time>'
+            f' · <a href="/about/">How we pick and check prompts</a>')
 
 
 COPY_ICON = ('<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" '
@@ -852,7 +888,8 @@ for it in all_items:
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "WebPage", "@id": page_url + "#page", "url": page_url, "name": it["title"],
          "description": it["description"], "primaryImageOfPage": {"@id": page_url + "#image"},
-         "isPartOf": {"@id": BASE + "#website"}},
+         "isPartOf": {"@id": BASE + "#website"}, "dateModified": it["updated"],
+         **({"author": {"@type": "Person", "name": AUTHOR["name"], "url": BASE + AUTHOR["url"].lstrip("/")}} if AUTHOR["name"] else {})},
         {"@type": "ImageObject", "@id": page_url + "#image", "contentUrl": BASE + it["img"].lstrip("/"),
          "width": it["w"], "height": it["h"], "caption": it["name"], **image_rights(it)},
         bc_ld]}
@@ -886,6 +923,7 @@ for it in all_items:
     <div class="d-main">
       <h1>{esc(h1)}</h1>
       <p class="sub">{esc(it["name"])} · {("the full " + esc(it["keyword"]) + ". Upload a photo of yourself to " + esc(it["tool"]) + ", paste this prompt and get your 80s version.") if edit else ("the full " + esc(it["keyword"]) + ", ready to paste into " + esc(it["tool"]) + " or any other image generator you use.")}</p>
+      <p class="byline">{byline(it["updated"])}</p>
       <p class="lead">{esc(it["intro"])}</p>
       <div class="d-actions"><button class="btn main" type="button" data-copy="prompt-text">Copy prompt</button><span class="best">Best with: <strong>{esc(it["tool"])}</strong></span></div>
       <h2 class="lbl">Prompt</h2>
@@ -962,8 +1000,38 @@ write("/image-license/", head("Image License – Vintage Photo Prompt",
 </main>
 """ + FOOT)
 
+n_edit_ex = sum(1 for it in edits if not it.get("placeholder"))
+about_ld = {"@context": "https://schema.org", "@type": "AboutPage", "url": BASE + "about/",
+            "name": "About Vintage Photo Prompt",
+            **({"author": {"@type": "Person", "name": AUTHOR["name"]}} if AUTHOR["name"] else {})}
+write("/about/", head("About Vintage Photo Prompt – How Prompts Are Chosen",
+                      "Who runs Vintage Photo Prompt, where the 1980s photo prompts come from, how each example "
+                      "image was made and how the prompts are checked before they go on the site.",
+                      "/about/", "/images/showcase/1985-after.webp", about_ld) + f"""
+<main>
+<article class="guide" style="margin-top:28px">
+  <section>
+    <h1 style="font-family:Fraunces,Georgia,serif;font-weight:600;font-size:34px;margin:0 0 12px">About Vintage Photo Prompt</h1>
+    <p>Vintage Photo Prompt is a small, free library of 1980s photo prompts for AI image tools{f", run by {esc(AUTHOR['name'])}" if AUTHOR["name"] else ""}. This page explains where the prompts come from and what was done to check them, so you can judge how much to trust each one.</p>
+  </section>
+  <section>
+    <h2>Prompts for your own photo</h2>
+    <p>The {len(edits)} prompts in the <a href="/{HUB}/">ChatGPT 1980s photo prompts</a> collection were written for this site. Each one was run on a fictional, AI-generated reference portrait, and {n_edit_ex} of them show that real result next to the “before” photo on their page. No real person's photo was used.</p>
+  </section>
+  <section>
+    <h2>Text-to-image examples</h2>
+    <p>The text-to-image gallery shows {len(items)} prompts shared publicly by their creators on OpenArt, credited and linked on each page. Out of a larger set, only the ones whose example image genuinely reads as a 1980s photograph were kept; the rest were removed from the site.</p>
+  </section>
+  <section>
+    <h2>Updates and corrections</h2>
+    <p>Each prompt page shows the date its text last changed. See the <a href="/image-license/">image license</a> for how you may reuse the example pictures.</p>
+  </section>
+</article>
+</main>
+""" + FOOT)
+
 urls = [("/", [it["img"] for it in home_items])] + [(f"/{k}/", []) for k in CATEGORIES] + \
-       [(it["url"], [] if it.get("placeholder") else [it["img"]]) for it in all_items] + [("/prompts.html", []), ("/image-license/", [])]
+       [(it["url"], [] if it.get("placeholder") else [it["img"]]) for it in all_items] + [("/prompts.html", []), ("/about/", []), ("/image-license/", [])]
 for it in edits:
     if it.get("placeholder"):
         write(it["img"], placeholder_svg(it))
@@ -977,6 +1045,12 @@ for path, imgs in urls:
 sitemap.append("</urlset>\n")
 write("/sitemap.xml", "\n".join(sitemap))
 write("/robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {BASE}sitemap.xml\n")
+# 301 map for retired pages (read by server.js); drop their old built files so nothing stale is served.
+write("/redirects.json", json.dumps(dict(sorted(REDIRECTS.items())), indent=1) + "\n")
+for old in REDIRECTS:
+    stale = OUT / old.strip("/")
+    if stale.is_dir():
+        shutil.rmtree(stale)
 
 # ---------------------------------------------------------------- assets
 (OUT / "assets").mkdir(parents=True, exist_ok=True)

@@ -16,6 +16,10 @@ const TYPES = {
   ".svg": "image/svg+xml",
 };
 
+// Retired pages -> 301 target, written by build_site.py.
+let REDIRECTS = {};
+try { REDIRECTS = JSON.parse(fs.readFileSync(path.join(PUBLIC, "redirects.json"), "utf8")); } catch {}
+
 function resolve(p) {
   if (p.startsWith("/images/")) return path.join(IMAGES, p.slice("/images/".length));
   return path.join(PUBLIC, p.endsWith("/") ? p + "index.html" : p);
@@ -45,6 +49,11 @@ http.createServer((req, res) => {
   let p;
   try { p = decodeURIComponent(new URL(req.url, "http://x").pathname); } catch { return notFound(req, res); }
   if (p.includes("\0") || p.split("/").includes("..")) return notFound(req, res);
+  const target = REDIRECTS[p.endsWith("/") ? p : p + "/"];
+  if (target) {
+    res.writeHead(301, { Location: target, "Cache-Control": "public, max-age=86400" });
+    return res.end();
+  }
   const file = resolve(p);
   if (!file.startsWith(PUBLIC + path.sep) && !file.startsWith(IMAGES + path.sep)) return notFound(req, res);
   fs.stat(file, (err, st) => {

@@ -4,6 +4,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).parent
 rows = json.loads((ROOT / "data" / "prompts.json").read_text())
+# same filter as build_site.py: only prompts whose example reads as a genuine 1980s photo
+strong = {c["id"] for f in (ROOT / "data" / "content").glob("batch_*.json")
+          for c in json.loads(f.read_text()) if c.get("era_fit") == "strong"}
+rows = [r for r in rows if r["id"] in strong]
 keep = ["rank", "source", "heat", "likes", "bookmarks", "prompt", "negative_prompt", "model",
         "author", "post_url", "local_image", "thumb_url", "width", "height"]
 data = json.dumps([{k: r.get(k) for k in keep} for r in rows], ensure_ascii=False)
