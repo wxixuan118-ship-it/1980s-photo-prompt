@@ -242,6 +242,61 @@ EDIT_CATEGORIES = {
              "framing of your upload and add more room detail; ChatGPT restyles the scene more freely."),
         ],
     },
+    "80s-look-prompt": {
+        "name": "80s Look", "label": "80s Look Prompts for Girls, Men & Couples",
+        "h1": "80s Look Prompt to Copy and Paste",
+        "faq_h2": "80s look prompt FAQ",
+        "title": "80s Look Prompt – Copy & Paste for ChatGPT and Gemini",
+        "description": "The 80s look prompt behind the viral trend, ready to copy and paste into ChatGPT "
+                       "or Gemini, plus picks for girls, men and couples. Your face stays the same.",
+        "gal_h2": "Pick your 80s look",
+        "featured_h2": "Retro 80s look picks for girls, men and couples",
+        # hand-picked prompts shown here (they keep their own collection as primary)
+        "picks": ["trending-1980s-photo-prompt", "1980s-photo-prompt-gemini", "1980s-ai-photo-prompt",
+                  "1980s-college-girl-campus-prompt", "1980s-glamour-studio-portrait-prompt",
+                  "1980s-saree-photo-prompt", "1980s-bedroom-mirror-photo-prompt",
+                  "1980s-moustache-sweater-vest-portrait-prompt", "1980s-denim-jacket-classic-car-prompt",
+                  "1980s-businessman-office-portrait-prompt", "1980s-couple-photo-prompt",
+                  "1980s-prom-night-couple-prompt"],
+        "intro": [
+            "An 80s look prompt is a short instruction you paste into ChatGPT or Gemini together with "
+            "your selfie, and it gives you back a photo of yourself styled as if it were taken in the "
+            "mid-1980s: bigger hair, bold layered clothes, direct flash and a faded film finish.",
+            "The one below is the prompt behind the viral trend, ready to copy and paste. Under it are "
+            "our picks for girls and women, men and couples, each with an example made from a "
+            "fictional reference photo.",
+        ],
+        "guide_h2": "How to choose the right 80s look prompt",
+        "guide": [
+            "Start with the 80s look prompt copy-paste box above. It decides the styling for you, which is why it "
+            "suits almost any face and is the version most people share.",
+            "For girls, the college campus and bedroom mirror prompts give the casual teen and student "
+            "look. If you want an 80s look prompt for women with a dressed-up finish, the glamour studio "
+            "and saree prompts give a retro portrait with big curls and bold makeup.",
+            "For men, the moustache-and-sweater-vest portrait is the classic school-picture look, the "
+            "denim jacket and classic car prompt is the cool outdoor version, and the office portrait "
+            "gives a wide-tie 80s business look.",
+            "For couples, upload one photo of you both. The diner date prompt is relaxed and candid; "
+            "the prom night prompt is formal, with a balloon arch and a corsage.",
+            "Whichever 80s retro look prompt you pick, change only the details in brackets or the setting line. The camera, "
+            "flash and film words are what make the retro look believable.",
+        ],
+        "source": ("1980s in fashion", "https://en.wikipedia.org/wiki/1980s_in_fashion"),
+        "faq": [
+            ("Is there an 80s look prompt for girls?",
+             "Yes. Use the copy-paste prompt above for the classic result, or the college campus, "
+             "bedroom mirror, glamour studio and saree prompts for a specific style."),
+            ("Is there an 80s look prompt for men?",
+             "Yes. The moustache sweater-vest portrait, the denim jacket with a classic car and the office "
+             "portrait are written for men and keep your face exactly as uploaded."),
+            ("Can I use these prompts for a couple photo?",
+             "Yes. Upload one photo with both of you facing the camera and use the couple or prom night "
+             "prompt. Both say to keep both faces from the uploaded photo."),
+            ("Does a Chat GPT prompt for 80s look edits also work in Gemini?",
+             "Yes. Paste the same text into Gemini with your photo. Gemini tends to keep your original "
+             "framing and add more room detail; ChatGPT restyles the scene more freely."),
+        ],
+    },
     "bollywood": {
         "name": "Bollywood & India", "h1": "1980s Bollywood Photo Prompts",
         "title": "1980s Bollywood Photo Prompts for ChatGPT & Gemini",
@@ -543,6 +598,10 @@ all_items = items + edits
 slugs = [it["slug"] for it in all_items]
 assert len(slugs) == len(set(slugs)), "duplicate slugs"
 by_cat = {k: [it for it in all_items if k in it["cats"]] for k in CATEGORIES}
+for k, v in CATEGORIES.items():
+    if v.get("picks"):
+        by_slug = {it["slug"]: it for it in all_items}
+        by_cat[k] = [by_slug[s] for s in v["picks"]]
 
 
 # ---------------------------------------------------------------- shared chrome
@@ -837,7 +896,7 @@ for key, cat in CATEGORIES.items():
     if faq:
         ld["@graph"].append({"@type": "FAQPage", "mainEntity": [
             {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq]})
-    faq_sec = (f'<section id="faq">\n    <h2>{esc(cat["h1"])} FAQ</h2>\n' +
+    faq_sec = (f'<section id="faq">\n    <h2>{esc(cat.get("faq_h2") or cat["h1"] + " FAQ")}</h2>\n' +
                "\n".join(f"    <h3>{esc(q)}</h3>\n    <p>{esc(a)}</p>" for q, a in faq) + "\n  </section>") if faq else ""
     gal_h2 = cat["gal_h2"].format(n=len(its)) if cat.get("gal_h2") else f'Browse {len(its)} {low(cat["h1"])}'
     write(path, head(cat["title"], cat["description"], path, its[0]["img"], ld) + f"""
@@ -847,7 +906,7 @@ for key, cat in CATEGORIES.items():
   <h1>{esc(cat["h1"])}</h1>
   {''.join(f'<p>{esc(p)}</p>' for p in cat["intro"])}
 </div>
-{showcase() if key == HUB else ""}
+{showcase() if key in (HUB, "80s-look-prompt") else ""}
 <div class="wrap" id="gallery">
   <div class="gal-head"><h2>{esc(gal_h2)}</h2></div>
   {chips(key, cat["group"])}
