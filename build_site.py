@@ -313,18 +313,22 @@ EDIT_CATEGORIES = {
         "source": ("1980s in fashion", "https://en.wikipedia.org/wiki/1980s_in_fashion"),
     },
     "couple-family": {
-        "name": "Couple & Family", "h1": "1980s Couple and Family Photo Prompts",
-        "title": "1980s Couple and Family Photo Prompts for ChatGPT",
-        "description": "1980s couple and family photo prompts: upload a photo of two or more people "
-                       "and get a prom night, wedding album, TV night or holiday snapshot from the 80s.",
+        "name": "Couple & Family", "label": "1980s Couple and Family Photo Prompts",
+        "h1": "1980s Photo Prompt for Couple and Family Photos",
+        "title": "1980s Photo Prompt for Couple & Family – ChatGPT, Gemini",
+        "description": "Pick a 1980s photo prompt for couple or family pictures: upload one photo of "
+                       "you together and get a prom night, wedding album, date or TV night from the 80s.",
+        "gal_h2": "Browse {n} 1980s couple and family photo prompts",
+        "featured_h2": "Featured 1980s couple and family photo prompts",
         "intro": [
-            "These 1980s couple and family photo prompts are written for pictures with more than one "
-            "person. Upload a photo of you and your partner, parents or kids, and the prompt keeps every "
-            "face while turning the scene into an 80s prom night, wedding album or living-room snapshot.",
-            "They are the version of the trend people share most in family groups, because everyone "
-            "gets to see themselves in the same old photo.",
+            "Every 1980s photo prompt for couple and family pictures here is written for photos with more "
+            "than one person. Upload a photo of you and your partner, parents or kids, and the prompt keeps "
+            "every face while turning the scene into an 80s prom night, wedding album or living-room snapshot.",
+            "This is the couple 80s trend prompt collection people share most in family groups, because "
+            "everyone gets to see themselves in the same old photo. Each 1980s photo prompt ChatGPT couple "
+            "edits need is ready to paste, and all of them work in Gemini too.",
         ],
-        "guide_h2": "Getting every face right in a group photo prompt",
+        "guide_h2": "How to use a 1980s photo prompt for couple photos",
         "guide": [
             "Use one photo where everyone faces the camera and is clearly lit. Separate photos can "
             "work, but the model keeps faces better when they arrive together.",
@@ -332,8 +336,18 @@ EDIT_CATEGORIES = {
             "uploaded photo” stops the model dropping or adding someone.",
             "If one face drifts, ask the model to fix only that person and keep the rest of the image "
             "unchanged.",
+            "Pick the scene for the occasion: a diner date or scooter ride for an anniversary post, a "
+            "prom night or wedding album for a throwback, a TV night or Christmas morning for the family.",
         ],
         "source": ("snapshot photography", "https://en.wikipedia.org/wiki/Snapshot_(photography)"),
+        "faq": [
+            ("Which 1980s photo prompt ChatGPT for couple edits should I start with?",
+             "Start with the 1980s couple photo prompt, a flash-lit diner date that suits any couple. For "
+             "a dressier look try the prom night prompt; for a road-trip feel, the scooter couple prompt."),
+            ("Can I use a 1980s AI photo prompt for couple photos taken separately?",
+             "Yes, but results are better from one photo of you together. With two photos, upload both in "
+             "the same message and say which person stands on the left."),
+        ],
     },
     "studio": {
         "name": "Studio Portraits", "h1": "1980s Studio Portrait Prompts",
