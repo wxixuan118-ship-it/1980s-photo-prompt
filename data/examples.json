@@ -263,6 +263,14 @@
   "ref": "images/refs/man_in.webp",
   "source": "gemini"
  },
+ "1980s-photo-prompt-gemini": {
+  "id": "e46",
+  "img": "images/custom/master-1985.webp",
+  "w": 896,
+  "h": 1152,
+  "ref": "images/refs/woman_in.webp",
+  "source": "gemini"
+ },
  "1980s-power-suit-businesswoman-prompt": {
   "id": "e20",
   "img": "images/examples/1980s-power-suit-businesswoman-prompt.webp",
@@ -350,5 +358,13 @@
   "h": 1152,
   "ref": "images/refs/woman_in.webp",
   "source": "gemini"
+ },
+ "trending-1980s-photo-prompt": {
+  "id": "e45",
+  "img": "images/showcase/1985-after.webp",
+  "w": 900,
+  "h": 860,
+  "ref": "images/showcase/1985-before.webp",
+  "source": "manual"
  }
 }

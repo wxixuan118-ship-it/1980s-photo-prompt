@@ -199,7 +199,8 @@ EDIT_CATEGORIES = {
             "These ChatGPT 1980s photo prompts are made for the viral trend: upload a clear photo of "
             "yourself, paste a prompt, and see what you would have looked like in 1985. Every prompt "
             "locks your face and identity, then changes only the hair, clothes, setting and film look.",
-            "They work the same way in Gemini. Pick a style below, from Bollywood studio portraits and "
+            "Searching for a 1980s photo prompt ChatGPT can use on a selfie? Every one here is ready to paste, "
+            "and they work the same way in Gemini. Pick a style below, from Bollywood studio portraits and "
             "wedding albums to mall laser backdrops, arcades and VHS home videos.",
         ],
         "guide_h2": "How to keep your face in a ChatGPT photo prompt",
@@ -214,6 +215,18 @@ EDIT_CATEGORIES = {
             "grain, a slight color cast and a date stamp make the result look found, not filtered.",
         ],
         "source": ("the 1980s", "https://en.wikipedia.org/wiki/1980s"),
+        "faq": [
+            ("Do I need a special app for the 1980s photo prompt?",
+             "No. There is no separate 1980s photo prompt app to download. Use the ChatGPT app or "
+             "chatgpt.com (or the Gemini app), upload your photo, paste the prompt and send it. The free "
+             "plans can edit photos, with a daily limit on images."),
+            ("Which ChatGPT 1980s photo prompt should I try first?",
+             "Start with the trending 1980s photo prompt, the short 1985 wording the viral trend is built "
+             "on. Then move to a themed prompt from the collections below for a specific look."),
+            ("Does the same 1980s photo prompt work in ChatGPT and Gemini?",
+             "Yes. Every prompt here is written for photo editing in both tools. Gemini tends to keep the "
+             "framing of your upload and add more room detail; ChatGPT restyles the scene more freely."),
+        ],
     },
     "bollywood": {
         "name": "Bollywood & India", "h1": "1980s Bollywood Photo Prompts",
@@ -239,48 +252,63 @@ EDIT_CATEGORIES = {
         "source": ("Hindi cinema", "https://en.wikipedia.org/wiki/Hindi_cinema"),
     },
     "men": {
-        "name": "Men", "h1": "1980s Photo Prompts for Men",
-        "title": "1980s Photo Prompts for Men – ChatGPT & Gemini",
-        "description": "1980s photo prompts for men: moustache studio portraits, denim and classic "
-                       "cars, office suits, gym shots and motorcycle heroes. Upload your photo and copy.",
+        "name": "Men", "label": "1980s Photo Prompts for Men", "h1": "1980s Photo Prompt ChatGPT Men's Edition",
+        "title": "1980s Photo Prompt ChatGPT Men's Edition – 80s Looks",
+        "description": "Every 1980s photo prompt ChatGPT men ask for: moustache studio portraits, denim "
+                       "and classic cars, office suits, gym shots and motorcycles. Upload a photo, copy.",
+        "gal_h2": "Browse {n} men's 1980s photo prompts for ChatGPT",
+        "featured_h2": "Featured men's 1980s photo prompts",
         "intro": [
-            "These 1980s photo prompts for men start from your own uploaded picture and rebuild it with "
-            "the decade's staples: thick feathered hair, a neat moustache, denim jackets, wide ties, "
-            "tank tops and the classic cars and motorcycles people posed beside.",
+            "This is the 1980s photo prompt ChatGPT men's edition: prompts that start from your own "
+            "uploaded picture and rebuild it with the decade's staples, from thick feathered hair, a neat "
+            "moustache and denim jackets to wide ties, tank tops and the classic cars and motorcycles "
+            "people posed beside.",
             "Every prompt keeps your face, age and build recognisable, so the result looks like an old "
-            "photo of you rather than a stranger in costume.",
+            "photo of you rather than a stranger in costume. They are written for ChatGPT and work the "
+            "same way in Gemini.",
         ],
-        "guide_h2": "Details that make a men's photo prompt convincing",
+        "guide_h2": "Making a 1980s photo prompt ChatGPT men's portrait look real",
         "guide": [
+            "Upload one clear photo of yourself, facing the camera in daylight, then paste the prompt "
+            "in the same ChatGPT message. A single person in frame keeps the face lock strongest.",
             "Hair first: thick, side-parted or feathered with visible volume. If you have a beard "
             "today, decide whether the prompt should trim it to a moustache or keep it.",
             "Choose one strong prop that dates the picture, such as a boxy car, a chrome motorcycle, a "
             "wall of dumbbells or a wood-panelled office, rather than many small ones.",
             "Direct flash and warm film color are more convincing than piling on more era clothing. "
             "Ask for grain and a slightly soft focus.",
+            "Run each prompt two or three times. Pick the version where "
+            "your jawline and hairline match the upload, then ask for small fixes in the same chat.",
         ],
         "source": ("1980s in fashion", "https://en.wikipedia.org/wiki/1980s_in_fashion"),
     },
     "women": {
-        "name": "Women", "h1": "1980s Photo Prompts for Women",
-        "title": "1980s Photo Prompts for Women – ChatGPT & Gemini",
-        "description": "1980s photo prompts for women: big-hair studio glamour, denim street style, "
-                       "power suits, leather and motorcycles. Upload your photo to ChatGPT or Gemini.",
+        "name": "Women & Girls", "label": "1980s Photo Prompts for Girls & Women",
+        "h1": "1980s Photo Prompt for Girls and Women",
+        "title": "1980s Photo Prompt for Girls – ChatGPT & Gemini Looks",
+        "description": "A 1980s photo prompt for girls and women: big-hair studio glamour, college "
+                       "campus, denim street style and power suits. Upload a photo to ChatGPT or Gemini.",
+        "gal_h2": "Browse {n} 1980s photo prompts for girls",
+        "featured_h2": "Featured 1980s photo prompts for girls and women",
         "intro": [
-            "These 1980s photo prompts for women turn your uploaded picture into a studio glamour shot, "
-            "a street-style snapshot or a power-suit portrait, with the volume, shoulder pads, bold "
-            "makeup and warm film color of the decade.",
+            "Pick a 1980s photo prompt for girls and women and turn your uploaded picture into a studio "
+            "glamour shot, a college campus snapshot, a street-style photo or a power-suit portrait, with "
+            "the volume, shoulder pads, bold makeup and warm film color of the decade.",
             "Your face, skin tone and proportions stay the same; only the hair, wardrobe, setting and "
-            "photo finish change.",
+            "photo finish change. Every 1980s photo prompt ChatGPT girls share here also works in Gemini.",
         ],
-        "guide_h2": "How to style a women's photo prompt",
+        "guide_h2": "How to style a 1980s photo prompt for girls",
         "guide": [
+            "Start with a clear selfie, face to the camera, hair visible. If you are a teen or a "
+            "student, the college campus and bedroom mirror prompts give the most natural 80s girl look.",
             "Pick one hair signature: big teased curls, a side ponytail, crimped waves or a feathered "
             "bob. Naming it precisely avoids a generic modern blowout.",
             "Balance the outfit with the setting. A silk blouse and pearls belong in a soft-box studio; "
             "an oversized denim jacket belongs on a sunny street.",
             "Ask for period makeup placed the way it was then: blush high on the cheekbones, bright or "
             "frosted eyeshadow and glossy lips.",
+            "Accessories finish a 1980s photo prompt for girls: a scrunchie or headband, hoop or "
+            "plastic earrings and a stack of bangles date the picture at a glance.",
         ],
         "source": ("1980s in fashion", "https://en.wikipedia.org/wiki/1980s_in_fashion"),
     },
@@ -494,7 +522,7 @@ def head(title, desc, path, og_img, ld=None, extra="", noindex=False):
 
 
 FOOT = f"""<footer class="foot">
-  <nav aria-label="Categories">{''.join(f'<a href="/{k}/">{esc(v["h1"])}</a>' for k, v in CATEGORIES.items())}<a href="/prompts.html">All prompts as text</a><a href="/image-license/">Image license</a></nav>
+  <nav aria-label="Categories">{''.join(f'<a href="/{k}/">{esc(v.get("label", v["h1"]))}</a>' for k, v in CATEGORIES.items())}<a href="/prompts.html">All prompts as text</a><a href="/image-license/">Image license</a></nav>
   <p>© {YEAR} {SITE} · A free library of vintage and 1980s AI photo prompts. Example images belong to their creators.</p>
 </footer>
 <div class="toast" id="toast" role="status"></div>
@@ -546,6 +574,26 @@ def crumbs(trail):
     return f'<nav class="crumbs" aria-label="Breadcrumb">{" <span>›</span> ".join(links)}</nav>', ld
 
 
+def label(key):
+    return CATEGORIES[key].get("label", CATEGORIES[key]["h1"])
+
+
+def tree(current=""):
+    """Site tree: home -> collections -> (for the photo-edit hub) its sub-collections and start pages."""
+    def a(path, text, n=None):
+        cur = ' aria-current="page"' if path == current else ""
+        return f'<a href="{path}"{cur}>{esc(text)}</a>' + (f'<span class="n">({n})</span>' if n is not None else "")
+    hub_pages = "".join(f'<li>{a(it["url"], it["kw_title"])}</li>' for it in all_items if it["primary"] == HUB)
+    subs = "".join(f'<li>{a(f"/{k}/", label(k), len(by_cat[k]))}</li>'
+                   for k, v in CATEGORIES.items() if v["group"] == "edit" and k != HUB)
+    t2i = "".join(f'<li>{a(f"/{k}/", label(k), len(by_cat[k]))}</li>'
+                  for k, v in CATEGORIES.items() if v["group"] == "t2i")
+    return (f'<ul class="tree"><li>{a("/", "Home: full prompt gallery", len(home_items))}<ul>'
+            f'<li>{a(f"/{HUB}/", label(HUB), len(by_cat[HUB]))}<ul>{hub_pages}{subs}</ul></li>'
+            f'<li>Text-to-image prompt collections<ul class="leaf">{t2i}</ul></li>'
+            f'<li>{a("/prompts.html", "All prompts as plain text")}</li></ul></li></ul>')
+
+
 COPY_ICON = ('<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" '
              'aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>')
 
@@ -584,6 +632,7 @@ def showcase():
     <h2>Try the viral 1985 photo prompt</h2>
     <p>Upload a clear selfie to ChatGPT or Gemini, paste the prompt below, and you get a picture of yourself as if it had been taken in 1985. The face stays yours; the hair, outfit, room and film look change. The example above uses an AI-generated person.</p>
     <div class="pbox"><button class="pcopy" type="button" data-copy="master-prompt" aria-label="Copy the 1985 prompt">{COPY_ICON}<span>Copy</span></button><pre class="ptext" id="master-prompt">{esc(MASTER_PROMPT)}</pre></div>
+    <p class="more-links"><a href="/prompt/trending-1980s-photo-prompt/">Full guide to the viral 1985 prompt</a> · <a href="/prompt/1980s-photo-prompt-gemini/">Using it in Gemini</a></p>
   </div>
 </section>"""
 
@@ -606,6 +655,12 @@ FAQ = [
      "Yes. Upload your picture to a model that supports image editing, paste the prompt, and "
      "replace the subject description with a short line such as “the person in the uploaded "
      "photo”. Keep the lighting, film and color details so the retro look carries over."),
+    ("Is there a 1980s photo prompt link I can share?",
+     "Yes. Every prompt has its own page, so the address bar shows the link to send to a friend. This gallery is the best link for anyone who wants to browse the whole set."),
+    ("Which prompt for 80s photo edits works best on a selfie?",
+     "Start with the viral 1985 prompt shown above: upload a selfie to ChatGPT or Gemini and paste it "
+     "unchanged. For a specific look, such as a couple photo, a yearbook portrait or a Bollywood still, "
+     "open the matching collection under Upload Your Photo."),
     ("Are the prompts free to copy?",
      "Yes, every prompt on this page can be copied and adapted for your own images. The example "
      "pictures belong to the creators who posted them, so link to the original post if you "
@@ -613,7 +668,8 @@ FAQ = [
 ]
 # Homepage gallery: only genuine 1980s-style photos — our own photo-edit examples (minus the
 # illustration) interleaved 2:1 with the text-to-image examples rated era_fit == "strong".
-home_edits = [it for it in edits if not it.get("placeholder") and "illustration" not in it["keyword"]]
+home_edits = [it for it in edits if not it.get("placeholder") and "illustration" not in it["keyword"]
+              and "showcase" not in it["img"]]  # the showcase image already sits above the gallery
 home_t2i = [it for it in items if it.get("era_fit") == "strong"]
 home_items = []
 while home_edits or home_t2i:
@@ -647,6 +703,7 @@ write("/", head(HOME_TITLE, HOME_DESC, "/", "/images/showcase/1985-after.webp", 
     <li><a href="/#gallery">Prompt gallery</a></li>
     <li><a href="/#how-to">How to use a prompt</a></li>
     <li><a href="/#era-look">What makes it look 1980s</a></li>
+    <li><a href="/#collections">Collections</a></li>
     <li><a href="/#faq">FAQ</a></li>
     <li><a href="/prompts.html">All prompts as text</a></li>
     <li><a href="/{HUB}/">Prompts for your own photo</a></li>
@@ -676,6 +733,12 @@ write("/", head(HOME_TITLE, HOME_DESC, "/", "/images/showcase/1985-after.webp", 
     <p>Just as important is what you leave out. Words like “ultra sharp”, “8K” or “HDR” pull the image back toward a modern phone camera, so skip them. Ask instead for soft focus at the edges, a little color shift in the highlights and the slightly crooked framing of someone snapping a picture at a party.</p>
   </section>
 
+  <section id="collections">
+    <h2>Browse the prompt collections</h2>
+    <p>The site is organised as a tree: this gallery at the top, then the photo-edit collection for your own selfie and the text-to-image collections, then one page per prompt.</p>
+    {tree("/")}
+  </section>
+
   <section id="faq">
     <h2>1980s photo prompt FAQ</h2>
 {faq_html}
@@ -702,10 +765,13 @@ for key, cat in CATEGORIES.items():
         bc_ld]}
     featured = "".join(f'<li><a href="{f["url"]}"><strong>{esc(f["name"])}</strong></a> – {esc(first_sentences(f["intro"]))}</li>'
                        for f in its[:8])
-    others = "".join(f'<li><a href="/{k}/">{esc(v["h1"])}</a> ({len(by_cat[k])})</li>'
-                     for k, v in CATEGORIES.items() if k != key and v["group"] == cat["group"])
-    others += "".join(f'<li><a href="/{k}/">{esc(v["h1"])}</a> ({len(by_cat[k])})</li>'
-                      for k, v in CATEGORIES.items() if k != key and v["group"] != cat["group"])
+    faq = cat.get("faq", [])
+    if faq:
+        ld["@graph"].append({"@type": "FAQPage", "mainEntity": [
+            {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq]})
+    faq_sec = (f'<section id="faq">\n    <h2>{esc(cat["h1"])} FAQ</h2>\n' +
+               "\n".join(f"    <h3>{esc(q)}</h3>\n    <p>{esc(a)}</p>" for q, a in faq) + "\n  </section>") if faq else ""
+    gal_h2 = cat["gal_h2"].format(n=len(its)) if cat.get("gal_h2") else f'Browse {len(its)} {low(cat["h1"])}'
     write(path, head(cat["title"], cat["description"], path, its[0]["img"], ld) + f"""
 <main>
 <div class="wrap intro">
@@ -715,13 +781,13 @@ for key, cat in CATEGORIES.items():
 </div>
 {showcase() if key == HUB else ""}
 <div class="wrap" id="gallery">
-  <div class="gal-head"><h2>Browse {len(its)} {esc(low(cat["h1"]))}</h2></div>
+  <div class="gal-head"><h2>{esc(gal_h2)}</h2></div>
   {chips(key, cat["group"])}
   {grid(its, first_alt=f"{cat['h1']} example: {its[0]['name']}" + (" (example image coming soon)" if its[0].get("placeholder") else ""))}
 </div>
 <article class="guide">
   <section>
-    <h2>Featured {esc(low(cat["h1"].split(" ", 1)[1]))}</h2>
+    <h2>{esc(cat.get("featured_h2") or "Featured " + low(cat["h1"].split(" ", 1)[1]))}</h2>
     <ul class="featured">{featured}</ul>
   </section>
   <section>
@@ -729,9 +795,10 @@ for key, cat in CATEGORIES.items():
     {''.join(f'<p>{esc(p)}</p>' for p in cat["guide"])}
     <p class="credit">Background reading: <a href="{cat["source"][1]}" rel="noopener" target="_blank">{esc(cat["source"][0])} on Wikipedia</a>.</p>
   </section>
+  {faq_sec}
   <section>
-  <h2>More 1980s prompt collections</h2>
-  <ul class="links">{others}<li><a href="/">Full 1980s photo prompt gallery</a> ({len(home_items)})</li></ul>
+  <h2>Where this collection sits</h2>
+  {tree(path)}
   </section>
 </article>
 </main>
@@ -835,7 +902,7 @@ for it in all_items:
   <section>
     <h2>What makes this prompt work</h2>
     <p>{esc(it["works"])}</p>
-    {"" if edit else f'<p class="credit">{credit}<a href="{esc(it["post_url"])}" rel="nofollow noopener" target="_blank">OpenArt</a>. The prompt is shown as originally posted.</p>'}
+    {f'<p class="credit">Background reading: <a href="{cat["source"][1]}" rel="noopener" target="_blank">{esc(cat["source"][0])} on Wikipedia</a>.</p>' if edit else f'<p class="credit">{credit}<a href="{esc(it["post_url"])}" rel="nofollow noopener" target="_blank">OpenArt</a>. The prompt is shown as originally posted.</p>'}
   </section>
 </article>
 
