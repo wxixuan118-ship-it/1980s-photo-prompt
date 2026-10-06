@@ -46,6 +46,12 @@ function notFound(req, res) {
 }
 
 http.createServer((req, res) => {
+  // one host only: www.vintagephotoprompt.com -> vintagephotoprompt.com
+  const host = (req.headers.host || "").toLowerCase();
+  if (host.startsWith("www.")) {
+    res.writeHead(301, { Location: "https://" + host.slice(4).split(":")[0] + req.url });
+    return res.end();
+  }
   let p;
   try { p = decodeURIComponent(new URL(req.url, "http://x").pathname); } catch { return notFound(req, res); }
   if (p.includes("\0") || p.split("/").includes("..")) return notFound(req, res);

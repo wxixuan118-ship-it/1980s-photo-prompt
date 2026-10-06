@@ -246,13 +246,16 @@ EDIT_CATEGORIES = {
         "name": "Bollywood & India", "h1": "1980s Bollywood Photo Prompts",
         "title": "1980s Bollywood Photo Prompts for ChatGPT & Gemini",
         "description": "1980s Bollywood photo prompts for your own photo: heroine and hero portraits, "
-                       "wedding albums, Doordarshan-era and street looks. For ChatGPT and Gemini.",
+                       "saree looks, wedding albums and Doordarshan-era scenes. For ChatGPT and Gemini.",
+        "gal_h2": "Browse {n} 1980s Bollywood photo prompts",
+        "featured_h2": "Featured Bollywood and Indian prompts",
         "intro": [
             "These 1980s Bollywood photo prompts turn your uploaded picture into the kind of image that "
             "filled film magazines, studio walls and family albums in 80s India: voluminous curls, silk "
             "sarees, moustaches, painted backdrops and warm tungsten light.",
             "Each one keeps your face and skin tone recognisable and changes the styling around you, "
-            "from a heroine publicity still to a 1987 bazaar street or a wedding album page.",
+            "from a heroine publicity still or a silk saree portrait to a 1987 bazaar street or a "
+            "wedding album page.",
         ],
         "guide_h2": "What makes a Bollywood photo prompt look authentic",
         "guide": [
@@ -262,8 +265,23 @@ EDIT_CATEGORIES = {
             "for women; thick side-parted hair and a moustache for men.",
             "Keep colors rich but slightly aged. Saturated reds and golds with a faded print finish "
             "read as 80s India, while heavy sepia makes the picture look decades older.",
+            "Name the fabric and the border. A Kanjeevaram silk with a zari border or a chiffon saree "
+            "with a printed pallu tells the model which decade and region you mean far better than "
+            "the word saree alone.",
         ],
         "source": ("Hindi cinema", "https://en.wikipedia.org/wiki/Hindi_cinema"),
+        "faq": [
+            ("Which prompt is best for a 1980s saree look?",
+             "Use the 1980s saree photo prompt for a classic silk studio portrait, or the heroine prompt "
+             "for a film-poster glamour still with big curls and a chiffon saree. Both keep your face "
+             "and only change the styling."),
+            ("Is there a Bollywood prompt for men?",
+             "Yes. The hero portrait and the motorcycle prompt give men the thick hair, moustache, "
+             "open-collar shirt and painted-backdrop look of 80s Hindi film stills."),
+            ("Do these prompts work in Gemini as well as ChatGPT?",
+             "Yes. Upload a clear front-facing photo, paste the prompt in the same message and send it. "
+             "If the face changes, ask the tool to keep your face exactly as in the uploaded photo."),
+        ],
     },
     "men": {
         "name": "Men", "label": "1980s Photo Prompts for Men", "h1": "1980s Photo Prompt ChatGPT Men's Edition",
